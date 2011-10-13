@@ -1,0 +1,274 @@
+autorun starting game Sun Sep  4 00:09:07 PDT 2011
+running bin/circle -q 4000
+Sep  4 00:09:07 :: Using etc/config for configuration.
+Sep  4 00:09:07 :: CircleMUD, version 3.1
+Sep  4 00:09:07 :: OasisOLC 2.0.6
+Sep  4 00:09:07 :: DG Scripts 1.0.14
+Sep  4 00:09:07 :: ASCII Player Files 3.0.1
+Sep  4 00:09:07 :: CWG Buddha - 4.4.30
+Sep  4 00:09:07 :: Using lib as data directory.
+Sep  4 00:09:07 :: Running game on port 4000.
+Sep  4 00:09:07 :: Finding player limit.
+Sep  4 00:09:07 ::    Setting player limit to 300 using rlimit.
+Sep  4 00:09:07 :: Opening mother connection.
+Sep  4 00:09:07 :: Binding to all IP interfaces on this host.
+Sep  4 00:09:07 :: Boot db -- BEGIN.
+Sep  4 00:09:07 :: Resetting the game time:
+Sep  4 00:09:07 ::    Current Gametime: 6H 34D 13M 605Y.
+Sep  4 00:09:07 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  4 00:09:07 :: Loading spell definitions.
+Sep  4 00:09:07 :: Loading zone table.
+Sep  4 00:09:07 ::    7 zones, 392 bytes.
+Sep  4 00:09:07 :: Loading triggers and generating index.
+Sep  4 00:09:07 :: Loading rooms.
+Sep  4 00:09:07 ::    303 rooms, 33936 bytes.
+Sep  4 00:09:07 :: Renumbering rooms.
+Sep  4 00:09:07 :: Checking start rooms.
+Sep  4 00:09:07 :: Loading mobs and generating index.
+Sep  4 00:09:07 ::    76 mobs, 1520 bytes in index, 28272 bytes in prototypes.
+Sep  4 00:09:07 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  4 00:09:07 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 00:09:07 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 00:09:07 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 00:09:07 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  4 00:09:07 :: Loading objs and generating index.
+Sep  4 00:09:07 ::    132 objs, 2640 bytes in index, 23760 bytes in prototypes.
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  4 00:09:07 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  4 00:09:07 :: Renumbering zone table.
+Sep  4 00:09:07 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  4 00:09:07 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  4 00:09:07 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  4 00:09:07 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  4 00:09:07 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  4 00:09:07 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  4 00:09:07 :: Loading disabled commands list...
+Sep  4 00:09:07 :: Loading shops.
+Sep  4 00:09:07 :: Loading guild masters.
+Sep  4 00:09:07 :: htree stats (global): 851 nodes, 61272 bytes (depth 3/5 used/possible)
+Sep  4 00:09:07 :: htree_test: htree speedup factor: 109%
+Sep  4 00:09:07 :: Loading help entries.
+Sep  4 00:09:07 ::    733 entries, 14660 bytes.
+Sep  4 00:09:07 :: Setting up context sensitive help system for OLC
+Sep  4 00:09:07 :: Generating player index.
+Sep  4 00:09:07 :: Loading fight messages.
+Sep  4 00:09:07 :: Loading social messages.
+Sep  4 00:09:07 :: Social table contains 368 socials.
+Sep  4 00:09:07 :: Building command list.
+Sep  4 00:09:07 :: Command info rebuilt, 686 total commands.
+Sep  4 00:09:07 :: Assigning function pointers:
+Sep  4 00:09:07 ::    Mobiles.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  4 00:09:07 ::    Shopkeepers.
+Sep  4 00:09:07 ::    Objects.
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  4 00:09:07 ::    Rooms.
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  4 00:09:07 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  4 00:09:07 ::    Guildmasters.
+Sep  4 00:09:07 :: Init Object Unique Hash
+Sep  4 00:09:07 :: Booting assembled objects.
+Sep  4 00:09:07 :: Assigning spell and skill levels.
+Sep  4 00:09:07 :: Assigning race spell and skill levels.
+Sep  4 00:09:07 :: Sorting command list and spells.
+Sep  4 00:09:07 :: Booting mail system.
+Sep  4 00:09:07 ::    100 bytes read.
+Sep  4 00:09:07 ::    Mail file read -- 0 messages.
+Sep  4 00:09:07 :: Booting boards system.
+Sep  4 00:09:07 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  4 00:09:07 :: Board vnum 1326, Version 2
+Sep  4 00:09:07 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  4 00:09:07 :: Board vnum 1327, Version 2
+Sep  4 00:09:07 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  4 00:09:07 :: Board vnum 1328, Version 2
+Sep  4 00:09:07 :: There are 8 boards located; 1 messages
+Sep  4 00:09:07 :: Reading banned site and invalid-name list.
+Sep  4 00:09:07 :: Booting houses.
+Sep  4 00:09:07 :: Resetting #0: Limbo (rooms 0-99).
+Sep  4 00:09:07 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  4 00:09:07 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep  4 00:09:07 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep  4 00:09:07 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep  4 00:09:07 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep  4 00:09:07 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  4 00:09:07 :: Boot db -- DONE.
+Sep  4 00:09:07 :: Signal trapping.
+Sep  4 00:09:07 :: Entering game loop.
+Sep  4 00:09:07 :: No connections.  Going to sleep.
+Sep  4 00:09:08 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+SYSERR: gethostbyaddr: Success
+Sep  4 00:09:20 :: Mag [192.168.0.3] has connected.
+Sep  4 00:09:21 :: opened crash file
+Sep  4 00:09:21 :: Mag retrieving crash-saved items and entering game.
+Sep  4 00:09:21 :: Mag (level 38) has 1 objects (max 60).
+Sep  4 00:09:21 :: Mag had no variable file
+Sep  4 00:09:33 :: Mishakal [192.168.0.4] has connected.
+Sep  4 00:09:34 :: opened crash file
+Sep  4 00:09:34 :: Mishakal retrieving crash-saved items and entering game.
+Sep  4 00:09:34 :: Mishakal (level 38) has 3 objects (max 60).
+Sep  4 00:09:34 :: Mishakal had no variable file
+Sep  4 00:11:36 :: Reorx [s0106f0b47902c9ec.va.shawcable.net] has connected.
+Sep  4 00:11:40 :: opened crash file
+Sep  4 00:11:40 :: Reorx retrieving crash-saved items and entering game.
+Sep  4 00:11:40 :: Reorx (level 36) has 3 objects (max 60).
+Sep  4 00:11:40 :: Reorx had no variable file
+Sep  4 00:14:08 :: nusage: 4   sockets connected, 3   sockets playing
+Sep  4 00:14:27 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 00:14:43 :: New player: Barfnuggets [Dwarf Thief]
+Sep  4 00:14:43 :: Str: 16 Dex: 16 Con: 14 Int: 12 Wis:  10 Cha: 12
+Sep  4 00:14:51 :: Barfnuggets entering game with no equipment.
+Sep  4 00:14:51 :: Barfnuggets had no variable file
+Sep  4 00:14:51 :: Barfnuggets advanced to level 1
+Sep  4 00:15:29 :: OLC: Mag edits obj 1212
+Sep  4 00:15:29 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  4 00:15:29 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 00:15:39 :: (GC) Mag forced Reorx to wi spoon
+Sep  4 00:15:44 :: (GC) Mag forced Reorx to wield spoon
+Sep  4 00:15:53 :: (GC) Mag forced Reorx to rem staff
+Sep  4 00:15:55 :: (GC) Mag forced Reorx to wi spoon
+Sep  4 00:16:35 :: (GC) Mag has advanced Barfnuggets to level 36 (from 1)
+Sep  4 00:16:35 :: Barfnuggets advanced 35 levels to level 36.
+Sep  4 00:16:35 :: Signal received - rereading wizlists.
+Sep  4 00:19:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:19:51 :: Mag tried to get help on language
+Sep  4 00:24:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:29:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:34:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:39:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:44:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:49:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:54:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 00:59:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:04:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:09:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:11:25 :: opened crash file
+Sep  4 01:11:25 :: Reorx un-renting and entering game.
+Sep  4 01:11:25 :: Reorx (level 36) has 0 objects (max 60).
+Sep  4 01:11:25 :: Add_to_lookup failed. Already there. (uid = 6)
+Sep  4 01:14:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:16:27 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 01:16:40 :: GenOLC: save_zone: Saving zone 'world/zon/12.zon'
+Sep  4 01:16:40 :: OLC: Mag edits zone info for room 1200.
+Sep  4 01:16:40 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 01:19:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:20:47 :: OLC: Mishakal starts editing zone 14 allowed zone 65535
+Sep  4 01:22:36 :: OLC: Mishakal edits obj 1400
+Sep  4 01:22:36 :: GenOLC: save_objects: Saving objects 'world/obj/14.obj'
+Sep  4 01:22:36 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  4 01:22:47 :: OLC: Mishakal starts editing zone 14 allowed zone 65535
+Sep  4 01:23:20 :: OLC: Mishakal edits obj 1400
+Sep  4 01:23:20 :: GenOLC: save_objects: Saving objects 'world/obj/14.obj'
+Sep  4 01:23:20 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  4 01:24:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:24:10 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  4 01:24:25 :: GenOLC: add_room: Updated existing room #1210.
+Sep  4 01:24:25 :: OLC: Mishakal edits room 1210.
+Sep  4 01:24:25 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  4 01:24:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  4 01:24:25 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  4 01:24:32 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  4 01:24:43 :: GenOLC: add_room: Updated existing room #1210.
+Sep  4 01:24:43 :: OLC: Mishakal edits room 1210.
+Sep  4 01:24:43 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  4 01:24:43 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  4 01:24:43 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  4 01:24:53 :: OLC: Mishakal starts editing zone 16 allowed zone 65535
+Sep  4 01:27:35 :: GenOLC: add_room: Updated existing room #1600.
+Sep  4 01:27:35 :: OLC: Mishakal edits room 1600.
+Sep  4 01:27:35 :: GenOLC: save_rooms: Saving rooms in zone #16 (1600-1699).
+Sep  4 01:27:35 :: GenOLC: save_rooms: Saving rooms 'world/wld/16.wld'
+Sep  4 01:27:35 :: OLC: Mishakal stops editing zone 16 allowed zone 65535
+Sep  4 01:27:51 :: OLC: Mishakal starts editing zone 14 allowed zone 65535
+Sep  4 01:28:16 :: OLC: Mishakal edits obj 1400
+Sep  4 01:28:16 :: GenOLC: save_objects: Saving objects 'world/obj/14.obj'
+Sep  4 01:28:16 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  4 01:28:50 :: Mag tried to get help on vehicle
+Sep  4 01:29:08 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  4 01:29:09 :: OLC: Mishakal starts editing zone 16 allowed zone 65535
+Sep  4 01:29:26 :: GenOLC: add_room: Updated existing room #1600.
+Sep  4 01:29:26 :: OLC: Mishakal edits room 1600.
+Sep  4 01:29:26 :: GenOLC: save_rooms: Saving rooms in zone #16 (1600-1699).
+Sep  4 01:29:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/16.wld'
+Sep  4 01:29:26 :: OLC: Mishakal stops editing zone 16 allowed zone 65535
+Sep  4 01:32:42 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 01:32:42 :: Closing link to: Barfnuggets.
+Sep  4 01:33:19 :: Barfnuggets [ip72-196-12-228.om.om.cox.net] has reconnected.
+Sep  4 01:33:23 :: Losing player: <null>.
+Sep  4 01:33:53 :: Losing player: <null>.
+Sep  4 01:34:08 :: nusage: 5   sockets connected, 4   sockets playing
+Sep  4 01:34:23 :: Losing player: <null>.
+Sep  4 01:34:53 :: Losing player: <null>.
+Sep  4 01:35:23 :: Losing player: <null>.
+Sep  4 01:35:32 :: Barfnuggets has quit the game.
+Sep  4 01:35:34 :: Losing player: Barfnuggets.
+Sep  4 01:35:38 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 01:35:38 :: Losing player: <null>.
+Sep  4 01:36:23 :: Barfnuggets [ip72-196-12-228.om.om.cox.net] has connected.
+Sep  4 01:36:27 :: opened crash file
+Sep  4 01:36:27 :: Barfnuggets un-renting and entering game.
+Sep  4 01:36:27 :: Barfnuggets (level 36) has 2 objects (max 60).
+Sep  4 01:36:27 :: Barfnuggets had no variable file
+Sep  4 01:37:22 :: (GC) Shutdown by Mag.
+Sep  4 01:37:22 :: Closing all sockets.
+Sep  4 01:37:22 :: Closing link to: Barfnuggets.
+Sep  4 01:37:22 :: Closing link to: Reorx.
+Sep  4 01:37:22 :: Closing link to: Mag.
+Sep  4 01:37:22 :: Closing link to: Mishakal.
+Sep  4 01:37:22 :: Saving current MUD time.
+Sep  4 01:37:22 :: Normal termination of game.
+Sep  4 01:37:22 :: Clearing game world.
+Sep  4 01:37:22 :: Freeing Assemblies.
+Sep  4 01:37:22 :: Clearing other memory.
+Sep  4 01:37:22 :: Done.
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

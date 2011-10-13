@@ -1,0 +1,1532 @@
+#1300
+Palanthas Streets~
+   This zone is the center streets in Palanthas.  Room 1301 is the Northwest
+exit on the main center square.  The rest of the rooms are two rooms wide with
+trees in the center.  Mostly of the old Rose Boulevard.
+~
+13 d 0 0 0 1
+S
+#1301
+North West Square Center~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D6
+~
+~
+0 0 1486
+D8
+~
+~
+0 0 1307
+S
+#1302
+Old Rose Boulevard - West~
+You are in an unfinished room.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1307
+D2
+~
+~
+0 0 1303
+D3
+~
+~
+0 0 1366
+S
+#1303
+Old Rose Boulevard - West~
+You are in an unfinished room.
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1302
+D1
+~
+~
+0 0 1306
+D3
+~
+~
+0 0 1341
+S
+#1304
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D7
+~
+~
+0 0 1306
+D9
+~
+~
+0 0 1477
+S
+#1305
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1306
+D2
+~
+~
+0 0 1367
+S
+#1306
+Southwest Corner of the City Plaza~
+   This is the center square of the great city which is surrounded by the
+massive building and establishments of great age and rustic beauty.  Towards the
+middle rests a fountain depicting a great, platinum dragon lunging into the
+skies with delicate and most intricate workmanship.  The fountain stands as a
+tribute from the Knights of Solamnia to the citizens of the city.
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1307
+D1
+~
+~
+0 0 1309
+D2
+~
+~
+0 0 1305
+D3
+~
+~
+0 0 1303
+D9
+~
+~
+0 0 1304
+S
+#1307
+Northwest Corner of the City Plaza~
+   This is the center square of the great city of Palanthas.  All around the
+great spires and towers of all the buildings of the great city can be seen.  
+Placed in this area is a great fountain depicting a great, platinum dragon
+taking flight has been erected, a gift from the Knights of Solamnia to the
+citizens of the city.  To the north the north lies the Lord of Palanthas' manor.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1308
+D2
+~
+~
+0 0 1306
+D3
+~
+~
+0 0 1302
+D6
+~
+~
+0 0 1301
+E
+fountain~
+   Nearly taking up the whole southeast corner, stands this massive fountain.  
+Lined with sitting benches, it is the focal point in the city of Palanthas.
+~
+S
+#1308
+Northeast Corner of the City Plaza~
+   This is the center square of the great city of Palanthas.  All around the
+great spires and towers of all the buildings of the great city can be seen.  
+Placed in this area is a great fountain depicting a great, platinum dragon
+taking flight has been erected, a gift from the Knights of Solamnia to the
+citizens of the city.  To the north the lies the Lord of Palanthas' manor.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1313
+D2
+~
+~
+0 0 1309
+D3
+~
+~
+0 0 1307
+D7
+~
+~
+0 0 1314
+S
+#1309
+Southeast Corner of the City Plaza~
+   This is the center square of the great city which is surrounded by the
+massive building and establishments of great age and rustic beauty.  Towards the
+middle rests a fountain depicting a great, platinum dragon lunging into the
+skies with delicate and most intricate workmanship.  The fountain stands as a
+tribute from the Knights of Solamnia to the citizens of the city.
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1308
+D1
+~
+~
+0 0 1312
+D2
+~
+~
+0 0 1310
+D3
+~
+~
+0 0 1306
+D8
+~
+~
+0 0 1311
+S
+#1310
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1309
+D2
+~
+~
+0 0 1392
+S
+#1311
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D6
+~
+~
+0 0 1309
+D8
+~
+~
+0 0 1468
+S
+#1312
+Old Rose Boulevard - East~
+You are in an unfinished room.
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1313
+D1
+~
+~
+0 0 1340
+D3
+~
+~
+0 0 1309
+S
+#1313
+Old Rose Boulevard - East~
+You are in an unfinished room.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1315
+D2
+~
+~
+0 0 1312
+D3
+~
+~
+0 0 1308
+S
+#1314
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D7
+~
+~
+0 0 1495
+D9
+~
+~
+0 0 1308
+S
+#1315
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1316
+D3
+~
+~
+0 0 1313
+S
+#1316
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1317
+D3
+~
+~
+0 0 1315
+S
+#1317
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1318
+D3
+~
+~
+0 0 1316
+S
+#1318
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1319
+D3
+~
+~
+0 0 1317
+S
+#1319
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1320
+D3
+~
+~
+0 0 1318
+S
+#1320
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1321
+D3
+~
+~
+0 0 1319
+S
+#1321
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1322
+D3
+~
+~
+0 0 1320
+S
+#1322
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1323
+D3
+~
+~
+0 0 1321
+S
+#1323
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1324
+D3
+~
+~
+0 0 1322
+S
+#1324
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1325
+D3
+~
+~
+0 0 1323
+S
+#1325
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1326
+D3
+~
+~
+0 0 1324
+S
+#1326
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1327
+D3
+~
+~
+0 0 1325
+S
+#1327
+The Eastern Gates of Old Palanthas~
+   The opening in the outer wall is large enough for three full size wagons to
+pass through together side by side.  The opening is plain, with nothing on the
+wall distinguishing the parts from any other blocks of white sandstone on the
+Eight elite Palanthian guards stand two abreast on either side of the two large
+entry gates.  They are placed here to insure that those who are meant to stay
+out of Old Palanthas do so, though from time to time a few vagrants's have known
+to escape past them, only to be arrested shortly be the patrolling knights.  
+Wall.  Opposite the opening, to the west, is a clear path to New Palanthas.  
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1454
+D1
+~
+~
+0 0 1598
+D2
+~
+~
+0 0 1328
+D3
+~
+~
+0 0 1326
+S
+#1328
+The Eastern Gates of Old Palanthas~
+   The opening in the outer wall is large enough for three full size wagons to
+pass through together side by side.  The opening is plain, with nothing on the
+wall distinguishing the parts from any other blocks of white sandstone on the
+Eight elite Palanthian guards stand two abreast on either side of the two large
+entry gates.  They are placed here to insure that those who are meant to stay
+out of Old Palanthas do so, though from time to time a few vagrants's have known
+to escape past them, only to be arrested shortly be the patrolling knights.  
+Wall.  Opposite the opening, to the west, is a clear path to New Palanthas.  
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1327
+D1
+~
+~
+0 0 1597
+D2
+~
+~
+0 0 1455
+D3
+~
+~
+0 0 1329
+S
+#1329
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1328
+D3
+~
+~
+0 0 1330
+S
+#1330
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1329
+D3
+~
+~
+0 0 1331
+S
+#1331
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1330
+D3
+~
+~
+0 0 1332
+S
+#1332
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1331
+D3
+~
+~
+0 0 1333
+S
+#1333
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1332
+D3
+~
+~
+0 0 1334
+S
+#1334
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1333
+D3
+~
+~
+0 0 1335
+S
+#1335
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1334
+D3
+~
+~
+0 0 1336
+S
+#1336
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1335
+D3
+~
+~
+0 0 1337
+S
+#1337
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1336
+D3
+~
+~
+0 0 1338
+S
+#1338
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1337
+D3
+~
+~
+0 0 1339
+S
+#1339
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1338
+D3
+~
+~
+0 0 1340
+S
+#1340
+Old Rose Boulevard - East~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1339
+D3
+~
+~
+0 0 1312
+S
+#1341
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1303
+D3
+~
+~
+0 0 1342
+S
+#1342
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1341
+D3
+~
+~
+0 0 1343
+S
+#1343
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1342
+D3
+~
+~
+0 0 1344
+S
+#1344
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1343
+D3
+~
+~
+0 0 1345
+S
+#1345
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1344
+D3
+~
+~
+0 0 1346
+S
+#1346
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1345
+D3
+~
+~
+0 0 1347
+S
+#1347
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1346
+D3
+~
+~
+0 0 1348
+S
+#1348
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1347
+D3
+~
+~
+0 0 1349
+S
+#1349
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1348
+D3
+~
+~
+0 0 1350
+S
+#1350
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1349
+D3
+~
+~
+0 0 1351
+S
+#1351
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1350
+D3
+~
+~
+0 0 1352
+S
+#1352
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1351
+D3
+~
+~
+0 0 1353
+S
+#1353
+The Western Gates of Old Palanthas~
+   The opening in the outer wall is large enough for three full size wagons to
+pass through together side by side.  The opening is plain, with nothing on the
+wall distinguishing the parts from any other blocks of white sandstone on the
+Eight elite Palanthian guards stand two abreast on either side of the two large
+entry gates.  They are placed here to insure that those who are meant to stay
+out of Old Palanthas do so, though from time to time a few vagrants's have known
+to escape past them, only to be arrested shortly be the patrolling knights.  
+Wall.  Opposite the opening, to the west, is a clear path to New Palanthas.  
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1354
+D1
+~
+~
+0 0 1352
+D2
+~
+~
+0 0 1416
+S
+#1354
+The Western Gates of Old Palanthas~
+   The opening in the outer wall is large enough for three full size wagons to
+pass through together side by side.  The opening is plain, with nothing on the
+wall distinguishing the parts from any other blocks of white sandstone on the
+Eight elite Palanthian guards stand two abreast on either side of the two large
+entry gates.  They are placed here to insure that those who are meant to stay
+out of Old Palanthas do so, though from time to time a few vagrants's have known
+to escape past them, only to be arrested shortly be the patrolling knights.  
+Wall.  Opposite the opening, to the west, is a clear path to New Palanthas.  
+~
+13 0 0 0 0 1
+D0
+~
+~
+0 0 1417
+D1
+~
+~
+0 0 1355
+D2
+~
+~
+0 0 1353
+S
+#1355
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1356
+D3
+~
+~
+0 0 1354
+S
+#1356
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1357
+D3
+~
+~
+0 0 1355
+S
+#1357
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1358
+D3
+~
+~
+0 0 1356
+S
+#1358
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1359
+D3
+~
+~
+0 0 1357
+S
+#1359
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1360
+D3
+~
+~
+0 0 1358
+S
+#1360
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1361
+D3
+~
+~
+0 0 1359
+S
+#1361
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1362
+D3
+~
+~
+0 0 1360
+S
+#1362
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1363
+D3
+~
+~
+0 0 1361
+S
+#1363
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1364
+D3
+~
+~
+0 0 1362
+S
+#1364
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1365
+D3
+~
+~
+0 0 1363
+S
+#1365
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1366
+D3
+~
+~
+0 0 1364
+S
+#1366
+Old Rose Boulevard - West~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 1
+D1
+~
+~
+0 0 1302
+D3
+~
+~
+0 0 1365
+S
+#1367
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1305
+D2
+~
+~
+0 0 1368
+S
+#1368
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1367
+D2
+~
+~
+0 0 1369
+S
+#1369
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1368
+D2
+~
+~
+0 0 1370
+S
+#1370
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1369
+D2
+~
+~
+0 0 1371
+S
+#1371
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1370
+D2
+~
+~
+0 0 1372
+S
+#1372
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1371
+D2
+~
+~
+0 0 1373
+S
+#1373
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1372
+D2
+~
+~
+0 0 1374
+S
+#1374
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1373
+D2
+~
+~
+0 0 1375
+S
+#1375
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1374
+D2
+~
+~
+0 0 1376
+S
+#1376
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1375
+D2
+~
+~
+0 0 1377
+S
+#1377
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1376
+D2
+~
+~
+0 0 1378
+S
+#1378
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1377
+D2
+~
+~
+0 0 1379
+S
+#1379
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1378
+D1
+~
+~
+0 0 1380
+D3
+~
+~
+0 0 1398
+S
+#1380
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1381
+D1
+~
+~
+0 0 1397
+D3
+~
+~
+0 0 1379
+S
+#1381
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1382
+D2
+~
+~
+0 0 1380
+S
+#1382
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1383
+D2
+~
+~
+0 0 1381
+S
+#1383
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1384
+D2
+~
+~
+0 0 1382
+S
+#1384
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1385
+D2
+~
+~
+0 0 1383
+S
+#1385
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1386
+D2
+~
+~
+0 0 1384
+S
+#1386
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1387
+D2
+~
+~
+0 0 1385
+S
+#1387
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1388
+D2
+~
+~
+0 0 1386
+S
+#1388
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1389
+D2
+~
+~
+0 0 1387
+S
+#1389
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1390
+D2
+~
+~
+0 0 1388
+S
+#1390
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1391
+D2
+~
+~
+0 0 1389
+S
+#1391
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1392
+D2
+~
+~
+0 0 1390
+S
+#1392
+New BuildWalk Room~
+This unfinished room was created by Mishakal.
+~
+13 0 0 0 0 0
+D0
+~
+~
+0 0 1310
+D2
+~
+~
+0 0 1391
+S
+#1393
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D3
+~
+~
+0 0 1394
+D7
+~
+~
+0 0 1467
+S
+#1394
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1393
+D3
+~
+~
+0 0 1395
+S
+#1395
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1394
+D3
+~
+~
+0 0 1396
+S
+#1396
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1395
+D3
+~
+~
+0 0 1397
+S
+#1397
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1396
+D3
+~
+~
+0 0 1380
+S
+#1398
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1379
+D3
+~
+~
+0 0 1399
+S
+#1399
+An unfinished room~
+You are in an unfinished room.
+~
+13 0 0 0 0 0
+D1
+~
+~
+0 0 1398
+D3
+~
+~
+0 0 1401
+S
+$~

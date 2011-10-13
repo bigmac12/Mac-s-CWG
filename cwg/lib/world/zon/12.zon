@@ -1,0 +1,14 @@
+@Version: 2
+#12
+Reorx Barfnuggets~
+God Simplex~
+1200 1299 10 0 0 0 0 0 0 0
+O 0 3095 1 1291 1 0 	(the builders' board)
+R 0 1202 3097 -1 1 0 	(a frozen bulletin board)
+O 0 3097 99 1202 0 0 	(a frozen bulletin board)
+R 0 1204 3098 -1 0 0 	(a holy bulletin board)
+O 0 3098 99 1204 0 0 	(a holy bulletin board)
+M 0 1200 1 1201 0 0 	(the Immortal Innkeeper)
+M 0 1201 1 1205 0 0 	(the Immortal Postmaster)
+S
+$

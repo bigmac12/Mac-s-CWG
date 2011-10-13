@@ -1,0 +1,30 @@
+Sep 30 22:43:10 :: Losing descriptor without char.
+Sep 30 22:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:56:05 :: Closing link to: Mishakal.
+Sep 30 22:58:18 :: Mishakal [c-76-27-254-53.hsd1.wa.comcast.net] has reconnected.
+Sep 30 23:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:43:06 :: Mishakal has quit the game.
+Sep 30 23:43:06 :: Losing player: Mishakal.
+Sep 30 23:45:00 :: nusage: 1   sockets connected, 1   sockets playing
+Sep 30 23:50:00 :: nusage: 1   sockets connected, 1   sockets playing
+Sep 30 23:55:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:00:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:05:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:10:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:11:26 :: Mag has quit the game.
+Oct  1 00:11:26 :: Losing player: Mag.
+Oct  1 00:11:26 :: No connections.  Going to sleep.
+Oct  1 01:26:35 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

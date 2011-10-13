@@ -1,0 +1,26 @@
+#249
+G.Threepwood~
+Jedi Clan House~
+24900 24999 30 2
+R 0 24904 3034 -1 -1 -1 	(an automatic teller machine)
+O 0 3034 99 24904 0 0 	(an automatic teller machine)
+M 0 24901 1 24914 0 0 	(natasha shopkeeper woman keeper)
+G 1 3009 100 -1 -1 0 	(a waybread)
+G 1 3010 100 -1 -1 0 	(a bread)
+G 1 3011 100 -1 -1 0 	(a danish pastry)
+G 1 3102 100 -1 -1 0 	(a cup)
+G 1 3103 100 -1 -1 0 	(a bottle)
+G 1 3104 100 -1 -1 0 	(a canteen)
+G 1 6013 100 -1 -1 0 	(a barrel)
+G 1 3000 100 -1 -1 0 	(a barrel)
+G 1 3001 100 -1 -1 0 	(a bottle)
+G 1 3002 100 -1 -1 0 	(a bottle)
+G 1 3003 100 -1 -1 0 	(a bottle)
+G 1 3004 100 -1 -1 0 	(a bottle)
+E 1 3022 100 16 -1 0 	(a long sword)
+R 0 24903 3099 -1 -1 0 	(a bulletin board)
+O 0 3099 2 24903 0 0 	(a bulletin board)
+D 0 24907 0 1 0 0 	(The Upper Floor)
+D 0 24912 0 1 0 0 	(The Tablinum)
+S
+$

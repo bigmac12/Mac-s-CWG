@@ -1,0 +1,268 @@
+#1
+Puff dragon fractal~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+   Is that some type of differential curve involving some strange, and unknown
+calculus that she seems to be made out of?  
+~
+bdnopqr 0 0 0 elq 0 0 0 1000 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+BareHandAttack: 12
+E
+T 1333
+#2
+cleric healer~
+the healer~
+A healer in a white luminescent robe is tending to the wounded.
+~
+   Nothing.  This beautiful woman at one time used to piously offer her healing
+skills to any in need.  But times are rough and now she can only afford to help
+those that are just starting their adventures.  Type 'heal' to see what services
+she offers.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#3
+questmaster~
+the questmaster~
+The questmaster is waiting for a brave adventurer to step forth.
+~
+   Many adventurers come here to seek glory by attempting to solve the quests
+given to them by this old man.  The quests are not easy, sometimes nearly
+impossible.  But they will always be a challenge.  The questmaster looks at you
+and says, 'help autoquest should show you all you need to know'.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+T 138
+T 139
+T 143
+#4
+healer~
+the healer~
+A healer in a white luminescent robe is tending to the wounded.
+~
+   This beautiful woman at one time used to piously offer her healing skills to
+any in need.  But times are rough and now she can only afford to help those that
+are just starting their adventures.  Type 'heal' to see what services she
+offers.  Type 'heal <spell>' to buy one of her spells.  
+~
+bdnopqr 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 2
+E
+#5
+jack russell~
+Jack Russell~
+Jack Russell hunts with his dogs.
+~
+   The Jack Russell takes its name from the Reverend John Russell who bred one
+of the finest strains of terriers for working fox in Devonshire, England in the
+mid-to-late 1800's.  Rev.  Russell (1795-1883), apart from his church
+activities, had a passion for fox hunting and the breeding of fox hunting dogs
+he is also said to be a rather flamboyant character, probably accounting for his
+strain of terrier's notability and the name of our terrier today.  
+~
+dg 0 0 0 0 0 0 0 0 E
+3 19 8 0d0+30 1d2+0
+30 900
+8 8 1
+E
+#6
+john russell~
+John Russell~
+John Russell seems to have lost his dog.
+~
+   John Russell maintained his strain of fox terriers bred strictly for working,
+and the terrier we know of today as the Jack Russell is much the same as the
+pre-1900's fox terrier.  The Jack Russell has survived the changes that have
+occured in the modern-day Fox Terrier because it has been preserved by working
+terrier enthusiasts in England for more than 100 years.  
+~
+bd 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#7
+jack russell terrier~
+the Jack Russell terrier~
+A Jack Russell terrier is following a scent.
+~
+   Jack Russell Terriers are a type, or strain, of working terrier they are not
+purebred in the sense that they have a broad genetic make-up, a broad standard,
+and do not breed true to type.  You will see different "types" of JRTs, from
+long-bodied, short, crooked legs to a more proportioned length of body and
+longer legs.  This is a result of having been bred strictly for hunting since
+their beginning in the early 1800's, and their preservation as a working breed
+since.  
+~
+bd 0 0 0 0 0 0 0 0 E
+34 9 -10 6d6+340 5d5+5
+340 115600
+8 8 1
+E
+#8
+wishbone~
+Wishbone~
+Wishbone begins yet another adventure.
+~
+   Wishbone is a Jack Russell Terrier played by a dog named Soccer.  This
+adorable little actor has his own series on PBS and gets credit for introducing
+children to over 40 stories from classic literature.  Wishbone became so popular
+after his series started in 1994 that he now has his own line of children's
+books and plush toys.  
+~
+bd 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#9
+sick looking dog~
+a sick looking dog~
+A sick looking dog gags on something in its mouth.
+~
+   The dog is unkept and unhealthy.  It does not look like it has been eating
+very well.  
+~
+bd 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+T 95
+#10
+clone~
+the clone~
+A boring old clone is standing here.
+~
+   This clone is nothing to look at.  No, really, it is quite boring.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#11
+zombie undead humanoid~
+the zombie~
+A strange humanoid is here.  How odd, its flesh seems to be falling off!
+~
+   This strange humanoid is moving rather slowly, and appears to be a corpse, a
+walking corpse!  It must be a zombie or something of the sort.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+BareHandAttack: 7
+E
+#12
+moose eddie~
+Moose, the Jack Russel Terrier~
+Moose is lounging about enjoying his fame.
+~
+   Moose is the name of the cute little Jack Russell Terrier who became famous
+when he landed the role of Eddie in the TV show Frasier.  Moose is also a
+leading star in the movie My Dog Skip and is known for his performances
+throughout the U.  S.  Currently Moose lives in Los Angeles with two of his
+sons, Enzo and Moosie.  
+~
+bd 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 1
+E
+#13
+kind soul~
+a kind soul~
+A very kind and caring soul is here looking out for those who need it.
+~
+   She immediately reminds you of your mother.  Constantly worrying about
+everyone and everything.  She is always around to help out those who have hit
+hard times and need a little boost.  
+~
+bdnopqr 0 0 0 0 0 0 0 0 E
+30 10 -8 6d6+300 5d5+5
+300 90000
+8 8 2
+E
+T 94
+#15
+quest mobile~
+a quest mob~
+A quest mob wanders around aimlessly waiting to be slaughtered.
+~
+   This mobiles sole purpose is to be hunted down and killed.  
+~
+bd 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+T 144
+#19
+aerial servant shape~
+the aerial servant~
+An amorphous shape is floating in the air.
+~
+   As you stare at this amorphous shape, it begins to appear to take the shape
+of a cloud-like humanoid.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#20
+elemental~
+the elemental~
+An elemental is standing patiently here.
+~
+   This creature is the essence of the elements, and appears to be waiting
+patiently for something to occur.  
+~
+bdnopr 0 0 0 0 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+#98
+travelling saleswoman woman~
+the travelling saleswoman~
+This saleswoman is laden with gagdets and gizmos that are outrageously priced.
+~
+   A combination of good business sense, charming personality, and good looks
+has made her a success at pushing useless products on uneducated buyers.  Only
+on a rare occasion does she sell anything useful.  
+~
+bd 0 0 0 0 0 0 0 0 E
+33 9 -9 6d6+330 5d5+5
+330 108900
+8 8 2
+E
+T 98
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+   The dark-robed skeletal figure radiates an unendurable coldness.  
+~
+bdelnopqr 0 0 0 egilq 0 0 0 0 E
+1 20 9 0d0+10 1d2+0
+10 100
+8 8 0
+E
+$

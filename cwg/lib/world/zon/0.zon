@@ -1,0 +1,17 @@
+@Version: 2
+#0
+None~
+Limbo~
+0 99 10 2 0 0 0 0 0 0
+O 0 14 1 20 0 0 	(a steaming pile of stool)
+M 0 9 1 20 0 0 	(a sick looking dog)
+M 0 12 1 11 0 0 	(Moose, the Jack Russel Terrier)
+M 0 8 1 16 0 0 	(Wishbone)
+M 0 7 1 6 0 0 	(the Jack Russell terrier)
+M 0 6 1 4 0 0 	(John Russell)
+M 0 5 1 2 0 0 	(Jack Russell)
+M 0 1 1 1 0 0 	(Puff)
+M 0 99 1 99 0 0 	(Death)
+E 1 99 1 16 -1 0 	(the Scythe of Death)
+S
+$

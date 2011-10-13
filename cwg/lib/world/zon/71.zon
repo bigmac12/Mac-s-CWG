@@ -1,0 +1,22 @@
+#71
+Redferne~
+Second Sewer~
+7100 7199 20 2
+M 0 7004 3 7102 0 0 	(the giant earth beetle)
+M 0 7005 7 7112 0 0 	(the maggot)
+M 0 7005 7 7112 0 0 	(the maggot)
+M 0 7005 7 7122 0 0 	(the maggot)
+M 0 7002 7 7104 0 0 	(the sewer rat)
+M 0 7000 3 7103 0 0 	(the horrifying Mudmonster)
+M 0 7000 3 7103 0 0 	(the horrifying Mudmonster)
+M 0 7006 7 7113 0 0 	(the snake)
+M 0 7006 7 7122 0 0 	(the snake)
+M 0 7006 7 7122 0 0 	(the snake)
+D 0 7106 5 1 0 0 	(The Northwestern Corner Of The Ledge)
+D 0 7111 5 1 0 0 	(The Southwestern Corner Of The Ledge)
+D 0 7121 5 1 0 0 	(The Southeastern Corner Of The Ledge)
+D 0 7279 4 1 0 0 	(The Wall Of The Abyss)
+D 0 7116 5 1 0 0 	(The Northeastern Corner Of The Ledge)
+D 0 7280 4 1 0 0 	(The Entrance)
+S
+$

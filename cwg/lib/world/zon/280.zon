@@ -1,0 +1,29 @@
+#280
+Kinesthesia~
+Living Motherboard~
+28000 28099 20 2
+M 0 28000 30 28014 0 0 	(an electron)
+M 0 28000 30 28014 0 0 	(an electron)
+M 0 28000 30 28014 0 0 	(an electron)
+M 0 28000 30 28014 0 0 	(an electron)
+M 0 28000 30 28014 0 0 	(an electron)
+M 0 28000 30 28023 0 0 	(an electron)
+M 0 28000 30 28023 0 0 	(an electron)
+M 0 28000 30 28023 0 0 	(an electron)
+M 0 28000 30 28023 0 0 	(an electron)
+M 0 28000 30 28023 0 0 	(an electron)
+M 0 28000 30 28019 0 0 	(an electron)
+M 0 28001 1 28032 0 0 	(a cpu)
+M 0 28002 1 28029 0 0 	(an fpu)
+M 0 28003 6 28038 0 0 	(a 16MB EDO SIMM chip)
+M 0 28003 6 28039 0 0 	(a 16MB EDO SIMM chip)
+M 0 28003 6 28040 0 0 	(a 16MB EDO SIMM chip)
+M 0 28003 6 28041 0 0 	(a 16MB EDO SIMM chip)
+M 0 28003 6 28042 0 0 	(a 16MB EDO SIMM chip)
+M 0 28003 6 28043 0 0 	(a 16MB EDO SIMM chip)
+M 0 28004 1 28044 0 0 	(a 28.8kbps modem)
+M 0 28005 1 28045 0 0 	(a video card)
+M 0 28006 1 28046 0 0 	(a sound card)
+M 0 28007 1 28047 0 0 	(an SCSI controller)
+S
+$

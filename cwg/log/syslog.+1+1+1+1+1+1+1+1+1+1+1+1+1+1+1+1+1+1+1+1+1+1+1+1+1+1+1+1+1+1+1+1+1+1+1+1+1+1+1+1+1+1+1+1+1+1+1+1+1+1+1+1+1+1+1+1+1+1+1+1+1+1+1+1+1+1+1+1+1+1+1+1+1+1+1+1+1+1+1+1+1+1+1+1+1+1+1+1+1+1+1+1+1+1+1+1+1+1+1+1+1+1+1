@@ -1,0 +1,937 @@
+autorun starting game Fri Sep 30 15:37:36 PDT 2011
+running bin/circle -q 4000
+Sep 30 15:37:36 :: Using etc/config for configuration.
+Sep 30 15:37:36 :: CircleMUD, version 3.1
+Sep 30 15:37:36 :: OasisOLC 2.0.6
+Sep 30 15:37:36 :: DG Scripts 1.0.14
+Sep 30 15:37:36 :: ASCII Player Files 3.0.1
+Sep 30 15:37:36 :: CWG Buddha - 4.4.30
+Sep 30 15:37:36 :: Using lib as data directory.
+Sep 30 15:37:36 :: Running game on port 4000.
+Sep 30 15:37:36 :: Finding player limit.
+Sep 30 15:37:36 ::    Setting player limit to 300 using rlimit.
+Sep 30 15:37:36 :: Opening mother connection.
+Sep 30 15:37:36 :: Binding to all IP interfaces on this host.
+Sep 30 15:37:36 :: Boot db -- BEGIN.
+Sep 30 15:37:36 :: Resetting the game time:
+Sep 30 15:37:36 ::    Current Gametime: 2H 28D 15M 607Y.
+Sep 30 15:37:36 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep 30 15:37:36 :: Loading spell definitions.
+Sep 30 15:37:36 :: Loading zone table.
+Sep 30 15:37:36 ::    7 zones, 392 bytes.
+Sep 30 15:37:36 :: Loading triggers and generating index.
+Sep 30 15:37:36 :: Loading rooms.
+Sep 30 15:37:36 ::    399 rooms, 44688 bytes.
+Sep 30 15:37:36 :: Renumbering rooms.
+Sep 30 15:37:36 :: Checking start rooms.
+Sep 30 15:37:36 :: Loading mobs and generating index.
+Sep 30 15:37:36 ::    76 mobs, 1520 bytes in index, 30400 bytes in prototypes.
+Sep 30 15:37:36 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep 30 15:37:36 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep 30 15:37:36 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep 30 15:37:36 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep 30 15:37:36 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep 30 15:37:36 :: Loading objs and generating index.
+Sep 30 15:37:36 ::    148 objs, 2960 bytes in index, 26640 bytes in prototypes.
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep 30 15:37:36 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep 30 15:37:36 :: Renumbering zone table.
+Sep 30 15:37:36 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep 30 15:37:36 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep 30 15:37:36 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep 30 15:37:36 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep 30 15:37:36 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep 30 15:37:36 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep 30 15:37:36 :: Loading disabled commands list...
+Sep 30 15:37:36 :: Loading shops.
+Sep 30 15:37:36 :: Loading guild masters.
+Sep 30 15:37:37 :: htree stats (global): 986 nodes, 70992 bytes (depth 3/5 used/possible)
+Sep 30 15:37:37 :: htree_test: htree speedup factor: 174%
+Sep 30 15:37:37 :: Loading help entries.
+Sep 30 15:37:37 ::    733 entries, 14660 bytes.
+Sep 30 15:37:37 :: Setting up context sensitive help system for OLC
+Sep 30 15:37:37 :: Generating player index.
+Sep 30 15:37:37 :: Loading fight messages.
+Sep 30 15:37:37 :: Loading social messages.
+Sep 30 15:37:37 :: Social table contains 368 socials.
+Sep 30 15:37:37 :: Building command list.
+Sep 30 15:37:37 :: Command info rebuilt, 689 total commands.
+Sep 30 15:37:37 :: Assigning function pointers:
+Sep 30 15:37:37 ::    Mobiles.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep 30 15:37:37 ::    Shopkeepers.
+Sep 30 15:37:37 ::    Objects.
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep 30 15:37:37 ::    Rooms.
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep 30 15:37:37 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep 30 15:37:37 ::    Guildmasters.
+Sep 30 15:37:37 :: Init Object Unique Hash
+Sep 30 15:37:37 :: Booting assembled objects.
+Sep 30 15:37:37 :: Assigning spell and skill levels.
+Sep 30 15:37:37 :: Assigning race spell and skill levels.
+Sep 30 15:37:37 :: Sorting command list and spells.
+Sep 30 15:37:37 :: Booting mail system.
+Sep 30 15:37:37 ::    100 bytes read.
+Sep 30 15:37:37 ::    Mail file read -- 0 messages.
+Sep 30 15:37:37 :: Booting boards system.
+Sep 30 15:37:37 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep 30 15:37:37 :: Deleting old board file 'etc/boards/1326' [vnum 1326].  7 days without modification & no associated object.
+Sep 30 15:37:37 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep 30 15:37:37 :: Deleting old board file 'etc/boards/1327' [vnum 1327].  7 days without modification & no associated object.
+Sep 30 15:37:37 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep 30 15:37:37 :: Deleting old board file 'etc/boards/1328' [vnum 1328].  7 days without modification & no associated object.
+Sep 30 15:37:37 :: There are 5 boards located; 20 messages
+Sep 30 15:37:37 :: Reading banned site and invalid-name list.
+Sep 30 15:37:37 :: Booting houses.
+Sep 30 15:37:37 :: Resetting #0: Limbo (rooms 0-99).
+Sep 30 15:37:37 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep 30 15:37:37 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep 30 15:37:37 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep 30 15:37:37 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep 30 15:37:37 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep 30 15:37:37 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep 30 15:37:37 :: Boot db -- DONE.
+Sep 30 15:37:37 :: Signal trapping.
+Sep 30 15:37:37 :: Entering game loop.
+Sep 30 15:37:37 :: No connections.  Going to sleep.
+Sep 30 15:40:00 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep 30 15:40:07 :: Mag [192.168.0.3] has connected.
+Sep 30 15:40:08 :: opened crash file
+Sep 30 15:40:08 :: Mag un-renting and entering game.
+Sep 30 15:40:08 :: Mag (level 38) has 0 objects (max 60).
+Sep 30 15:40:08 :: Mag had no variable file
+Sep 30 15:42:35 :: Mishakal [c-76-27-254-53.hsd1.wa.comcast.net] has connected.
+Sep 30 15:42:37 :: opened crash file
+Sep 30 15:42:37 :: Mishakal retrieving crash-saved items and entering game.
+Sep 30 15:42:37 :: Mishakal (level 38) has 5 objects (max 60).
+Sep 30 15:42:37 :: Mishakal had no variable file
+Sep 30 15:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 15:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 15:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 16:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 17:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:44:26 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 18:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:48:14 :: GenOLC: add_room: Updated existing room #1307.
+Sep 30 18:48:14 :: OLC: Mishakal edits room 1307.
+Sep 30 18:48:14 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 18:48:14 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 18:48:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 18:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 18:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:12:02 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:12:49 :: GenOLC: add_room: Updated existing room #1306.
+Sep 30 19:12:49 :: OLC: Mishakal edits room 1306.
+Sep 30 19:12:49 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:12:49 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:12:49 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:13:02 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:13:41 :: GenOLC: add_room: Updated existing room #1309.
+Sep 30 19:13:41 :: OLC: Mishakal edits room 1309.
+Sep 30 19:13:41 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:13:41 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:13:41 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:13:47 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:15:03 :: GenOLC: add_room: Updated existing room #1308.
+Sep 30 19:15:03 :: OLC: Mishakal edits room 1308.
+Sep 30 19:15:03 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:15:03 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:15:03 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:16:37 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:16:53 :: GenOLC: add_room: Updated existing room #1313.
+Sep 30 19:16:53 :: OLC: Mishakal edits room 1313.
+Sep 30 19:16:53 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:16:53 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:16:53 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:17:06 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:17:11 :: GenOLC: add_room: Updated existing room #1315.
+Sep 30 19:17:11 :: OLC: Mishakal edits room 1315.
+Sep 30 19:17:11 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:17:11 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:17:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:17:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:17:31 :: GenOLC: add_room: Updated existing room #1316.
+Sep 30 19:17:31 :: OLC: Mishakal edits room 1316.
+Sep 30 19:17:31 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:17:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:17:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:17:56 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:17:56 :: GenOLC: add_room: Updated existing room #1317.
+Sep 30 19:17:56 :: OLC: Mishakal edits room 1317.
+Sep 30 19:17:56 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:17:56 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:17:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:18:09 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:18:10 :: GenOLC: add_room: Updated existing room #1318.
+Sep 30 19:18:10 :: OLC: Mishakal edits room 1318.
+Sep 30 19:18:10 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:18:10 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:18:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:18:16 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:18:17 :: GenOLC: add_room: Updated existing room #1319.
+Sep 30 19:18:17 :: OLC: Mishakal edits room 1319.
+Sep 30 19:18:17 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:18:17 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:18:17 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:12 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:13 :: GenOLC: add_room: Updated existing room #1320.
+Sep 30 19:19:13 :: OLC: Mishakal edits room 1320.
+Sep 30 19:19:13 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:13 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:13 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:13 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:14 :: GenOLC: add_room: Updated existing room #1321.
+Sep 30 19:19:14 :: OLC: Mishakal edits room 1321.
+Sep 30 19:19:14 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:14 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:14 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:14 :: GenOLC: add_room: Updated existing room #1322.
+Sep 30 19:19:14 :: OLC: Mishakal edits room 1322.
+Sep 30 19:19:14 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:14 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:15 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:15 :: GenOLC: add_room: Updated existing room #1323.
+Sep 30 19:19:15 :: OLC: Mishakal edits room 1323.
+Sep 30 19:19:15 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:15 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:15 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:47 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:47 :: GenOLC: add_room: Updated existing room #1324.
+Sep 30 19:19:47 :: OLC: Mishakal edits room 1324.
+Sep 30 19:19:47 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:47 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:47 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:19:54 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:19:55 :: GenOLC: add_room: Updated existing room #1325.
+Sep 30 19:19:55 :: OLC: Mishakal edits room 1325.
+Sep 30 19:19:55 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:19:55 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:19:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:20:01 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:20:02 :: GenOLC: add_room: Updated existing room #1326.
+Sep 30 19:20:02 :: OLC: Mishakal edits room 1326.
+Sep 30 19:20:02 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:20:02 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:20:02 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:20:52 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:20:53 :: GenOLC: add_room: Updated existing room #1329.
+Sep 30 19:20:53 :: OLC: Mishakal edits room 1329.
+Sep 30 19:20:53 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:20:53 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:20:53 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:20:53 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:20:54 :: GenOLC: add_room: Updated existing room #1330.
+Sep 30 19:20:54 :: OLC: Mishakal edits room 1330.
+Sep 30 19:20:54 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:20:54 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:20:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:20:54 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:20:54 :: GenOLC: add_room: Updated existing room #1331.
+Sep 30 19:20:54 :: OLC: Mishakal edits room 1331.
+Sep 30 19:20:54 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:20:54 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:20:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:20:54 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:20:55 :: GenOLC: add_room: Updated existing room #1332.
+Sep 30 19:20:55 :: OLC: Mishakal edits room 1332.
+Sep 30 19:20:55 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:20:55 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:20:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:21:23 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:21:24 :: GenOLC: add_room: Updated existing room #1333.
+Sep 30 19:21:24 :: OLC: Mishakal edits room 1333.
+Sep 30 19:21:24 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:21:24 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:21:24 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:21:24 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:21:24 :: GenOLC: add_room: Updated existing room #1334.
+Sep 30 19:21:24 :: OLC: Mishakal edits room 1334.
+Sep 30 19:21:24 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:21:24 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:21:24 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:21:24 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:21:25 :: GenOLC: add_room: Updated existing room #1335.
+Sep 30 19:21:25 :: OLC: Mishakal edits room 1335.
+Sep 30 19:21:25 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:21:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:21:25 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:21:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:21:26 :: GenOLC: add_room: Updated existing room #1336.
+Sep 30 19:21:26 :: OLC: Mishakal edits room 1336.
+Sep 30 19:21:26 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:21:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:21:26 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:22:00 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:22:00 :: GenOLC: add_room: Updated existing room #1337.
+Sep 30 19:22:00 :: OLC: Mishakal edits room 1337.
+Sep 30 19:22:00 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:22:00 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:22:00 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:22:01 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:22:01 :: GenOLC: add_room: Updated existing room #1338.
+Sep 30 19:22:01 :: OLC: Mishakal edits room 1338.
+Sep 30 19:22:01 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:22:01 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:22:01 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:22:01 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:22:02 :: GenOLC: add_room: Updated existing room #1339.
+Sep 30 19:22:02 :: OLC: Mishakal edits room 1339.
+Sep 30 19:22:02 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:22:02 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:22:02 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:22:02 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:22:03 :: GenOLC: add_room: Updated existing room #1340.
+Sep 30 19:22:03 :: OLC: Mishakal edits room 1340.
+Sep 30 19:22:03 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:22:03 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:22:03 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:22:29 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:22:29 :: GenOLC: add_room: Updated existing room #1312.
+Sep 30 19:22:29 :: OLC: Mishakal edits room 1312.
+Sep 30 19:22:29 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:22:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:22:29 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:23:51 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:23:52 :: GenOLC: add_room: Updated existing room #1303.
+Sep 30 19:23:52 :: OLC: Mishakal edits room 1303.
+Sep 30 19:23:52 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:23:52 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:23:52 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:24:07 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:24:08 :: GenOLC: add_room: Updated existing room #1302.
+Sep 30 19:24:08 :: OLC: Mishakal edits room 1302.
+Sep 30 19:24:08 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:24:08 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:24:08 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:27:23 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:23 :: GenOLC: add_room: Updated existing room #1341.
+Sep 30 19:27:23 :: OLC: Mishakal edits room 1341.
+Sep 30 19:27:23 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:23 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:23 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:27:24 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:24 :: GenOLC: add_room: Updated existing room #1342.
+Sep 30 19:27:24 :: OLC: Mishakal edits room 1342.
+Sep 30 19:27:24 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:24 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:24 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:27:24 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:25 :: GenOLC: add_room: Updated existing room #1343.
+Sep 30 19:27:25 :: OLC: Mishakal edits room 1343.
+Sep 30 19:27:25 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:25 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:27:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:26 :: GenOLC: add_room: Updated existing room #1344.
+Sep 30 19:27:26 :: OLC: Mishakal edits room 1344.
+Sep 30 19:27:26 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:26 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:27:58 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:59 :: GenOLC: add_room: Updated existing room #1345.
+Sep 30 19:27:59 :: OLC: Mishakal edits room 1345.
+Sep 30 19:27:59 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:59 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:59 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:27:59 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:27:59 :: GenOLC: add_room: Updated existing room #1346.
+Sep 30 19:27:59 :: OLC: Mishakal edits room 1346.
+Sep 30 19:27:59 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:27:59 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:27:59 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:00 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:00 :: GenOLC: add_room: Updated existing room #1347.
+Sep 30 19:28:00 :: OLC: Mishakal edits room 1347.
+Sep 30 19:28:00 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:00 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:00 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:00 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:01 :: GenOLC: add_room: Updated existing room #1348.
+Sep 30 19:28:01 :: OLC: Mishakal edits room 1348.
+Sep 30 19:28:01 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:01 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:01 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:29 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:29 :: GenOLC: add_room: Updated existing room #1349.
+Sep 30 19:28:29 :: OLC: Mishakal edits room 1349.
+Sep 30 19:28:29 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:29 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:30 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:30 :: GenOLC: add_room: Updated existing room #1350.
+Sep 30 19:28:30 :: OLC: Mishakal edits room 1350.
+Sep 30 19:28:30 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:30 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:30 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:30 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:31 :: GenOLC: add_room: Updated existing room #1351.
+Sep 30 19:28:31 :: OLC: Mishakal edits room 1351.
+Sep 30 19:28:31 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:28:31 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:28:32 :: GenOLC: add_room: Updated existing room #1352.
+Sep 30 19:28:32 :: OLC: Mishakal edits room 1352.
+Sep 30 19:28:32 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:28:32 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:28:32 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:03 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:04 :: GenOLC: add_room: Updated existing room #1355.
+Sep 30 19:29:04 :: OLC: Mishakal edits room 1355.
+Sep 30 19:29:04 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:04 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:04 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:04 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:04 :: GenOLC: add_room: Updated existing room #1356.
+Sep 30 19:29:04 :: OLC: Mishakal edits room 1356.
+Sep 30 19:29:04 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:04 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:04 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:04 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:05 :: GenOLC: add_room: Updated existing room #1357.
+Sep 30 19:29:05 :: OLC: Mishakal edits room 1357.
+Sep 30 19:29:05 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:05 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:05 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:05 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:06 :: GenOLC: add_room: Updated existing room #1358.
+Sep 30 19:29:06 :: OLC: Mishakal edits room 1358.
+Sep 30 19:29:06 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:06 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:06 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:24 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:25 :: GenOLC: add_room: Updated existing room #1359.
+Sep 30 19:29:25 :: OLC: Mishakal edits room 1359.
+Sep 30 19:29:25 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:25 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:25 :: GenOLC: add_room: Updated existing room #1360.
+Sep 30 19:29:25 :: OLC: Mishakal edits room 1360.
+Sep 30 19:29:25 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:25 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:26 :: GenOLC: add_room: Updated existing room #1361.
+Sep 30 19:29:26 :: OLC: Mishakal edits room 1361.
+Sep 30 19:29:26 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:26 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:26 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:27 :: GenOLC: add_room: Updated existing room #1362.
+Sep 30 19:29:27 :: OLC: Mishakal edits room 1362.
+Sep 30 19:29:27 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:27 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:27 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:55 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:55 :: GenOLC: add_room: Updated existing room #1363.
+Sep 30 19:29:55 :: OLC: Mishakal edits room 1363.
+Sep 30 19:29:55 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:55 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:55 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:56 :: GenOLC: add_room: Updated existing room #1364.
+Sep 30 19:29:56 :: OLC: Mishakal edits room 1364.
+Sep 30 19:29:56 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:56 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:56 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:57 :: GenOLC: add_room: Updated existing room #1365.
+Sep 30 19:29:57 :: OLC: Mishakal edits room 1365.
+Sep 30 19:29:57 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:57 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:57 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:29:57 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:29:57 :: GenOLC: add_room: Updated existing room #1366.
+Sep 30 19:29:57 :: OLC: Mishakal edits room 1366.
+Sep 30 19:29:57 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:29:57 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:29:57 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:31:55 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:32:54 :: GenOLC: add_room: Updated existing room #1354.
+Sep 30 19:32:54 :: OLC: Mishakal edits room 1354.
+Sep 30 19:32:54 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:32:54 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:32:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:33:34 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:33:50 :: GenOLC: add_room: Updated existing room #1353.
+Sep 30 19:33:50 :: OLC: Mishakal edits room 1353.
+Sep 30 19:33:50 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:33:50 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:33:50 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:51:02 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:51:46 :: GenOLC: add_room: Updated existing room #1307.
+Sep 30 19:51:46 :: OLC: Mishakal edits room 1307.
+Sep 30 19:51:46 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:51:46 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:51:46 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:51:53 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:52:02 :: GenOLC: add_room: Updated existing room #1306.
+Sep 30 19:52:02 :: OLC: Mishakal edits room 1306.
+Sep 30 19:52:02 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:52:02 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:52:02 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:52:09 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:52:19 :: GenOLC: add_room: Updated existing room #1309.
+Sep 30 19:52:19 :: OLC: Mishakal edits room 1309.
+Sep 30 19:52:19 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:52:19 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:52:19 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:52:26 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:52:37 :: GenOLC: add_room: Updated existing room #1308.
+Sep 30 19:52:37 :: OLC: Mishakal edits room 1308.
+Sep 30 19:52:37 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:52:37 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:52:37 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:54:29 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 19:55:11 :: GenOLC: add_room: Updated existing room #1327.
+Sep 30 19:55:11 :: OLC: Mishakal edits room 1327.
+Sep 30 19:55:11 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:55:11 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:55:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 19:55:20 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 19:55:42 :: GenOLC: add_room: Updated existing room #1328.
+Sep 30 19:55:42 :: OLC: Mishakal edits room 1328.
+Sep 30 19:55:42 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 19:55:42 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 19:55:42 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 20:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:02:41 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:02:51 :: GenOLC: add_room: Updated existing room #1598.
+Sep 30 20:02:51 :: OLC: Mishakal edits room 1598.
+Sep 30 20:02:51 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:02:51 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:02:51 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:03:02 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 20:03:11 :: GenOLC: add_room: Updated existing room #1328.
+Sep 30 20:03:11 :: OLC: Mishakal edits room 1328.
+Sep 30 20:03:11 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 20:03:11 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 20:03:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 20:03:18 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep 30 20:03:26 :: GenOLC: add_room: Updated existing room #1328.
+Sep 30 20:03:26 :: OLC: Mishakal edits room 1328.
+Sep 30 20:03:26 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 20:03:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 20:03:26 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep 30 20:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:14:37 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:15:06 :: GenOLC: add_room: Updated existing room #1598.
+Sep 30 20:15:06 :: OLC: Mishakal edits room 1598.
+Sep 30 20:15:06 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:15:06 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:15:06 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:15:09 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:16:26 :: GenOLC: add_room: Updated existing room #1598.
+Sep 30 20:16:26 :: OLC: Mishakal edits room 1598.
+Sep 30 20:16:26 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:16:26 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:16:26 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:16:39 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:17:23 :: GenOLC: add_room: Updated existing room #1597.
+Sep 30 20:17:23 :: OLC: Mishakal edits room 1597.
+Sep 30 20:17:23 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:17:23 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:17:23 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:17:27 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:17:50 :: GenOLC: add_room: Updated existing room #1598.
+Sep 30 20:17:50 :: OLC: Mishakal edits room 1598.
+Sep 30 20:17:50 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:17:50 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:17:50 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:19:17 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:20:01 :: GenOLC: add_room: Updated existing room #1599.
+Sep 30 20:20:01 :: OLC: Mishakal edits room 1599.
+Sep 30 20:20:01 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:20:01 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:20:01 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:20:59 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:22:04 :: GenOLC: add_room: Updated existing room #1556.
+Sep 30 20:22:04 :: OLC: Mishakal edits room 1556.
+Sep 30 20:22:04 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:22:04 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:22:04 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:23:34 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:23:36 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:23:40 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:24:03 :: GenOLC: add_room: Updated existing room #1555.
+Sep 30 20:24:03 :: OLC: Mishakal edits room 1555.
+Sep 30 20:24:03 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:24:03 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:24:03 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:24:11 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:25:27 :: GenOLC: add_room: Updated existing room #1554.
+Sep 30 20:25:27 :: OLC: Mishakal edits room 1554.
+Sep 30 20:25:27 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:25:27 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:25:27 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:27:29 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:27:29 :: GenOLC: add_room: Updated existing room #1553.
+Sep 30 20:27:29 :: OLC: Mishakal edits room 1553.
+Sep 30 20:27:29 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:27:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:27:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:27:29 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:27:30 :: GenOLC: add_room: Updated existing room #1552.
+Sep 30 20:27:30 :: OLC: Mishakal edits room 1552.
+Sep 30 20:27:30 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:27:30 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:27:30 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:27:30 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:27:31 :: GenOLC: add_room: Updated existing room #1551.
+Sep 30 20:27:31 :: OLC: Mishakal edits room 1551.
+Sep 30 20:27:31 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:27:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:27:31 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:28:30 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:28:31 :: GenOLC: add_room: Updated existing room #1550.
+Sep 30 20:28:31 :: OLC: Mishakal edits room 1550.
+Sep 30 20:28:31 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:28:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:28:31 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:28:31 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:28:32 :: GenOLC: add_room: Updated existing room #1549.
+Sep 30 20:28:32 :: OLC: Mishakal edits room 1549.
+Sep 30 20:28:32 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:28:32 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:28:32 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:28:32 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:28:32 :: GenOLC: add_room: Updated existing room #1548.
+Sep 30 20:28:32 :: OLC: Mishakal edits room 1548.
+Sep 30 20:28:32 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:28:32 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:28:32 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:28:33 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:28:34 :: GenOLC: add_room: Updated existing room #1546.
+Sep 30 20:28:34 :: OLC: Mishakal edits room 1546.
+Sep 30 20:28:34 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:28:34 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:28:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:29:29 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:29:30 :: GenOLC: add_room: Updated existing room #1547.
+Sep 30 20:29:30 :: OLC: Mishakal edits room 1547.
+Sep 30 20:29:30 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:29:30 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:29:30 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:29:42 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:29:43 :: GenOLC: add_room: Updated existing room #1545.
+Sep 30 20:29:43 :: OLC: Mishakal edits room 1545.
+Sep 30 20:29:43 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:29:43 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:29:43 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:31:33 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:31:51 :: GenOLC: add_room: Updated existing room #1598.
+Sep 30 20:31:51 :: OLC: Mishakal edits room 1598.
+Sep 30 20:31:51 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:31:51 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:31:51 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:31:55 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:32:07 :: GenOLC: add_room: Updated existing room #1597.
+Sep 30 20:32:07 :: OLC: Mishakal edits room 1597.
+Sep 30 20:32:07 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:32:07 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:32:07 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:37:27 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:37:56 :: GenOLC: add_room: Updated existing room #1548.
+Sep 30 20:37:56 :: OLC: Mishakal edits room 1548.
+Sep 30 20:37:56 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:37:56 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:37:56 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:39:13 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:39:34 :: GenOLC: add_room: Updated existing room #1565.
+Sep 30 20:39:34 :: OLC: Mishakal edits room 1565.
+Sep 30 20:39:34 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:39:34 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:39:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:40:12 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:41:15 :: GenOLC: add_room: Updated existing room #1565.
+Sep 30 20:41:15 :: OLC: Mishakal edits room 1565.
+Sep 30 20:41:15 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:41:15 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:41:15 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:41:30 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:41:44 :: GenOLC: add_room: Updated existing room #1548.
+Sep 30 20:41:44 :: OLC: Mishakal edits room 1548.
+Sep 30 20:41:44 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:41:44 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:41:44 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:41:50 :: OLC: Mishakal saves room info for zone 13.
+Sep 30 20:41:50 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep 30 20:41:50 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep 30 20:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:48:02 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:02 :: GenOLC: add_room: Updated existing room #1568.
+Sep 30 20:48:02 :: OLC: Mishakal edits room 1568.
+Sep 30 20:48:02 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:02 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:02 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:02 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:03 :: GenOLC: add_room: Updated existing room #1567.
+Sep 30 20:48:03 :: OLC: Mishakal edits room 1567.
+Sep 30 20:48:03 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:03 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:03 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:03 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:04 :: GenOLC: add_room: Updated existing room #1566.
+Sep 30 20:48:04 :: OLC: Mishakal edits room 1566.
+Sep 30 20:48:04 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:04 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:04 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:04 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:04 :: GenOLC: add_room: Updated existing room #1565.
+Sep 30 20:48:04 :: OLC: Mishakal edits room 1565.
+Sep 30 20:48:04 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:04 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:04 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:04 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:05 :: GenOLC: add_room: Updated existing room #1564.
+Sep 30 20:48:05 :: OLC: Mishakal edits room 1564.
+Sep 30 20:48:05 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:05 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:05 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:48 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:49 :: GenOLC: add_room: Updated existing room #1563.
+Sep 30 20:48:49 :: OLC: Mishakal edits room 1563.
+Sep 30 20:48:49 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:49 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:49 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:49 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:50 :: GenOLC: add_room: Updated existing room #1562.
+Sep 30 20:48:50 :: OLC: Mishakal edits room 1562.
+Sep 30 20:48:50 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:50 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:50 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:50 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:50 :: GenOLC: add_room: Updated existing room #1561.
+Sep 30 20:48:50 :: OLC: Mishakal edits room 1561.
+Sep 30 20:48:50 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:50 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:50 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:50 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:51 :: GenOLC: add_room: Updated existing room #1560.
+Sep 30 20:48:51 :: OLC: Mishakal edits room 1560.
+Sep 30 20:48:51 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:51 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:51 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:48:51 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:48:52 :: GenOLC: add_room: Updated existing room #1559.
+Sep 30 20:48:52 :: OLC: Mishakal edits room 1559.
+Sep 30 20:48:52 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:48:52 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:48:52 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:28 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:29 :: GenOLC: add_room: Updated existing room #1558.
+Sep 30 20:49:29 :: OLC: Mishakal edits room 1558.
+Sep 30 20:49:29 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:29 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:29 :: GenOLC: add_room: Updated existing room #1557.
+Sep 30 20:49:29 :: OLC: Mishakal edits room 1557.
+Sep 30 20:49:29 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:29 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:30 :: GenOLC: add_room: Updated existing room #1556.
+Sep 30 20:49:30 :: OLC: Mishakal edits room 1556.
+Sep 30 20:49:30 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:30 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:30 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:30 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:31 :: GenOLC: add_room: Updated existing room #1555.
+Sep 30 20:49:31 :: OLC: Mishakal edits room 1555.
+Sep 30 20:49:31 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:31 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:31 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:31 :: GenOLC: add_room: Updated existing room #1554.
+Sep 30 20:49:31 :: OLC: Mishakal edits room 1554.
+Sep 30 20:49:31 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:31 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:49:49 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:49:59 :: GenOLC: add_room: Updated existing room #1596.
+Sep 30 20:49:59 :: OLC: Mishakal edits room 1596.
+Sep 30 20:49:59 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:49:59 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:49:59 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 20:56:37 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:56:44 :: GenOLC: add_room: Updated existing room #1564.
+Sep 30 20:56:44 :: OLC: Mishakal edits room 1564.
+Sep 30 20:56:44 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:56:44 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:56:44 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:56:59 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:57:07 :: GenOLC: add_room: Updated existing room #1546.
+Sep 30 20:57:07 :: OLC: Mishakal edits room 1546.
+Sep 30 20:57:07 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:57:07 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:57:07 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:57:10 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:57:16 :: GenOLC: add_room: Updated existing room #1554.
+Sep 30 20:57:16 :: OLC: Mishakal edits room 1554.
+Sep 30 20:57:16 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:57:16 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:57:16 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 20:57:20 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep 30 20:57:25 :: GenOLC: add_room: Updated existing room #1559.
+Sep 30 20:57:25 :: OLC: Mishakal edits room 1559.
+Sep 30 20:57:25 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep 30 20:57:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep 30 20:57:25 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep 30 21:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 21:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:43:10 :: Mishakal has re-logged in ... disconnecting old socket.
+Sep 30 22:43:10 :: Losing descriptor without char.
+Sep 30 22:45:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:50:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:55:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 22:56:05 :: Closing link to: Mishakal.
+Sep 30 22:58:18 :: Mishakal [c-76-27-254-53.hsd1.wa.comcast.net] has reconnected.
+Sep 30 23:00:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:05:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:10:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:15:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:20:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:25:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:30:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:35:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:40:00 :: nusage: 2   sockets connected, 2   sockets playing
+Sep 30 23:43:06 :: Mishakal has quit the game.
+Sep 30 23:43:06 :: Losing player: Mishakal.
+Sep 30 23:45:00 :: nusage: 1   sockets connected, 1   sockets playing
+Sep 30 23:50:00 :: nusage: 1   sockets connected, 1   sockets playing
+Sep 30 23:55:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:00:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:05:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:10:00 :: nusage: 1   sockets connected, 1   sockets playing
+Oct  1 00:11:26 :: Mag has quit the game.
+Oct  1 00:11:26 :: Losing player: Mag.
+Oct  1 00:11:26 :: No connections.  Going to sleep.
+Oct  1 01:26:35 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

@@ -1,0 +1,1657 @@
+autorun starting game Sat Sep  3 20:16:17 PDT 2011
+running bin/circle -q 4000
+Sep  3 20:16:17 :: Using etc/config for configuration.
+Sep  3 20:16:17 :: CircleMUD, version 3.1
+Sep  3 20:16:17 :: OasisOLC 2.0.6
+Sep  3 20:16:17 :: DG Scripts 1.0.14
+Sep  3 20:16:17 :: ASCII Player Files 3.0.1
+Sep  3 20:16:17 :: CWG Buddha - 4.4.30
+Sep  3 20:16:17 :: Using lib as data directory.
+Sep  3 20:16:17 :: Running game on port 4000.
+Sep  3 20:16:17 :: Finding player limit.
+Sep  3 20:16:17 ::    Setting player limit to 300 using rlimit.
+Sep  3 20:16:17 :: Opening mother connection.
+Sep  3 20:16:17 :: Binding to all IP interfaces on this host.
+Sep  3 20:16:17 :: Boot db -- BEGIN.
+Sep  3 20:16:17 :: Resetting the game time:
+Sep  3 20:16:17 ::    Current Gametime: 13H 26D 13M 605Y.
+Sep  3 20:16:17 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  3 20:16:17 :: Loading spell definitions.
+Sep  3 20:16:17 :: Loading zone table.
+Sep  3 20:16:17 ::    5 zones, 280 bytes.
+Sep  3 20:16:17 :: Loading triggers and generating index.
+Sep  3 20:16:17 :: Loading rooms.
+Sep  3 20:16:17 ::    116 rooms, 12992 bytes.
+Sep  3 20:16:17 :: Renumbering rooms.
+Sep  3 20:16:17 :: Checking start rooms.
+Sep  3 20:16:17 :: Loading mobs and generating index.
+Sep  3 20:16:17 ::    76 mobs, 1520 bytes in index, 28272 bytes in prototypes.
+Sep  3 20:16:17 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  3 20:16:17 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 20:16:17 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 20:16:17 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 20:16:17 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  3 20:16:17 :: Loading objs and generating index.
+Sep  3 20:16:17 ::    120 objs, 2400 bytes in index, 21600 bytes in prototypes.
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  3 20:16:17 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  3 20:16:17 :: Renumbering zone table.
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1209, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 6
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 8
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 9
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1328, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 10
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1328, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 11
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 12
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 13
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1326, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 14
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 1326, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 15
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  3 20:16:17 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  3 20:16:17 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  3 20:16:17 :: Loading disabled commands list...
+Sep  3 20:16:17 :: Loading shops.
+Sep  3 20:16:17 :: Loading guild masters.
+Sep  3 20:16:17 :: htree stats (global): 494 nodes, 35568 bytes (depth 3/5 used/possible)
+Sep  3 20:16:17 :: htree_test: htree speedup factor: 677%
+Sep  3 20:16:17 :: Loading help entries.
+Sep  3 20:16:17 ::    733 entries, 14660 bytes.
+Sep  3 20:16:17 :: Setting up context sensitive help system for OLC
+Sep  3 20:16:17 :: Generating player index.
+Sep  3 20:16:17 :: Loading fight messages.
+Sep  3 20:16:17 :: Loading social messages.
+Sep  3 20:16:17 :: Social table contains 368 socials.
+Sep  3 20:16:17 :: Building command list.
+Sep  3 20:16:17 :: Command info rebuilt, 686 total commands.
+Sep  3 20:16:17 :: Assigning function pointers:
+Sep  3 20:16:17 ::    Mobiles.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  3 20:16:17 ::    Shopkeepers.
+Sep  3 20:16:17 ::    Objects.
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  3 20:16:17 ::    Rooms.
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  3 20:16:17 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  3 20:16:17 ::    Guildmasters.
+Sep  3 20:16:17 :: Init Object Unique Hash
+Sep  3 20:16:17 :: Booting assembled objects.
+Sep  3 20:16:17 :: Assigning spell and skill levels.
+Sep  3 20:16:17 :: Assigning race spell and skill levels.
+Sep  3 20:16:17 :: Sorting command list and spells.
+Sep  3 20:16:17 :: Booting mail system.
+Sep  3 20:16:17 ::    100 bytes read.
+Sep  3 20:16:17 ::    Mail file read -- 0 messages.
+Sep  3 20:16:17 :: Booting boards system.
+Sep  3 20:16:17 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  3 20:16:17 :: Board vnum 1326, Version 2
+Sep  3 20:16:17 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  3 20:16:17 :: Board vnum 1327, Version 2
+Sep  3 20:16:17 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  3 20:16:17 :: Board vnum 1328, Version 2
+Sep  3 20:16:17 :: There are 7 boards located; 0 messages
+Sep  3 20:16:17 :: Reading banned site and invalid-name list.
+Sep  3 20:16:17 :: Booting houses.
+Sep  3 20:16:17 :: Resetting #0: Limbo (rooms 0-99).
+Sep  3 20:16:17 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  3 20:16:17 :: Resetting #13: Palanthas I (rooms 1300-1399).
+Sep  3 20:16:17 :: Resetting #14: Palanthas II (rooms 1400-1499).
+Sep  3 20:16:17 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  3 20:16:17 :: Boot db -- DONE.
+Sep  3 20:16:17 :: Signal trapping.
+Sep  3 20:16:17 :: Entering game loop.
+Sep  3 20:16:17 :: No connections.  Going to sleep.
+Sep  3 20:16:22 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  3 20:16:27 :: Admin [192.168.0.3] has connected. (invis 40)
+Sep  3 20:16:28 :: opened crash file
+Sep  3 20:16:28 :: Admin un-renting and entering game.
+Sep  3 20:16:28 :: Admin (level 40) has 1 objects (max 60).
+Sep  3 20:16:28 :: Admin had no variable file
+Sep  3 20:18:10 :: Admin has quit the game.
+Sep  3 20:18:10 :: Losing player: Admin.
+Sep  3 20:18:10 :: No connections.  Going to sleep.
+Sep  3 20:18:11 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  3 20:18:17 :: Mag [192.168.0.3] has connected.
+Sep  3 20:18:18 :: opened crash file
+Sep  3 20:18:18 :: Mag retrieving crash-saved items and entering game.
+Sep  3 20:18:18 :: Mag (level 38) has 0 objects (max 60).
+Sep  3 20:18:18 :: Mag had no variable file
+Sep  3 20:18:53 :: Mag has quit the game.
+Sep  3 20:18:53 :: Losing player: Mag.
+Sep  3 20:18:53 :: No connections.  Going to sleep.
+Sep  3 20:18:54 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  3 20:18:59 :: Admin [192.168.0.3] has connected. (invis 40)
+Sep  3 20:19:00 :: opened crash file
+Sep  3 20:19:00 :: Admin un-renting and entering game.
+Sep  3 20:19:00 :: Admin (level 40) has 1 objects (max 60).
+Sep  3 20:19:00 :: Admin had no variable file
+Sep  3 20:19:26 :: OLC: Admin starts editing zone 12 allowed zone 0
+Sep  3 20:20:51 :: OLC: Admin edits obj 1211
+Sep  3 20:20:51 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  3 20:20:51 :: OLC: Admin stops editing zone 12 allowed zone 0
+Sep  3 20:21:05 :: OLC: Admin starts editing zone 12 allowed zone 0
+Sep  3 20:21:24 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 20:22:04 :: OLC: Admin edits obj 1299
+Sep  3 20:22:04 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  3 20:22:04 :: OLC: Admin stops editing zone 12 allowed zone 0
+Sep  3 20:22:25 :: OLC: Admin starts editing zone 12 allowed zone 0
+Sep  3 20:22:40 :: OLC: Admin edits obj 1299
+Sep  3 20:22:40 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  3 20:22:40 :: OLC: Admin stops editing zone 12 allowed zone 0
+Sep  3 20:26:24 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 20:27:44 :: GenOLC: save_zone: Saving zone 'world/zon/15.zon'
+Sep  3 20:27:44 :: OLC: Admin creates new zone #15
+Sep  3 20:27:52 :: GenOLC: save_zone: Saving zone 'world/zon/16.zon'
+Sep  3 20:27:52 :: OLC: Admin creates new zone #16
+Sep  3 20:27:58 :: OLC: Admin starts editing zone 15 allowed zone 0
+Sep  3 20:28:02 :: OLC: Admin stops editing zone 15 allowed zone 0
+Sep  3 20:28:05 :: OLC: Admin starts editing zone 15 allowed zone 0
+Sep  3 20:28:11 :: GenOLC: add_room: Added room 1500 at index #57.
+Sep  3 20:28:11 :: OLC: Admin edits room 1500.
+Sep  3 20:28:11 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  3 20:28:11 :: room_htree sync fix: 1500: 65535 -> 57
+Sep  3 20:28:11 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  3 20:28:11 :: OLC: Admin stops editing zone 15 allowed zone 0
+Sep  3 20:28:13 :: OLC: Admin starts editing zone 16 allowed zone 0
+Sep  3 20:28:16 :: GenOLC: add_room: Added room 1600 at index #58.
+Sep  3 20:28:16 :: OLC: Admin edits room 1600.
+Sep  3 20:28:16 :: GenOLC: save_rooms: Saving rooms in zone #16 (1600-1699).
+Sep  3 20:28:16 :: room_htree sync fix: 1600: 65535 -> 58
+Sep  3 20:28:16 :: GenOLC: save_rooms: Saving rooms 'world/wld/16.wld'
+Sep  3 20:28:16 :: OLC: Admin stops editing zone 16 allowed zone 0
+Sep  3 20:28:18 :: OLC: Admin starts editing zone 15 allowed zone 0
+Sep  3 20:28:34 :: GenOLC: save_zone: Saving zone 'world/zon/15.zon'
+Sep  3 20:28:34 :: OLC: Admin edits zone info for room 1500.
+Sep  3 20:28:34 :: OLC: Admin stops editing zone 15 allowed zone 0
+Sep  3 20:28:36 :: OLC: Admin starts editing zone 16 allowed zone 0
+Sep  3 20:28:45 :: GenOLC: save_zone: Saving zone 'world/zon/16.zon'
+Sep  3 20:28:45 :: OLC: Admin edits zone info for room 1600.
+Sep  3 20:28:45 :: OLC: Admin stops editing zone 16 allowed zone 0
+Sep  3 20:30:59 :: Trigger restarted on unknown entity. Vnum: 1288
+Sep  3 20:30:59 :: Type: Room trigger
+Sep  3 20:30:59 :: attached 1 places
+Sep  3 20:30:59 :: SCRIPT ERR: Trigger restart attempt on unknown entity.
+Sep  3 20:31:24 :: nusage: 1   sockets connected, 1   sockets playing
+SYSERR: gethostbyaddr: Success
+Sep  3 20:32:33 :: Mishakal [192.168.0.4] has connected.
+Sep  3 20:32:35 :: opened crash file
+Sep  3 20:32:35 :: Mishakal retrieving crash-saved items and entering game.
+Sep  3 20:32:35 :: Mishakal (level 38) has 0 objects (max 60).
+Sep  3 20:32:35 :: Mishakal had no variable file
+Sep  3 20:33:42 :: GenOLC: add_room: Added room 1307 at index #56.
+Sep  3 20:33:42 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:33:42 :: room_htree sync fix: 1307: 65535 -> 56
+Sep  3 20:33:58 :: GenOLC: add_room: Added room 1308 at index #57.
+Sep  3 20:33:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:33:58 :: room_htree sync fix: 1308: 65535 -> 57
+Sep  3 20:34:13 :: GenOLC: add_room: Added room 1313 at index #58.
+Sep  3 20:34:13 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:34:13 :: room_htree sync fix: 1313: 65535 -> 58
+Sep  3 20:34:19 :: GenOLC: add_room: Added room 1314 at index #59.
+Sep  3 20:34:19 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:34:19 :: room_htree sync fix: 1314: 65535 -> 59
+Sep  3 20:34:31 :: GenOLC: add_room: Added room 1309 at index #58.
+Sep  3 20:34:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:34:31 :: room_htree sync fix: 1309: 65535 -> 58
+Sep  3 20:35:07 :: GenOLC: add_room: Added room 1306 at index #56.
+Sep  3 20:35:07 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:35:07 :: room_htree sync fix: 1306: 65535 -> 56
+Sep  3 20:35:14 :: GenOLC: add_room: Added room 1302 at index #56.
+Sep  3 20:35:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:35:14 :: room_htree sync fix: 1302: 65535 -> 56
+Sep  3 20:35:28 :: GenOLC: add_room: Added room 1303 at index #57.
+Sep  3 20:35:28 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:35:28 :: room_htree sync fix: 1303: 65535 -> 57
+Sep  3 20:35:34 :: GenOLC: add_room: Added room 1366 at index #64.
+Sep  3 20:35:34 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:35:34 :: room_htree sync fix: 1366: 65535 -> 64
+Sep  3 20:36:17 :: GenOLC: add_room: Added room 1304 at index #58.
+Sep  3 20:36:17 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:36:17 :: room_htree sync fix: 1304: 65535 -> 58
+Sep  3 20:36:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 20:36:45 :: GenOLC: add_room: Added room 1305 at index #59.
+Sep  3 20:36:45 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:36:45 :: room_htree sync fix: 1305: 65535 -> 59
+Sep  3 20:38:39 :: GenOLC: add_room: Added room 1310 at index #64.
+Sep  3 20:38:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:38:39 :: room_htree sync fix: 1310: 65535 -> 64
+Sep  3 20:38:45 :: GenOLC: add_room: Added room 1311 at index #65.
+Sep  3 20:38:45 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:38:45 :: room_htree sync fix: 1311: 65535 -> 65
+Sep  3 20:39:14 :: GenOLC: add_room: Added room 1312 at index #66.
+Sep  3 20:39:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:39:14 :: room_htree sync fix: 1312: 65535 -> 66
+Sep  3 20:39:52 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:40:03 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:40:53 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 20:40:56 :: GenOLC: delete_room: Deleting room #1366 (An unfinished room).
+Sep  3 20:40:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:10 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:41:22 :: GenOLC: add_room: Added room 1315 at index #69.
+Sep  3 20:41:22 :: room_htree sync fix: 1315: 65535 -> 69
+Sep  3 20:41:22 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 20:41:31 :: GenOLC: add_room: Added room 1316 at index #70.
+Sep  3 20:41:31 :: room_htree sync fix: 1316: 65535 -> 70
+Sep  3 20:41:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:31 :: GenOLC: add_room: Added room 1317 at index #71.
+Sep  3 20:41:31 :: room_htree sync fix: 1317: 65535 -> 71
+Sep  3 20:41:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:32 :: GenOLC: add_room: Added room 1318 at index #72.
+Sep  3 20:41:32 :: room_htree sync fix: 1318: 65535 -> 72
+Sep  3 20:41:32 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:32 :: GenOLC: add_room: Added room 1319 at index #73.
+Sep  3 20:41:32 :: room_htree sync fix: 1319: 65535 -> 73
+Sep  3 20:41:32 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:34 :: GenOLC: add_room: Added room 1320 at index #74.
+Sep  3 20:41:34 :: room_htree sync fix: 1320: 65535 -> 74
+Sep  3 20:41:34 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:36 :: GenOLC: add_room: Added room 1321 at index #75.
+Sep  3 20:41:36 :: room_htree sync fix: 1321: 65535 -> 75
+Sep  3 20:41:36 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:36 :: GenOLC: add_room: Added room 1322 at index #76.
+Sep  3 20:41:36 :: room_htree sync fix: 1322: 65535 -> 76
+Sep  3 20:41:36 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:37 :: GenOLC: add_room: Added room 1323 at index #77.
+Sep  3 20:41:37 :: room_htree sync fix: 1323: 65535 -> 77
+Sep  3 20:41:37 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:37 :: GenOLC: add_room: Added room 1324 at index #78.
+Sep  3 20:41:37 :: room_htree sync fix: 1324: 65535 -> 78
+Sep  3 20:41:37 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:38 :: GenOLC: add_room: Added room 1325 at index #79.
+Sep  3 20:41:38 :: room_htree sync fix: 1325: 65535 -> 79
+Sep  3 20:41:38 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:41 :: GenOLC: add_room: Added room 1326 at index #80.
+Sep  3 20:41:41 :: room_htree sync fix: 1326: 65535 -> 80
+Sep  3 20:41:41 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:50 :: GenOLC: add_room: Added room 1327 at index #81.
+Sep  3 20:41:50 :: room_htree sync fix: 1327: 65535 -> 81
+Sep  3 20:41:50 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:53 :: GenOLC: add_room: Added room 1328 at index #82.
+Sep  3 20:41:53 :: room_htree sync fix: 1328: 65535 -> 82
+Sep  3 20:41:53 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:56 :: GenOLC: add_room: Added room 1329 at index #83.
+Sep  3 20:41:56 :: room_htree sync fix: 1329: 65535 -> 83
+Sep  3 20:41:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:56 :: GenOLC: add_room: Added room 1330 at index #84.
+Sep  3 20:41:56 :: room_htree sync fix: 1330: 65535 -> 84
+Sep  3 20:41:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:56 :: GenOLC: add_room: Added room 1331 at index #85.
+Sep  3 20:41:56 :: room_htree sync fix: 1331: 65535 -> 85
+Sep  3 20:41:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:58 :: GenOLC: add_room: Added room 1332 at index #86.
+Sep  3 20:41:58 :: room_htree sync fix: 1332: 65535 -> 86
+Sep  3 20:41:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:58 :: GenOLC: add_room: Added room 1333 at index #87.
+Sep  3 20:41:58 :: room_htree sync fix: 1333: 65535 -> 87
+Sep  3 20:41:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:59 :: GenOLC: add_room: Added room 1334 at index #88.
+Sep  3 20:41:59 :: room_htree sync fix: 1334: 65535 -> 88
+Sep  3 20:41:59 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:59 :: GenOLC: add_room: Added room 1335 at index #89.
+Sep  3 20:41:59 :: room_htree sync fix: 1335: 65535 -> 89
+Sep  3 20:41:59 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:41:59 :: GenOLC: add_room: Added room 1336 at index #90.
+Sep  3 20:41:59 :: room_htree sync fix: 1336: 65535 -> 90
+Sep  3 20:41:59 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:00 :: GenOLC: add_room: Added room 1337 at index #91.
+Sep  3 20:42:00 :: room_htree sync fix: 1337: 65535 -> 91
+Sep  3 20:42:00 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:00 :: GenOLC: add_room: Added room 1338 at index #92.
+Sep  3 20:42:00 :: room_htree sync fix: 1338: 65535 -> 92
+Sep  3 20:42:00 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:01 :: GenOLC: add_room: Added room 1339 at index #93.
+Sep  3 20:42:01 :: room_htree sync fix: 1339: 65535 -> 93
+Sep  3 20:42:01 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:02 :: GenOLC: add_room: Added room 1340 at index #94.
+Sep  3 20:42:02 :: room_htree sync fix: 1340: 65535 -> 94
+Sep  3 20:42:02 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:07 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:42:23 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:42:28 :: GenOLC: add_room: Added room 1341 at index #95.
+Sep  3 20:42:28 :: room_htree sync fix: 1341: 65535 -> 95
+Sep  3 20:42:28 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:38 :: GenOLC: add_room: Added room 1342 at index #96.
+Sep  3 20:42:38 :: room_htree sync fix: 1342: 65535 -> 96
+Sep  3 20:42:38 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:38 :: GenOLC: add_room: Added room 1343 at index #97.
+Sep  3 20:42:38 :: room_htree sync fix: 1343: 65535 -> 97
+Sep  3 20:42:38 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:39 :: GenOLC: add_room: Added room 1344 at index #98.
+Sep  3 20:42:39 :: room_htree sync fix: 1344: 65535 -> 98
+Sep  3 20:42:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:39 :: GenOLC: add_room: Added room 1345 at index #99.
+Sep  3 20:42:39 :: room_htree sync fix: 1345: 65535 -> 99
+Sep  3 20:42:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:39 :: GenOLC: add_room: Added room 1346 at index #100.
+Sep  3 20:42:39 :: room_htree sync fix: 1346: 65535 -> 100
+Sep  3 20:42:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:39 :: GenOLC: add_room: Added room 1347 at index #101.
+Sep  3 20:42:39 :: room_htree sync fix: 1347: 65535 -> 101
+Sep  3 20:42:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:40 :: GenOLC: add_room: Added room 1348 at index #102.
+Sep  3 20:42:40 :: room_htree sync fix: 1348: 65535 -> 102
+Sep  3 20:42:40 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:40 :: GenOLC: add_room: Added room 1349 at index #103.
+Sep  3 20:42:40 :: room_htree sync fix: 1349: 65535 -> 103
+Sep  3 20:42:40 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:41 :: GenOLC: add_room: Added room 1350 at index #104.
+Sep  3 20:42:41 :: room_htree sync fix: 1350: 65535 -> 104
+Sep  3 20:42:41 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:42 :: GenOLC: add_room: Added room 1351 at index #105.
+Sep  3 20:42:42 :: room_htree sync fix: 1351: 65535 -> 105
+Sep  3 20:42:42 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:44 :: GenOLC: add_room: Added room 1352 at index #106.
+Sep  3 20:42:44 :: room_htree sync fix: 1352: 65535 -> 106
+Sep  3 20:42:44 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:45 :: GenOLC: add_room: Added room 1353 at index #107.
+Sep  3 20:42:45 :: room_htree sync fix: 1353: 65535 -> 107
+Sep  3 20:42:45 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:48 :: GenOLC: add_room: Added room 1354 at index #108.
+Sep  3 20:42:48 :: room_htree sync fix: 1354: 65535 -> 108
+Sep  3 20:42:48 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:53 :: GenOLC: add_room: Added room 1355 at index #109.
+Sep  3 20:42:53 :: room_htree sync fix: 1355: 65535 -> 109
+Sep  3 20:42:53 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:53 :: GenOLC: add_room: Added room 1356 at index #110.
+Sep  3 20:42:53 :: room_htree sync fix: 1356: 65535 -> 110
+Sep  3 20:42:53 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:54 :: GenOLC: add_room: Added room 1357 at index #111.
+Sep  3 20:42:54 :: room_htree sync fix: 1357: 65535 -> 111
+Sep  3 20:42:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:54 :: GenOLC: add_room: Added room 1358 at index #112.
+Sep  3 20:42:54 :: room_htree sync fix: 1358: 65535 -> 112
+Sep  3 20:42:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:54 :: GenOLC: add_room: Added room 1359 at index #113.
+Sep  3 20:42:54 :: room_htree sync fix: 1359: 65535 -> 113
+Sep  3 20:42:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:54 :: GenOLC: add_room: Added room 1360 at index #114.
+Sep  3 20:42:54 :: room_htree sync fix: 1360: 65535 -> 114
+Sep  3 20:42:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:55 :: GenOLC: add_room: Added room 1361 at index #115.
+Sep  3 20:42:55 :: room_htree sync fix: 1361: 65535 -> 115
+Sep  3 20:42:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:55 :: GenOLC: add_room: Added room 1362 at index #116.
+Sep  3 20:42:55 :: room_htree sync fix: 1362: 65535 -> 116
+Sep  3 20:42:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:55 :: GenOLC: add_room: Added room 1363 at index #117.
+Sep  3 20:42:55 :: room_htree sync fix: 1363: 65535 -> 117
+Sep  3 20:42:55 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:56 :: GenOLC: add_room: Added room 1364 at index #118.
+Sep  3 20:42:56 :: room_htree sync fix: 1364: 65535 -> 118
+Sep  3 20:42:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:56 :: GenOLC: add_room: Added room 1365 at index #119.
+Sep  3 20:42:56 :: room_htree sync fix: 1365: 65535 -> 119
+Sep  3 20:42:56 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:42:58 :: GenOLC: add_room: Added room 1366 at index #120.
+Sep  3 20:42:58 :: room_htree sync fix: 1366: 65535 -> 120
+Sep  3 20:42:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:43:00 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:44:07 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:44:10 :: GenOLC: add_room: Added room 1367 at index #121.
+Sep  3 20:44:10 :: room_htree sync fix: 1367: 65535 -> 121
+Sep  3 20:44:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:10 :: GenOLC: add_room: Added room 1368 at index #122.
+Sep  3 20:44:10 :: room_htree sync fix: 1368: 65535 -> 122
+Sep  3 20:44:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:11 :: GenOLC: add_room: Added room 1369 at index #123.
+Sep  3 20:44:11 :: room_htree sync fix: 1369: 65535 -> 123
+Sep  3 20:44:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:11 :: GenOLC: add_room: Added room 1370 at index #124.
+Sep  3 20:44:11 :: room_htree sync fix: 1370: 65535 -> 124
+Sep  3 20:44:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:11 :: GenOLC: add_room: Added room 1371 at index #125.
+Sep  3 20:44:11 :: room_htree sync fix: 1371: 65535 -> 125
+Sep  3 20:44:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:11 :: GenOLC: add_room: Added room 1372 at index #126.
+Sep  3 20:44:11 :: room_htree sync fix: 1372: 65535 -> 126
+Sep  3 20:44:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:13 :: GenOLC: add_room: Added room 1373 at index #127.
+Sep  3 20:44:13 :: room_htree sync fix: 1373: 65535 -> 127
+Sep  3 20:44:13 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:13 :: GenOLC: add_room: Added room 1374 at index #128.
+Sep  3 20:44:13 :: room_htree sync fix: 1374: 65535 -> 128
+Sep  3 20:44:13 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:14 :: GenOLC: add_room: Added room 1375 at index #129.
+Sep  3 20:44:14 :: room_htree sync fix: 1375: 65535 -> 129
+Sep  3 20:44:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:14 :: GenOLC: add_room: Added room 1376 at index #130.
+Sep  3 20:44:14 :: room_htree sync fix: 1376: 65535 -> 130
+Sep  3 20:44:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:14 :: GenOLC: add_room: Added room 1377 at index #131.
+Sep  3 20:44:14 :: room_htree sync fix: 1377: 65535 -> 131
+Sep  3 20:44:14 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:15 :: GenOLC: add_room: Added room 1378 at index #132.
+Sep  3 20:44:15 :: room_htree sync fix: 1378: 65535 -> 132
+Sep  3 20:44:15 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:15 :: GenOLC: add_room: Added room 1379 at index #133.
+Sep  3 20:44:15 :: room_htree sync fix: 1379: 65535 -> 133
+Sep  3 20:44:15 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:24 :: GenOLC: add_room: Added room 1380 at index #134.
+Sep  3 20:44:24 :: room_htree sync fix: 1380: 65535 -> 134
+Sep  3 20:44:24 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:27 :: GenOLC: add_room: Added room 1381 at index #135.
+Sep  3 20:44:27 :: room_htree sync fix: 1381: 65535 -> 135
+Sep  3 20:44:27 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:27 :: GenOLC: add_room: Added room 1382 at index #136.
+Sep  3 20:44:27 :: room_htree sync fix: 1382: 65535 -> 136
+Sep  3 20:44:27 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:27 :: GenOLC: add_room: Added room 1383 at index #137.
+Sep  3 20:44:27 :: room_htree sync fix: 1383: 65535 -> 137
+Sep  3 20:44:27 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:27 :: GenOLC: add_room: Added room 1384 at index #138.
+Sep  3 20:44:27 :: room_htree sync fix: 1384: 65535 -> 138
+Sep  3 20:44:27 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:29 :: GenOLC: add_room: Added room 1385 at index #139.
+Sep  3 20:44:29 :: room_htree sync fix: 1385: 65535 -> 139
+Sep  3 20:44:29 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:29 :: GenOLC: add_room: Added room 1386 at index #140.
+Sep  3 20:44:29 :: room_htree sync fix: 1386: 65535 -> 140
+Sep  3 20:44:29 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:30 :: GenOLC: add_room: Added room 1387 at index #141.
+Sep  3 20:44:30 :: room_htree sync fix: 1387: 65535 -> 141
+Sep  3 20:44:30 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:30 :: GenOLC: add_room: Added room 1388 at index #142.
+Sep  3 20:44:30 :: room_htree sync fix: 1388: 65535 -> 142
+Sep  3 20:44:30 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:31 :: GenOLC: add_room: Added room 1389 at index #143.
+Sep  3 20:44:31 :: room_htree sync fix: 1389: 65535 -> 143
+Sep  3 20:44:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:31 :: GenOLC: add_room: Added room 1390 at index #144.
+Sep  3 20:44:31 :: room_htree sync fix: 1390: 65535 -> 144
+Sep  3 20:44:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:31 :: GenOLC: add_room: Added room 1391 at index #145.
+Sep  3 20:44:31 :: room_htree sync fix: 1391: 65535 -> 145
+Sep  3 20:44:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:32 :: GenOLC: add_room: Added room 1392 at index #146.
+Sep  3 20:44:32 :: room_htree sync fix: 1392: 65535 -> 146
+Sep  3 20:44:32 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:44:38 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:45:16 :: GenOLC: add_room: Added room 1397 at index #147.
+Sep  3 20:45:16 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:16 :: room_htree sync fix: 1397: 65535 -> 147
+Sep  3 20:45:25 :: GenOLC: add_room: Added room 1396 at index #147.
+Sep  3 20:45:25 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:25 :: room_htree sync fix: 1396: 65535 -> 147
+Sep  3 20:45:30 :: GenOLC: add_room: Added room 1395 at index #147.
+Sep  3 20:45:30 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:30 :: room_htree sync fix: 1395: 65535 -> 147
+Sep  3 20:45:37 :: GenOLC: add_room: Added room 1394 at index #147.
+Sep  3 20:45:37 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:37 :: room_htree sync fix: 1394: 65535 -> 147
+Sep  3 20:45:47 :: GenOLC: add_room: Added room 1393 at index #147.
+Sep  3 20:45:47 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:47 :: room_htree sync fix: 1393: 65535 -> 147
+Sep  3 20:45:58 :: GenOLC: add_room: Added room 1398 at index #152.
+Sep  3 20:45:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:45:58 :: room_htree sync fix: 1398: 65535 -> 152
+Sep  3 20:46:03 :: GenOLC: add_room: Added room 1399 at index #153.
+Sep  3 20:46:03 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 20:46:03 :: room_htree sync fix: 1399: 65535 -> 153
+Sep  3 20:46:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 20:46:36 :: GenOLC: add_room: Added room 1401 at index #155.
+Sep  3 20:46:36 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:46:36 :: room_htree sync fix: 1401: 65535 -> 155
+Sep  3 20:46:49 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:46:55 :: GenOLC: add_room: Added room 1402 at index #156.
+Sep  3 20:46:55 :: room_htree sync fix: 1402: 65535 -> 156
+Sep  3 20:46:55 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:46:56 :: GenOLC: add_room: Added room 1403 at index #157.
+Sep  3 20:46:56 :: room_htree sync fix: 1403: 65535 -> 157
+Sep  3 20:46:56 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:03 :: GenOLC: add_room: Added room 1404 at index #158.
+Sep  3 20:47:03 :: room_htree sync fix: 1404: 65535 -> 158
+Sep  3 20:47:03 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:03 :: GenOLC: add_room: Added room 1405 at index #159.
+Sep  3 20:47:03 :: room_htree sync fix: 1405: 65535 -> 159
+Sep  3 20:47:03 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:04 :: GenOLC: add_room: Added room 1406 at index #160.
+Sep  3 20:47:04 :: room_htree sync fix: 1406: 65535 -> 160
+Sep  3 20:47:04 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:04 :: GenOLC: add_room: Added room 1407 at index #161.
+Sep  3 20:47:04 :: room_htree sync fix: 1407: 65535 -> 161
+Sep  3 20:47:04 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:04 :: GenOLC: add_room: Added room 1408 at index #162.
+Sep  3 20:47:04 :: room_htree sync fix: 1408: 65535 -> 162
+Sep  3 20:47:04 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:05 :: GenOLC: add_room: Added room 1409 at index #163.
+Sep  3 20:47:05 :: room_htree sync fix: 1409: 65535 -> 163
+Sep  3 20:47:05 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:05 :: GenOLC: add_room: Added room 1410 at index #164.
+Sep  3 20:47:05 :: room_htree sync fix: 1410: 65535 -> 164
+Sep  3 20:47:05 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:05 :: GenOLC: add_room: Added room 1411 at index #165.
+Sep  3 20:47:05 :: room_htree sync fix: 1411: 65535 -> 165
+Sep  3 20:47:05 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:09 :: GenOLC: add_room: Added room 1412 at index #166.
+Sep  3 20:47:09 :: room_htree sync fix: 1412: 65535 -> 166
+Sep  3 20:47:09 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:12 :: GenOLC: add_room: Added room 1413 at index #167.
+Sep  3 20:47:12 :: room_htree sync fix: 1413: 65535 -> 167
+Sep  3 20:47:12 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:12 :: GenOLC: add_room: Added room 1414 at index #168.
+Sep  3 20:47:12 :: room_htree sync fix: 1414: 65535 -> 168
+Sep  3 20:47:12 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:13 :: GenOLC: add_room: Added room 1415 at index #169.
+Sep  3 20:47:13 :: room_htree sync fix: 1415: 65535 -> 169
+Sep  3 20:47:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:13 :: GenOLC: add_room: Added room 1416 at index #170.
+Sep  3 20:47:13 :: room_htree sync fix: 1416: 65535 -> 170
+Sep  3 20:47:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:16 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:47:38 :: GenOLC: add_room: Added room 1417 at index #171.
+Sep  3 20:47:38 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:38 :: room_htree sync fix: 1417: 65535 -> 171
+Sep  3 20:47:43 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:47:46 :: GenOLC: add_room: Added room 1418 at index #172.
+Sep  3 20:47:46 :: room_htree sync fix: 1418: 65535 -> 172
+Sep  3 20:47:46 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:46 :: GenOLC: add_room: Added room 1419 at index #173.
+Sep  3 20:47:46 :: room_htree sync fix: 1419: 65535 -> 173
+Sep  3 20:47:46 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:47 :: GenOLC: add_room: Added room 1420 at index #174.
+Sep  3 20:47:47 :: room_htree sync fix: 1420: 65535 -> 174
+Sep  3 20:47:47 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:48 :: GenOLC: add_room: Added room 1421 at index #175.
+Sep  3 20:47:48 :: room_htree sync fix: 1421: 65535 -> 175
+Sep  3 20:47:48 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:53 :: GenOLC: add_room: Added room 1422 at index #176.
+Sep  3 20:47:53 :: room_htree sync fix: 1422: 65535 -> 176
+Sep  3 20:47:53 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:54 :: GenOLC: add_room: Added room 1423 at index #177.
+Sep  3 20:47:54 :: room_htree sync fix: 1423: 65535 -> 177
+Sep  3 20:47:54 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:54 :: GenOLC: add_room: Added room 1424 at index #178.
+Sep  3 20:47:54 :: room_htree sync fix: 1424: 65535 -> 178
+Sep  3 20:47:54 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:54 :: GenOLC: add_room: Added room 1425 at index #179.
+Sep  3 20:47:54 :: room_htree sync fix: 1425: 65535 -> 179
+Sep  3 20:47:54 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:54 :: GenOLC: add_room: Added room 1426 at index #180.
+Sep  3 20:47:54 :: room_htree sync fix: 1426: 65535 -> 180
+Sep  3 20:47:54 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:55 :: GenOLC: add_room: Added room 1427 at index #181.
+Sep  3 20:47:55 :: room_htree sync fix: 1427: 65535 -> 181
+Sep  3 20:47:55 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:55 :: GenOLC: add_room: Added room 1428 at index #182.
+Sep  3 20:47:55 :: room_htree sync fix: 1428: 65535 -> 182
+Sep  3 20:47:55 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:47:56 :: GenOLC: add_room: Added room 1429 at index #183.
+Sep  3 20:47:56 :: room_htree sync fix: 1429: 65535 -> 183
+Sep  3 20:47:56 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:05 :: GenOLC: add_room: Added room 1430 at index #184.
+Sep  3 20:48:05 :: room_htree sync fix: 1430: 65535 -> 184
+Sep  3 20:48:05 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:13 :: GenOLC: add_room: Added room 1431 at index #185.
+Sep  3 20:48:13 :: room_htree sync fix: 1431: 65535 -> 185
+Sep  3 20:48:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:13 :: GenOLC: add_room: Added room 1432 at index #186.
+Sep  3 20:48:13 :: room_htree sync fix: 1432: 65535 -> 186
+Sep  3 20:48:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:14 :: GenOLC: add_room: Added room 1433 at index #187.
+Sep  3 20:48:14 :: room_htree sync fix: 1433: 65535 -> 187
+Sep  3 20:48:14 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:14 :: GenOLC: add_room: Added room 1434 at index #188.
+Sep  3 20:48:14 :: room_htree sync fix: 1434: 65535 -> 188
+Sep  3 20:48:14 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:14 :: GenOLC: add_room: Added room 1435 at index #189.
+Sep  3 20:48:14 :: room_htree sync fix: 1435: 65535 -> 189
+Sep  3 20:48:14 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:15 :: GenOLC: add_room: Added room 1436 at index #190.
+Sep  3 20:48:15 :: room_htree sync fix: 1436: 65535 -> 190
+Sep  3 20:48:15 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:15 :: GenOLC: add_room: Added room 1437 at index #191.
+Sep  3 20:48:15 :: room_htree sync fix: 1437: 65535 -> 191
+Sep  3 20:48:15 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:15 :: GenOLC: add_room: Added room 1438 at index #192.
+Sep  3 20:48:15 :: room_htree sync fix: 1438: 65535 -> 192
+Sep  3 20:48:15 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:16 :: GenOLC: add_room: Added room 1439 at index #193.
+Sep  3 20:48:16 :: room_htree sync fix: 1439: 65535 -> 193
+Sep  3 20:48:16 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:16 :: GenOLC: add_room: Added room 1440 at index #194.
+Sep  3 20:48:16 :: room_htree sync fix: 1440: 65535 -> 194
+Sep  3 20:48:16 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:19 :: GenOLC: add_room: Added room 1441 at index #195.
+Sep  3 20:48:19 :: room_htree sync fix: 1441: 65535 -> 195
+Sep  3 20:48:19 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:23 :: GenOLC: add_room: Added room 1442 at index #196.
+Sep  3 20:48:23 :: room_htree sync fix: 1442: 65535 -> 196
+Sep  3 20:48:23 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:24 :: GenOLC: add_room: Added room 1443 at index #197.
+Sep  3 20:48:24 :: room_htree sync fix: 1443: 65535 -> 197
+Sep  3 20:48:24 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:24 :: GenOLC: add_room: Added room 1444 at index #198.
+Sep  3 20:48:24 :: room_htree sync fix: 1444: 65535 -> 198
+Sep  3 20:48:24 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:24 :: GenOLC: add_room: Added room 1445 at index #199.
+Sep  3 20:48:24 :: room_htree sync fix: 1445: 65535 -> 199
+Sep  3 20:48:24 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:25 :: GenOLC: add_room: Added room 1446 at index #200.
+Sep  3 20:48:25 :: room_htree sync fix: 1446: 65535 -> 200
+Sep  3 20:48:25 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:25 :: GenOLC: add_room: Added room 1447 at index #201.
+Sep  3 20:48:25 :: room_htree sync fix: 1447: 65535 -> 201
+Sep  3 20:48:25 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:26 :: GenOLC: add_room: Added room 1448 at index #202.
+Sep  3 20:48:26 :: room_htree sync fix: 1448: 65535 -> 202
+Sep  3 20:48:26 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:27 :: GenOLC: add_room: Added room 1449 at index #203.
+Sep  3 20:48:27 :: room_htree sync fix: 1449: 65535 -> 203
+Sep  3 20:48:27 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:29 :: GenOLC: add_room: Added room 1450 at index #204.
+Sep  3 20:48:29 :: room_htree sync fix: 1450: 65535 -> 204
+Sep  3 20:48:29 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:32 :: GenOLC: add_room: Added room 1451 at index #205.
+Sep  3 20:48:32 :: room_htree sync fix: 1451: 65535 -> 205
+Sep  3 20:48:32 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:33 :: GenOLC: add_room: Added room 1452 at index #206.
+Sep  3 20:48:33 :: room_htree sync fix: 1452: 65535 -> 206
+Sep  3 20:48:33 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:33 :: GenOLC: add_room: Added room 1453 at index #207.
+Sep  3 20:48:33 :: room_htree sync fix: 1453: 65535 -> 207
+Sep  3 20:48:33 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:34 :: GenOLC: add_room: Added room 1454 at index #208.
+Sep  3 20:48:34 :: room_htree sync fix: 1454: 65535 -> 208
+Sep  3 20:48:34 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:48:37 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:49:09 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:49:19 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:49:26 :: GenOLC: add_room: Added room 1455 at index #209.
+Sep  3 20:49:26 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:26 :: room_htree sync fix: 1455: 65535 -> 209
+Sep  3 20:49:38 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:49:43 :: GenOLC: add_room: Added room 1456 at index #210.
+Sep  3 20:49:43 :: room_htree sync fix: 1456: 65535 -> 210
+Sep  3 20:49:43 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:43 :: GenOLC: add_room: Added room 1457 at index #211.
+Sep  3 20:49:43 :: room_htree sync fix: 1457: 65535 -> 211
+Sep  3 20:49:43 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:43 :: GenOLC: add_room: Added room 1458 at index #212.
+Sep  3 20:49:43 :: room_htree sync fix: 1458: 65535 -> 212
+Sep  3 20:49:43 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:44 :: GenOLC: add_room: Added room 1459 at index #213.
+Sep  3 20:49:44 :: room_htree sync fix: 1459: 65535 -> 213
+Sep  3 20:49:44 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:47 :: GenOLC: add_room: Added room 1460 at index #214.
+Sep  3 20:49:47 :: room_htree sync fix: 1460: 65535 -> 214
+Sep  3 20:49:47 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:48 :: GenOLC: add_room: Added room 1461 at index #215.
+Sep  3 20:49:48 :: room_htree sync fix: 1461: 65535 -> 215
+Sep  3 20:49:48 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:48 :: GenOLC: add_room: Added room 1462 at index #216.
+Sep  3 20:49:48 :: room_htree sync fix: 1462: 65535 -> 216
+Sep  3 20:49:48 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:48 :: GenOLC: add_room: Added room 1463 at index #217.
+Sep  3 20:49:48 :: room_htree sync fix: 1463: 65535 -> 217
+Sep  3 20:49:48 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:50 :: GenOLC: add_room: Added room 1464 at index #218.
+Sep  3 20:49:50 :: room_htree sync fix: 1464: 65535 -> 218
+Sep  3 20:49:50 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:51 :: GenOLC: add_room: Added room 1465 at index #219.
+Sep  3 20:49:51 :: room_htree sync fix: 1465: 65535 -> 219
+Sep  3 20:49:51 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:51 :: GenOLC: add_room: Added room 1466 at index #220.
+Sep  3 20:49:51 :: room_htree sync fix: 1466: 65535 -> 220
+Sep  3 20:49:51 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:52 :: GenOLC: add_room: Added room 1467 at index #221.
+Sep  3 20:49:52 :: room_htree sync fix: 1467: 65535 -> 221
+Sep  3 20:49:52 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:49:55 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:51:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 20:51:31 :: GenOLC: add_room: Added room 1468 at index #222.
+Sep  3 20:51:31 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:31 :: room_htree sync fix: 1468: 65535 -> 222
+Sep  3 20:51:35 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:51:39 :: GenOLC: add_room: Added room 1469 at index #223.
+Sep  3 20:51:39 :: room_htree sync fix: 1469: 65535 -> 223
+Sep  3 20:51:39 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:39 :: GenOLC: add_room: Added room 1470 at index #224.
+Sep  3 20:51:39 :: room_htree sync fix: 1470: 65535 -> 224
+Sep  3 20:51:39 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:39 :: GenOLC: add_room: Added room 1471 at index #225.
+Sep  3 20:51:39 :: room_htree sync fix: 1471: 65535 -> 225
+Sep  3 20:51:39 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:40 :: GenOLC: add_room: Added room 1472 at index #226.
+Sep  3 20:51:40 :: room_htree sync fix: 1472: 65535 -> 226
+Sep  3 20:51:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:40 :: GenOLC: add_room: Added room 1473 at index #227.
+Sep  3 20:51:40 :: room_htree sync fix: 1473: 65535 -> 227
+Sep  3 20:51:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:40 :: GenOLC: add_room: Added room 1474 at index #228.
+Sep  3 20:51:40 :: room_htree sync fix: 1474: 65535 -> 228
+Sep  3 20:51:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:41 :: GenOLC: add_room: Added room 1475 at index #229.
+Sep  3 20:51:41 :: room_htree sync fix: 1475: 65535 -> 229
+Sep  3 20:51:41 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:41 :: GenOLC: add_room: Added room 1476 at index #230.
+Sep  3 20:51:41 :: room_htree sync fix: 1476: 65535 -> 230
+Sep  3 20:51:41 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:51:43 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:52:03 :: GenOLC: add_room: Added room 1477 at index #231.
+Sep  3 20:52:03 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:03 :: room_htree sync fix: 1477: 65535 -> 231
+Sep  3 20:52:08 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:52:12 :: GenOLC: add_room: Added room 1478 at index #232.
+Sep  3 20:52:12 :: room_htree sync fix: 1478: 65535 -> 232
+Sep  3 20:52:12 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:12 :: GenOLC: add_room: Added room 1479 at index #233.
+Sep  3 20:52:12 :: room_htree sync fix: 1479: 65535 -> 233
+Sep  3 20:52:12 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:12 :: GenOLC: add_room: Added room 1480 at index #234.
+Sep  3 20:52:12 :: room_htree sync fix: 1480: 65535 -> 234
+Sep  3 20:52:12 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:13 :: GenOLC: add_room: Added room 1481 at index #235.
+Sep  3 20:52:13 :: room_htree sync fix: 1481: 65535 -> 235
+Sep  3 20:52:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:13 :: GenOLC: add_room: Added room 1482 at index #236.
+Sep  3 20:52:13 :: room_htree sync fix: 1482: 65535 -> 236
+Sep  3 20:52:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:13 :: GenOLC: add_room: Added room 1483 at index #237.
+Sep  3 20:52:13 :: room_htree sync fix: 1483: 65535 -> 237
+Sep  3 20:52:13 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:14 :: GenOLC: add_room: Added room 1484 at index #238.
+Sep  3 20:52:14 :: room_htree sync fix: 1484: 65535 -> 238
+Sep  3 20:52:14 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:14 :: GenOLC: add_room: Added room 1485 at index #239.
+Sep  3 20:52:14 :: room_htree sync fix: 1485: 65535 -> 239
+Sep  3 20:52:14 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:16 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:52:29 :: GenOLC: add_room: Added room 1486 at index #240.
+Sep  3 20:52:29 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:29 :: room_htree sync fix: 1486: 65535 -> 240
+Sep  3 20:52:34 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:52:37 :: GenOLC: add_room: Added room 1487 at index #241.
+Sep  3 20:52:37 :: room_htree sync fix: 1487: 65535 -> 241
+Sep  3 20:52:37 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:39 :: GenOLC: add_room: Added room 1488 at index #242.
+Sep  3 20:52:39 :: room_htree sync fix: 1488: 65535 -> 242
+Sep  3 20:52:39 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:40 :: GenOLC: add_room: Added room 1489 at index #243.
+Sep  3 20:52:40 :: room_htree sync fix: 1489: 65535 -> 243
+Sep  3 20:52:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:40 :: GenOLC: add_room: Added room 1490 at index #244.
+Sep  3 20:52:40 :: room_htree sync fix: 1490: 65535 -> 244
+Sep  3 20:52:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:40 :: GenOLC: add_room: Added room 1491 at index #245.
+Sep  3 20:52:40 :: room_htree sync fix: 1491: 65535 -> 245
+Sep  3 20:52:40 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:41 :: GenOLC: add_room: Added room 1492 at index #246.
+Sep  3 20:52:41 :: room_htree sync fix: 1492: 65535 -> 246
+Sep  3 20:52:41 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:42 :: GenOLC: add_room: Added room 1493 at index #247.
+Sep  3 20:52:42 :: room_htree sync fix: 1493: 65535 -> 247
+Sep  3 20:52:42 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:42 :: GenOLC: add_room: Added room 1494 at index #248.
+Sep  3 20:52:42 :: room_htree sync fix: 1494: 65535 -> 248
+Sep  3 20:52:42 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:52:45 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:53:20 :: GenOLC: add_room: Added room 1495 at index #249.
+Sep  3 20:53:20 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:53:20 :: room_htree sync fix: 1495: 65535 -> 249
+Sep  3 20:53:24 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:53:27 :: GenOLC: add_room: Added room 1496 at index #250.
+Sep  3 20:53:27 :: room_htree sync fix: 1496: 65535 -> 250
+Sep  3 20:53:27 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:53:28 :: GenOLC: add_room: Added room 1497 at index #251.
+Sep  3 20:53:28 :: room_htree sync fix: 1497: 65535 -> 251
+Sep  3 20:53:28 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:53:28 :: GenOLC: add_room: Added room 1498 at index #252.
+Sep  3 20:53:28 :: room_htree sync fix: 1498: 65535 -> 252
+Sep  3 20:53:28 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:53:29 :: GenOLC: add_room: Added room 1499 at index #253.
+Sep  3 20:53:29 :: room_htree sync fix: 1499: 65535 -> 253
+Sep  3 20:53:29 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 20:53:33 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:53:39 :: GenOLC: add_room: Added room 1501 at index #255.
+Sep  3 20:53:39 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  3 20:53:39 :: room_htree sync fix: 1501: 65535 -> 255
+Sep  3 20:53:43 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  3 20:53:47 :: GenOLC: add_room: Added room 1502 at index #256.
+Sep  3 20:53:47 :: room_htree sync fix: 1502: 65535 -> 256
+Sep  3 20:53:47 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  3 20:53:48 :: GenOLC: add_room: Added room 1503 at index #257.
+Sep  3 20:53:48 :: room_htree sync fix: 1503: 65535 -> 257
+Sep  3 20:53:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  3 20:53:48 :: GenOLC: add_room: Added room 1504 at index #258.
+Sep  3 20:53:48 :: room_htree sync fix: 1504: 65535 -> 258
+Sep  3 20:53:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  3 20:53:52 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  3 20:56:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:01:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:01:49 :: OLC: Mishakal starts editing zone 14 allowed zone 65535
+Sep  3 21:02:00 :: GenOLC: add_room: Updated existing room #1446.
+Sep  3 21:02:00 :: OLC: Mishakal edits room 1446.
+Sep  3 21:02:00 :: GenOLC: save_rooms: Saving rooms in zone #14 (1400-1499).
+Sep  3 21:02:00 :: GenOLC: save_rooms: Saving rooms 'world/wld/14.wld'
+Sep  3 21:02:00 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 21:06:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:09:28 :: OLC: Mishakal saves room info for zone 15.
+Sep  3 21:09:28 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  3 21:09:28 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  3 21:09:31 :: OLC: Mishakal saves room info for zone 13.
+Sep  3 21:09:31 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep  3 21:09:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep  3 21:09:56 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:10:13 :: GenOLC: save_zone: Saving zone 'world/zon/13.zon'
+Sep  3 21:10:13 :: OLC: Mishakal edits zone info for room 1300.
+Sep  3 21:10:13 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:10:19 :: OLC: Mishakal starts editing zone 14 allowed zone 65535
+Sep  3 21:10:29 :: GenOLC: save_zone: Saving zone 'world/zon/14.zon'
+Sep  3 21:10:29 :: OLC: Mishakal edits zone info for room 1400.
+Sep  3 21:10:29 :: OLC: Mishakal stops editing zone 14 allowed zone 65535
+Sep  3 21:10:37 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep  3 21:10:48 :: GenOLC: save_zone: Saving zone 'world/zon/15.zon'
+Sep  3 21:10:48 :: OLC: Mishakal edits zone info for room 1500.
+Sep  3 21:10:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  3 21:11:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:12:30 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:12:57 :: GenOLC: delete_room: Deleting room #1215 (@wElorien's Tranquil Spot@n).
+Sep  3 21:12:57 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:13:09 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:13:39 :: GenOLC: add_room: Updated existing room #1210.
+Sep  3 21:13:39 :: OLC: Mishakal edits room 1210.
+Sep  3 21:13:39 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  3 21:13:39 :: room_htree sync fix: 1217: 36 -> 35
+Sep  3 21:13:39 :: room_htree sync fix: 1221: 37 -> 36
+Sep  3 21:13:39 :: room_htree sync fix: 1224: 38 -> 37
+Sep  3 21:13:39 :: room_htree sync fix: 1225: 39 -> 38
+Sep  3 21:13:39 :: room_htree sync fix: 1226: 40 -> 39
+Sep  3 21:13:39 :: room_htree sync fix: 1230: 41 -> 40
+Sep  3 21:13:39 :: room_htree sync fix: 1233: 42 -> 41
+Sep  3 21:13:39 :: room_htree sync fix: 1234: 43 -> 42
+Sep  3 21:13:39 :: room_htree sync fix: 1266: 44 -> 43
+Sep  3 21:13:39 :: room_htree sync fix: 1269: 45 -> 44
+Sep  3 21:13:39 :: room_htree sync fix: 1270: 46 -> 45
+Sep  3 21:13:39 :: room_htree sync fix: 1290: 47 -> 46
+Sep  3 21:13:39 :: room_htree sync fix: 1291: 48 -> 47
+Sep  3 21:13:39 :: room_htree sync fix: 1292: 49 -> 48
+Sep  3 21:13:39 :: room_htree sync fix: 1293: 50 -> 49
+Sep  3 21:13:39 :: room_htree sync fix: 1294: 51 -> 50
+Sep  3 21:13:39 :: room_htree sync fix: 1297: 52 -> 51
+Sep  3 21:13:39 :: room_htree sync fix: 1299: 53 -> 52
+Sep  3 21:13:39 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  3 21:13:39 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:13:55 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:13:55 :: GenOLC: delete_room: Deleting room #1217 (Garrison's Hippie Shack of Love).
+Sep  3 21:13:55 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: room_htree sync fix: 1221: 36 -> 35
+Sep  3 21:15:34 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: GenOLC: delete_room: Deleting room #1221 (Nivan's Bedchamber).
+Sep  3 21:15:34 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: room_htree sync fix: 1224: 37 -> 35
+Sep  3 21:15:34 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: GenOLC: delete_room: Deleting room #1224 (Hiruma's Floating Pentagram).
+Sep  3 21:15:34 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: room_htree sync fix: 1225: 38 -> 35
+Sep  3 21:15:34 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: GenOLC: delete_room: Deleting room #1225 (Floating in Orbit Within a Spacepod).
+Sep  3 21:15:34 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:34 :: room_htree sync fix: 1230: 40 -> 36
+Sep  3 21:15:34 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: GenOLC: delete_room: Deleting room #1230 (Ferret's Room).
+Sep  3 21:15:35 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: room_htree sync fix: 1233: 41 -> 36
+Sep  3 21:15:35 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: GenOLC: delete_room: Deleting room #1233 (Rumble's Room).
+Sep  3 21:15:35 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: room_htree sync fix: 1234: 42 -> 36
+Sep  3 21:15:35 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: GenOLC: delete_room: Deleting room #1234 (Pool of Images).
+Sep  3 21:15:35 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:35 :: room_htree sync fix: 1266: 43 -> 36
+Sep  3 21:15:35 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:36 :: GenOLC: delete_room: Deleting room #1266 (Gatia's Underground Study).
+Sep  3 21:15:36 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:36 :: room_htree sync fix: 1269: 44 -> 36
+Sep  3 21:15:36 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:36 :: GenOLC: delete_room: Deleting room #1269 (@RElaseth's Oubliette@n).
+Sep  3 21:15:36 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:36 :: room_htree sync fix: 1270: 45 -> 36
+Sep  3 21:15:36 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:36 :: GenOLC: delete_room: Deleting room #1270 (Inside Santa's Love Sponge).
+Sep  3 21:15:36 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:15:56 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:15:56 :: GenOLC: delete_room: Deleting room #1207 (@gForlorn Forest Clearing@n).
+Sep  3 21:15:56 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:16:10 :: room_htree sync fix: 1209: 31 -> 30
+Sep  3 21:16:10 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:16:11 :: GenOLC: delete_room: Deleting room #1209 (Taylor's Lounge).
+Sep  3 21:16:11 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:16:11 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:16:11 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:16:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:16:28 :: room_htree sync fix: 1208: 30 -> 29
+Sep  3 21:16:28 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:16:28 :: GenOLC: delete_room: Deleting room #1208 (Welcors ~~~ ~~~ furnace).
+Sep  3 21:16:28 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:16:34 :: room_htree sync fix: 1300: 54 -> 40
+Sep  3 21:16:34 :: room_htree sync fix: 1301: 55 -> 41
+Sep  3 21:16:34 :: room_htree sync fix: 1302: 56 -> 42
+Sep  3 21:16:34 :: room_htree sync fix: 1303: 57 -> 43
+Sep  3 21:16:34 :: room_htree sync fix: 1304: 58 -> 44
+Sep  3 21:16:34 :: room_htree sync fix: 1305: 59 -> 45
+Sep  3 21:16:34 :: room_htree sync fix: 1306: 60 -> 46
+Sep  3 21:16:34 :: room_htree sync fix: 1307: 61 -> 47
+Sep  3 21:16:34 :: room_htree sync fix: 1308: 62 -> 48
+Sep  3 21:16:34 :: room_htree sync fix: 1309: 63 -> 49
+Sep  3 21:16:34 :: room_htree sync fix: 1310: 64 -> 50
+Sep  3 21:16:34 :: room_htree sync fix: 1311: 65 -> 51
+Sep  3 21:16:34 :: room_htree sync fix: 1312: 66 -> 52
+Sep  3 21:16:34 :: room_htree sync fix: 1313: 67 -> 53
+Sep  3 21:16:34 :: room_htree sync fix: 1314: 68 -> 54
+Sep  3 21:16:34 :: room_htree sync fix: 1315: 69 -> 55
+Sep  3 21:16:34 :: room_htree sync fix: 1316: 70 -> 56
+Sep  3 21:16:34 :: room_htree sync fix: 1317: 71 -> 57
+Sep  3 21:16:34 :: room_htree sync fix: 1318: 72 -> 58
+Sep  3 21:16:34 :: room_htree sync fix: 1319: 73 -> 59
+Sep  3 21:16:34 :: room_htree sync fix: 1320: 74 -> 60
+Sep  3 21:16:34 :: room_htree sync fix: 1321: 75 -> 61
+Sep  3 21:16:34 :: room_htree sync fix: 1322: 76 -> 62
+Sep  3 21:16:34 :: room_htree sync fix: 1323: 77 -> 63
+Sep  3 21:16:34 :: room_htree sync fix: 1324: 78 -> 64
+Sep  3 21:16:34 :: room_htree sync fix: 1325: 79 -> 65
+Sep  3 21:16:34 :: room_htree sync fix: 1326: 80 -> 66
+Sep  3 21:16:34 :: room_htree sync fix: 1327: 81 -> 67
+Sep  3 21:16:34 :: room_htree sync fix: 1328: 82 -> 68
+Sep  3 21:16:34 :: room_htree sync fix: 1329: 83 -> 69
+Sep  3 21:16:34 :: room_htree sync fix: 1330: 84 -> 70
+Sep  3 21:16:34 :: room_htree sync fix: 1331: 85 -> 71
+Sep  3 21:16:34 :: room_htree sync fix: 1332: 86 -> 72
+Sep  3 21:16:34 :: room_htree sync fix: 1333: 87 -> 73
+Sep  3 21:16:34 :: room_htree sync fix: 1334: 88 -> 74
+Sep  3 21:16:34 :: room_htree sync fix: 1335: 89 -> 75
+Sep  3 21:16:34 :: room_htree sync fix: 1336: 90 -> 76
+Sep  3 21:16:34 :: room_htree sync fix: 1337: 91 -> 77
+Sep  3 21:16:34 :: room_htree sync fix: 1338: 92 -> 78
+Sep  3 21:16:34 :: room_htree sync fix: 1339: 93 -> 79
+Sep  3 21:16:34 :: room_htree sync fix: 1340: 94 -> 80
+Sep  3 21:16:34 :: room_htree sync fix: 1341: 95 -> 81
+Sep  3 21:16:34 :: room_htree sync fix: 1342: 96 -> 82
+Sep  3 21:16:34 :: room_htree sync fix: 1343: 97 -> 83
+Sep  3 21:16:34 :: room_htree sync fix: 1344: 98 -> 84
+Sep  3 21:16:34 :: room_htree sync fix: 1345: 99 -> 85
+Sep  3 21:16:34 :: room_htree sync fix: 1346: 100 -> 86
+Sep  3 21:16:34 :: room_htree sync fix: 1347: 101 -> 87
+Sep  3 21:16:34 :: room_htree sync fix: 1348: 102 -> 88
+Sep  3 21:16:34 :: room_htree sync fix: 1349: 103 -> 89
+Sep  3 21:16:34 :: room_htree sync fix: 1350: 104 -> 90
+Sep  3 21:16:34 :: room_htree sync fix: 1351: 105 -> 91
+Sep  3 21:16:34 :: room_htree sync fix: 1352: 106 -> 92
+Sep  3 21:16:34 :: room_htree sync fix: 1353: 107 -> 93
+Sep  3 21:16:34 :: room_htree sync fix: 1354: 108 -> 94
+Sep  3 21:16:34 :: room_htree sync fix: 1355: 109 -> 95
+Sep  3 21:16:34 :: room_htree sync fix: 1356: 110 -> 96
+Sep  3 21:16:34 :: room_htree sync fix: 1357: 111 -> 97
+Sep  3 21:16:34 :: room_htree sync fix: 1358: 112 -> 98
+Sep  3 21:16:34 :: room_htree sync fix: 1359: 113 -> 99
+Sep  3 21:16:34 :: room_htree sync fix: 1360: 114 -> 100
+Sep  3 21:16:34 :: room_htree sync fix: 1361: 115 -> 101
+Sep  3 21:16:34 :: room_htree sync fix: 1362: 116 -> 102
+Sep  3 21:16:34 :: room_htree sync fix: 1363: 117 -> 103
+Sep  3 21:16:34 :: room_htree sync fix: 1364: 118 -> 104
+Sep  3 21:16:34 :: room_htree sync fix: 1365: 119 -> 105
+Sep  3 21:16:34 :: room_htree sync fix: 1366: 120 -> 106
+Sep  3 21:16:34 :: room_htree sync fix: 1367: 121 -> 107
+Sep  3 21:16:34 :: room_htree sync fix: 1368: 122 -> 108
+Sep  3 21:16:34 :: room_htree sync fix: 1369: 123 -> 109
+Sep  3 21:16:34 :: room_htree sync fix: 1370: 124 -> 110
+Sep  3 21:16:34 :: room_htree sync fix: 1371: 125 -> 111
+Sep  3 21:16:34 :: room_htree sync fix: 1372: 126 -> 112
+Sep  3 21:16:34 :: room_htree sync fix: 1373: 127 -> 113
+Sep  3 21:16:34 :: room_htree sync fix: 1374: 128 -> 114
+Sep  3 21:16:34 :: room_htree sync fix: 1375: 129 -> 115
+Sep  3 21:16:34 :: room_htree sync fix: 1376: 130 -> 116
+Sep  3 21:16:34 :: room_htree sync fix: 1377: 131 -> 117
+Sep  3 21:16:34 :: room_htree sync fix: 1378: 132 -> 118
+Sep  3 21:16:34 :: room_htree sync fix: 1379: 133 -> 119
+Sep  3 21:16:34 :: room_htree sync fix: 1380: 134 -> 120
+Sep  3 21:16:34 :: room_htree sync fix: 1381: 135 -> 121
+Sep  3 21:16:34 :: room_htree sync fix: 1382: 136 -> 122
+Sep  3 21:16:34 :: room_htree sync fix: 1383: 137 -> 123
+Sep  3 21:16:34 :: room_htree sync fix: 1384: 138 -> 124
+Sep  3 21:16:34 :: room_htree sync fix: 1385: 139 -> 125
+Sep  3 21:16:34 :: room_htree sync fix: 1386: 140 -> 126
+Sep  3 21:16:34 :: room_htree sync fix: 1387: 141 -> 127
+Sep  3 21:16:34 :: room_htree sync fix: 1388: 142 -> 128
+Sep  3 21:16:34 :: room_htree sync fix: 1389: 143 -> 129
+Sep  3 21:16:34 :: room_htree sync fix: 1390: 144 -> 130
+Sep  3 21:16:34 :: room_htree sync fix: 1391: 145 -> 131
+Sep  3 21:16:34 :: room_htree sync fix: 1392: 146 -> 132
+Sep  3 21:16:34 :: room_htree sync fix: 1393: 147 -> 133
+Sep  3 21:16:34 :: room_htree sync fix: 1394: 148 -> 134
+Sep  3 21:16:34 :: room_htree sync fix: 1395: 149 -> 135
+Sep  3 21:16:34 :: room_htree sync fix: 1396: 150 -> 136
+Sep  3 21:16:34 :: room_htree sync fix: 1397: 151 -> 137
+Sep  3 21:16:34 :: room_htree sync fix: 1398: 152 -> 138
+Sep  3 21:16:34 :: room_htree sync fix: 1399: 153 -> 139
+Sep  3 21:16:44 :: room_htree sync fix: 1400: 154 -> 140
+Sep  3 21:16:44 :: room_htree sync fix: 1401: 155 -> 141
+Sep  3 21:16:44 :: room_htree sync fix: 1402: 156 -> 142
+Sep  3 21:16:44 :: room_htree sync fix: 1403: 157 -> 143
+Sep  3 21:16:44 :: room_htree sync fix: 1404: 158 -> 144
+Sep  3 21:16:44 :: room_htree sync fix: 1405: 159 -> 145
+Sep  3 21:16:44 :: room_htree sync fix: 1406: 160 -> 146
+Sep  3 21:16:44 :: room_htree sync fix: 1407: 161 -> 147
+Sep  3 21:16:44 :: room_htree sync fix: 1408: 162 -> 148
+Sep  3 21:16:44 :: room_htree sync fix: 1409: 163 -> 149
+Sep  3 21:16:44 :: room_htree sync fix: 1410: 164 -> 150
+Sep  3 21:16:44 :: room_htree sync fix: 1411: 165 -> 151
+Sep  3 21:16:44 :: room_htree sync fix: 1412: 166 -> 152
+Sep  3 21:16:44 :: room_htree sync fix: 1413: 167 -> 153
+Sep  3 21:16:44 :: room_htree sync fix: 1414: 168 -> 154
+Sep  3 21:16:44 :: room_htree sync fix: 1415: 169 -> 155
+Sep  3 21:16:44 :: room_htree sync fix: 1416: 170 -> 156
+Sep  3 21:16:44 :: room_htree sync fix: 1417: 171 -> 157
+Sep  3 21:16:44 :: room_htree sync fix: 1418: 172 -> 158
+Sep  3 21:16:44 :: room_htree sync fix: 1419: 173 -> 159
+Sep  3 21:16:44 :: room_htree sync fix: 1420: 174 -> 160
+Sep  3 21:16:44 :: room_htree sync fix: 1421: 175 -> 161
+Sep  3 21:16:44 :: room_htree sync fix: 1422: 176 -> 162
+Sep  3 21:16:44 :: room_htree sync fix: 1423: 177 -> 163
+Sep  3 21:16:44 :: room_htree sync fix: 1424: 178 -> 164
+Sep  3 21:16:44 :: room_htree sync fix: 1425: 179 -> 165
+Sep  3 21:16:44 :: room_htree sync fix: 1426: 180 -> 166
+Sep  3 21:16:44 :: room_htree sync fix: 1427: 181 -> 167
+Sep  3 21:16:44 :: room_htree sync fix: 1428: 182 -> 168
+Sep  3 21:16:44 :: room_htree sync fix: 1429: 183 -> 169
+Sep  3 21:16:44 :: room_htree sync fix: 1430: 184 -> 170
+Sep  3 21:16:44 :: room_htree sync fix: 1431: 185 -> 171
+Sep  3 21:16:44 :: room_htree sync fix: 1432: 186 -> 172
+Sep  3 21:16:44 :: room_htree sync fix: 1433: 187 -> 173
+Sep  3 21:16:44 :: room_htree sync fix: 1434: 188 -> 174
+Sep  3 21:16:44 :: room_htree sync fix: 1435: 189 -> 175
+Sep  3 21:16:44 :: room_htree sync fix: 1436: 190 -> 176
+Sep  3 21:16:44 :: room_htree sync fix: 1437: 191 -> 177
+Sep  3 21:16:44 :: room_htree sync fix: 1438: 192 -> 178
+Sep  3 21:16:44 :: room_htree sync fix: 1439: 193 -> 179
+Sep  3 21:16:44 :: room_htree sync fix: 1440: 194 -> 180
+Sep  3 21:16:44 :: room_htree sync fix: 1441: 195 -> 181
+Sep  3 21:16:44 :: room_htree sync fix: 1442: 196 -> 182
+Sep  3 21:16:44 :: room_htree sync fix: 1443: 197 -> 183
+Sep  3 21:16:44 :: room_htree sync fix: 1444: 198 -> 184
+Sep  3 21:16:44 :: room_htree sync fix: 1445: 199 -> 185
+Sep  3 21:16:44 :: room_htree sync fix: 1446: 200 -> 186
+Sep  3 21:16:44 :: room_htree sync fix: 1447: 201 -> 187
+Sep  3 21:16:44 :: room_htree sync fix: 1448: 202 -> 188
+Sep  3 21:16:44 :: room_htree sync fix: 1449: 203 -> 189
+Sep  3 21:16:44 :: room_htree sync fix: 1450: 204 -> 190
+Sep  3 21:16:44 :: room_htree sync fix: 1451: 205 -> 191
+Sep  3 21:16:44 :: room_htree sync fix: 1452: 206 -> 192
+Sep  3 21:16:44 :: room_htree sync fix: 1453: 207 -> 193
+Sep  3 21:16:44 :: room_htree sync fix: 1454: 208 -> 194
+Sep  3 21:16:44 :: room_htree sync fix: 1455: 209 -> 195
+Sep  3 21:16:44 :: room_htree sync fix: 1456: 210 -> 196
+Sep  3 21:16:44 :: room_htree sync fix: 1457: 211 -> 197
+Sep  3 21:16:44 :: room_htree sync fix: 1458: 212 -> 198
+Sep  3 21:16:44 :: room_htree sync fix: 1459: 213 -> 199
+Sep  3 21:16:44 :: room_htree sync fix: 1460: 214 -> 200
+Sep  3 21:16:44 :: room_htree sync fix: 1461: 215 -> 201
+Sep  3 21:16:44 :: room_htree sync fix: 1462: 216 -> 202
+Sep  3 21:16:44 :: room_htree sync fix: 1463: 217 -> 203
+Sep  3 21:16:44 :: room_htree sync fix: 1464: 218 -> 204
+Sep  3 21:16:44 :: room_htree sync fix: 1465: 219 -> 205
+Sep  3 21:16:44 :: room_htree sync fix: 1466: 220 -> 206
+Sep  3 21:16:44 :: room_htree sync fix: 1467: 221 -> 207
+Sep  3 21:16:44 :: room_htree sync fix: 1468: 222 -> 208
+Sep  3 21:16:44 :: room_htree sync fix: 1469: 223 -> 209
+Sep  3 21:16:44 :: room_htree sync fix: 1470: 224 -> 210
+Sep  3 21:16:44 :: room_htree sync fix: 1471: 225 -> 211
+Sep  3 21:16:44 :: room_htree sync fix: 1472: 226 -> 212
+Sep  3 21:16:44 :: room_htree sync fix: 1473: 227 -> 213
+Sep  3 21:16:44 :: room_htree sync fix: 1474: 228 -> 214
+Sep  3 21:16:44 :: room_htree sync fix: 1475: 229 -> 215
+Sep  3 21:16:44 :: room_htree sync fix: 1476: 230 -> 216
+Sep  3 21:16:44 :: room_htree sync fix: 1477: 231 -> 217
+Sep  3 21:16:44 :: room_htree sync fix: 1478: 232 -> 218
+Sep  3 21:16:44 :: room_htree sync fix: 1479: 233 -> 219
+Sep  3 21:16:44 :: room_htree sync fix: 1480: 234 -> 220
+Sep  3 21:16:44 :: room_htree sync fix: 1481: 235 -> 221
+Sep  3 21:16:44 :: room_htree sync fix: 1482: 236 -> 222
+Sep  3 21:16:44 :: room_htree sync fix: 1483: 237 -> 223
+Sep  3 21:16:44 :: room_htree sync fix: 1484: 238 -> 224
+Sep  3 21:16:44 :: room_htree sync fix: 1485: 239 -> 225
+Sep  3 21:16:44 :: room_htree sync fix: 1486: 240 -> 226
+Sep  3 21:16:44 :: room_htree sync fix: 1487: 241 -> 227
+Sep  3 21:16:44 :: room_htree sync fix: 1488: 242 -> 228
+Sep  3 21:16:44 :: room_htree sync fix: 1489: 243 -> 229
+Sep  3 21:16:44 :: room_htree sync fix: 1490: 244 -> 230
+Sep  3 21:16:44 :: room_htree sync fix: 1491: 245 -> 231
+Sep  3 21:16:44 :: room_htree sync fix: 1492: 246 -> 232
+Sep  3 21:16:44 :: room_htree sync fix: 1493: 247 -> 233
+Sep  3 21:16:44 :: room_htree sync fix: 1494: 248 -> 234
+Sep  3 21:16:44 :: room_htree sync fix: 1495: 249 -> 235
+Sep  3 21:16:44 :: room_htree sync fix: 1496: 250 -> 236
+Sep  3 21:16:44 :: room_htree sync fix: 1497: 251 -> 237
+Sep  3 21:16:44 :: room_htree sync fix: 1498: 252 -> 238
+Sep  3 21:16:44 :: room_htree sync fix: 1499: 253 -> 239
+Sep  3 21:16:46 :: room_htree sync fix: 1297: 51 -> 38
+Sep  3 21:16:46 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:16:46 :: GenOLC: delete_room: Deleting room #1297 (Tanto's Sacrificial Grotto).
+Sep  3 21:16:46 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:16:51 :: room_htree sync fix: 1294: 50 -> 37
+Sep  3 21:16:54 :: room_htree sync fix: 3000: 260 -> 245
+Sep  3 21:16:54 :: room_htree sync fix: 3001: 261 -> 246
+Sep  3 21:16:54 :: room_htree sync fix: 3002: 262 -> 247
+Sep  3 21:16:54 :: room_htree sync fix: 3003: 263 -> 248
+Sep  3 21:16:54 :: room_htree sync fix: 3004: 264 -> 249
+Sep  3 21:16:54 :: room_htree sync fix: 3005: 265 -> 250
+Sep  3 21:16:54 :: room_htree sync fix: 3006: 266 -> 251
+Sep  3 21:16:54 :: room_htree sync fix: 3007: 267 -> 252
+Sep  3 21:16:54 :: room_htree sync fix: 3008: 268 -> 253
+Sep  3 21:16:54 :: room_htree sync fix: 3009: 269 -> 254
+Sep  3 21:16:54 :: room_htree sync fix: 3010: 270 -> 255
+Sep  3 21:16:54 :: room_htree sync fix: 3011: 271 -> 256
+Sep  3 21:16:54 :: room_htree sync fix: 3012: 272 -> 257
+Sep  3 21:16:54 :: room_htree sync fix: 3013: 273 -> 258
+Sep  3 21:16:54 :: room_htree sync fix: 3014: 274 -> 259
+Sep  3 21:16:54 :: room_htree sync fix: 3015: 275 -> 260
+Sep  3 21:16:54 :: room_htree sync fix: 3016: 276 -> 261
+Sep  3 21:16:54 :: room_htree sync fix: 3017: 277 -> 262
+Sep  3 21:16:54 :: room_htree sync fix: 3018: 278 -> 263
+Sep  3 21:16:54 :: room_htree sync fix: 3019: 279 -> 264
+Sep  3 21:16:54 :: room_htree sync fix: 3020: 280 -> 265
+Sep  3 21:16:54 :: room_htree sync fix: 3021: 281 -> 266
+Sep  3 21:16:54 :: room_htree sync fix: 3022: 282 -> 267
+Sep  3 21:16:54 :: room_htree sync fix: 3023: 283 -> 268
+Sep  3 21:16:54 :: room_htree sync fix: 3024: 284 -> 269
+Sep  3 21:16:54 :: room_htree sync fix: 3025: 285 -> 270
+Sep  3 21:16:54 :: room_htree sync fix: 3026: 286 -> 271
+Sep  3 21:16:54 :: room_htree sync fix: 3027: 287 -> 272
+Sep  3 21:16:54 :: room_htree sync fix: 3028: 288 -> 273
+Sep  3 21:16:54 :: room_htree sync fix: 3029: 289 -> 274
+Sep  3 21:16:54 :: room_htree sync fix: 3030: 290 -> 275
+Sep  3 21:16:54 :: room_htree sync fix: 3031: 291 -> 276
+Sep  3 21:16:54 :: room_htree sync fix: 3032: 292 -> 277
+Sep  3 21:16:54 :: room_htree sync fix: 3033: 293 -> 278
+Sep  3 21:16:54 :: room_htree sync fix: 3040: 294 -> 279
+Sep  3 21:16:54 :: room_htree sync fix: 3041: 295 -> 280
+Sep  3 21:16:54 :: room_htree sync fix: 3042: 296 -> 281
+Sep  3 21:16:54 :: room_htree sync fix: 3043: 297 -> 282
+Sep  3 21:16:54 :: room_htree sync fix: 3044: 298 -> 283
+Sep  3 21:16:54 :: room_htree sync fix: 3045: 299 -> 284
+Sep  3 21:16:54 :: room_htree sync fix: 3046: 300 -> 285
+Sep  3 21:16:54 :: room_htree sync fix: 3047: 301 -> 286
+Sep  3 21:16:54 :: room_htree sync fix: 3048: 302 -> 287
+Sep  3 21:16:54 :: room_htree sync fix: 3049: 303 -> 288
+Sep  3 21:16:54 :: room_htree sync fix: 3050: 304 -> 289
+Sep  3 21:16:54 :: room_htree sync fix: 3051: 305 -> 290
+Sep  3 21:16:54 :: room_htree sync fix: 3052: 306 -> 291
+Sep  3 21:16:54 :: room_htree sync fix: 3053: 307 -> 292
+Sep  3 21:16:54 :: room_htree sync fix: 3054: 308 -> 293
+Sep  3 21:16:54 :: room_htree sync fix: 3055: 309 -> 294
+Sep  3 21:16:54 :: room_htree sync fix: 3058: 310 -> 295
+Sep  3 21:16:54 :: room_htree sync fix: 3059: 311 -> 296
+Sep  3 21:16:54 :: room_htree sync fix: 3060: 312 -> 297
+Sep  3 21:16:54 :: room_htree sync fix: 3061: 313 -> 298
+Sep  3 21:16:54 :: room_htree sync fix: 3062: 314 -> 299
+Sep  3 21:16:54 :: room_htree sync fix: 3063: 315 -> 300
+Sep  3 21:16:54 :: room_htree sync fix: 3064: 316 -> 301
+Sep  3 21:16:54 :: room_htree sync fix: 3065: 317 -> 302
+Sep  3 21:16:54 :: room_htree sync fix: 3066: 318 -> 303
+Sep  3 21:17:01 :: room_htree sync fix: 1210: 32 -> 29
+Sep  3 21:17:04 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:17:04 :: GenOLC: delete_room: Deleting room #1294 (Other Worlds).
+Sep  3 21:17:04 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:17:10 :: room_htree sync fix: 1299: 52 -> 37
+Sep  3 21:18:14 :: room_htree sync fix: 1290: 46 -> 33
+Sep  3 21:18:20 :: room_htree sync fix: 1291: 47 -> 34
+Sep  3 21:18:37 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:19:07 :: GenOLC: add_room: Updated existing room #1291.
+Sep  3 21:19:07 :: OLC: Mishakal edits room 1291.
+Sep  3 21:19:07 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  3 21:19:07 :: room_htree sync fix: 1211: 33 -> 30
+Sep  3 21:19:07 :: room_htree sync fix: 1212: 34 -> 31
+Sep  3 21:19:07 :: room_htree sync fix: 1226: 39 -> 32
+Sep  3 21:19:07 :: room_htree sync fix: 1292: 48 -> 35
+Sep  3 21:19:07 :: room_htree sync fix: 1293: 49 -> 36
+Sep  3 21:19:07 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  3 21:19:07 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:20:24 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:24 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:24 :: SYSERR: Unknown class in thac0 chart.
+Sep  3 21:20:26 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:26 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:26 :: SYSERR: Unknown class in thac0 chart.
+Sep  3 21:20:28 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:28 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:28 :: SYSERR: Unknown class in thac0 chart.
+Sep  3 21:20:30 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for cleric thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for thief thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:30 :: SYSERR: Missing level for warrior thac0.
+Sep  3 21:20:30 :: SYSERR: Unknown class in thac0 chart.
+Sep  3 21:20:54 :: OLC: Mishakal starts editing zone 12 allowed zone 65535
+Sep  3 21:21:15 :: OLC: Mishakal stops editing zone 12 allowed zone 65535
+Sep  3 21:21:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:23:12 :: room_htree sync fix: 1300: 40 -> 38
+Sep  3 21:23:38 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:25:30 :: OLC: Mishakal edits obj 1300
+Sep  3 21:25:30 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:25:30 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:25:43 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:26:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:27:24 :: room_htree sync fix: 1500: 254 -> 238
+Sep  3 21:27:24 :: room_htree sync fix: 1501: 255 -> 239
+Sep  3 21:27:24 :: room_htree sync fix: 1502: 256 -> 240
+Sep  3 21:27:24 :: room_htree sync fix: 1503: 257 -> 241
+Sep  3 21:27:24 :: room_htree sync fix: 1504: 258 -> 242
+Sep  3 21:27:34 :: room_htree sync fix: 1600: 259 -> 243
+Sep  3 21:28:10 :: OLC: Mishakal edits obj 1301
+Sep  3 21:28:10 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:28:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:28:39 :: room_htree sync fix: 1302: 42 -> 40
+Sep  3 21:28:39 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:29:10 :: GenOLC: add_room: Updated existing room #1302.
+Sep  3 21:29:10 :: OLC: Mishakal edits room 1302.
+Sep  3 21:29:10 :: GenOLC: save_rooms: Saving rooms in zone #13 (1300-1399).
+Sep  3 21:29:10 :: room_htree sync fix: 1301: 41 -> 39
+Sep  3 21:29:10 :: room_htree sync fix: 1303: 43 -> 41
+Sep  3 21:29:10 :: room_htree sync fix: 1304: 44 -> 42
+Sep  3 21:29:10 :: room_htree sync fix: 1305: 45 -> 43
+Sep  3 21:29:10 :: room_htree sync fix: 1306: 46 -> 44
+Sep  3 21:29:10 :: room_htree sync fix: 1307: 47 -> 45
+Sep  3 21:29:10 :: room_htree sync fix: 1308: 48 -> 46
+Sep  3 21:29:10 :: room_htree sync fix: 1309: 49 -> 47
+Sep  3 21:29:10 :: room_htree sync fix: 1310: 50 -> 48
+Sep  3 21:29:10 :: room_htree sync fix: 1311: 51 -> 49
+Sep  3 21:29:10 :: room_htree sync fix: 1312: 52 -> 50
+Sep  3 21:29:10 :: room_htree sync fix: 1313: 53 -> 51
+Sep  3 21:29:10 :: room_htree sync fix: 1314: 54 -> 52
+Sep  3 21:29:10 :: room_htree sync fix: 1315: 55 -> 53
+Sep  3 21:29:10 :: room_htree sync fix: 1316: 56 -> 54
+Sep  3 21:29:10 :: room_htree sync fix: 1317: 57 -> 55
+Sep  3 21:29:10 :: room_htree sync fix: 1318: 58 -> 56
+Sep  3 21:29:10 :: room_htree sync fix: 1319: 59 -> 57
+Sep  3 21:29:10 :: room_htree sync fix: 1320: 60 -> 58
+Sep  3 21:29:10 :: room_htree sync fix: 1321: 61 -> 59
+Sep  3 21:29:10 :: room_htree sync fix: 1322: 62 -> 60
+Sep  3 21:29:10 :: room_htree sync fix: 1323: 63 -> 61
+Sep  3 21:29:10 :: room_htree sync fix: 1324: 64 -> 62
+Sep  3 21:29:10 :: room_htree sync fix: 1325: 65 -> 63
+Sep  3 21:29:10 :: room_htree sync fix: 1326: 66 -> 64
+Sep  3 21:29:10 :: room_htree sync fix: 1327: 67 -> 65
+Sep  3 21:29:10 :: room_htree sync fix: 1328: 68 -> 66
+Sep  3 21:29:10 :: room_htree sync fix: 1329: 69 -> 67
+Sep  3 21:29:10 :: room_htree sync fix: 1330: 70 -> 68
+Sep  3 21:29:10 :: room_htree sync fix: 1331: 71 -> 69
+Sep  3 21:29:10 :: room_htree sync fix: 1332: 72 -> 70
+Sep  3 21:29:10 :: room_htree sync fix: 1333: 73 -> 71
+Sep  3 21:29:10 :: room_htree sync fix: 1334: 74 -> 72
+Sep  3 21:29:10 :: room_htree sync fix: 1335: 75 -> 73
+Sep  3 21:29:10 :: room_htree sync fix: 1336: 76 -> 74
+Sep  3 21:29:10 :: room_htree sync fix: 1337: 77 -> 75
+Sep  3 21:29:10 :: room_htree sync fix: 1338: 78 -> 76
+Sep  3 21:29:10 :: room_htree sync fix: 1339: 79 -> 77
+Sep  3 21:29:10 :: room_htree sync fix: 1340: 80 -> 78
+Sep  3 21:29:10 :: room_htree sync fix: 1341: 81 -> 79
+Sep  3 21:29:10 :: room_htree sync fix: 1342: 82 -> 80
+Sep  3 21:29:10 :: room_htree sync fix: 1343: 83 -> 81
+Sep  3 21:29:10 :: room_htree sync fix: 1344: 84 -> 82
+Sep  3 21:29:10 :: room_htree sync fix: 1345: 85 -> 83
+Sep  3 21:29:10 :: room_htree sync fix: 1346: 86 -> 84
+Sep  3 21:29:10 :: room_htree sync fix: 1347: 87 -> 85
+Sep  3 21:29:10 :: room_htree sync fix: 1348: 88 -> 86
+Sep  3 21:29:10 :: room_htree sync fix: 1349: 89 -> 87
+Sep  3 21:29:10 :: room_htree sync fix: 1350: 90 -> 88
+Sep  3 21:29:10 :: room_htree sync fix: 1351: 91 -> 89
+Sep  3 21:29:10 :: room_htree sync fix: 1352: 92 -> 90
+Sep  3 21:29:10 :: room_htree sync fix: 1353: 93 -> 91
+Sep  3 21:29:10 :: room_htree sync fix: 1354: 94 -> 92
+Sep  3 21:29:10 :: room_htree sync fix: 1355: 95 -> 93
+Sep  3 21:29:10 :: room_htree sync fix: 1356: 96 -> 94
+Sep  3 21:29:10 :: room_htree sync fix: 1357: 97 -> 95
+Sep  3 21:29:10 :: room_htree sync fix: 1358: 98 -> 96
+Sep  3 21:29:10 :: room_htree sync fix: 1359: 99 -> 97
+Sep  3 21:29:10 :: room_htree sync fix: 1360: 100 -> 98
+Sep  3 21:29:10 :: room_htree sync fix: 1361: 101 -> 99
+Sep  3 21:29:10 :: room_htree sync fix: 1362: 102 -> 100
+Sep  3 21:29:10 :: room_htree sync fix: 1363: 103 -> 101
+Sep  3 21:29:10 :: room_htree sync fix: 1364: 104 -> 102
+Sep  3 21:29:10 :: room_htree sync fix: 1365: 105 -> 103
+Sep  3 21:29:10 :: room_htree sync fix: 1366: 106 -> 104
+Sep  3 21:29:10 :: room_htree sync fix: 1367: 107 -> 105
+Sep  3 21:29:10 :: room_htree sync fix: 1368: 108 -> 106
+Sep  3 21:29:10 :: room_htree sync fix: 1369: 109 -> 107
+Sep  3 21:29:10 :: room_htree sync fix: 1370: 110 -> 108
+Sep  3 21:29:10 :: room_htree sync fix: 1371: 111 -> 109
+Sep  3 21:29:10 :: room_htree sync fix: 1372: 112 -> 110
+Sep  3 21:29:10 :: room_htree sync fix: 1373: 113 -> 111
+Sep  3 21:29:10 :: room_htree sync fix: 1374: 114 -> 112
+Sep  3 21:29:10 :: room_htree sync fix: 1375: 115 -> 113
+Sep  3 21:29:10 :: room_htree sync fix: 1376: 116 -> 114
+Sep  3 21:29:10 :: room_htree sync fix: 1377: 117 -> 115
+Sep  3 21:29:10 :: room_htree sync fix: 1378: 118 -> 116
+Sep  3 21:29:10 :: room_htree sync fix: 1379: 119 -> 117
+Sep  3 21:29:10 :: room_htree sync fix: 1380: 120 -> 118
+Sep  3 21:29:10 :: room_htree sync fix: 1381: 121 -> 119
+Sep  3 21:29:10 :: room_htree sync fix: 1382: 122 -> 120
+Sep  3 21:29:10 :: room_htree sync fix: 1383: 123 -> 121
+Sep  3 21:29:10 :: room_htree sync fix: 1384: 124 -> 122
+Sep  3 21:29:10 :: room_htree sync fix: 1385: 125 -> 123
+Sep  3 21:29:10 :: room_htree sync fix: 1386: 126 -> 124
+Sep  3 21:29:10 :: room_htree sync fix: 1387: 127 -> 125
+Sep  3 21:29:10 :: room_htree sync fix: 1388: 128 -> 126
+Sep  3 21:29:10 :: room_htree sync fix: 1389: 129 -> 127
+Sep  3 21:29:10 :: room_htree sync fix: 1390: 130 -> 128
+Sep  3 21:29:10 :: room_htree sync fix: 1391: 131 -> 129
+Sep  3 21:29:10 :: room_htree sync fix: 1392: 132 -> 130
+Sep  3 21:29:10 :: room_htree sync fix: 1393: 133 -> 131
+Sep  3 21:29:10 :: room_htree sync fix: 1394: 134 -> 132
+Sep  3 21:29:10 :: room_htree sync fix: 1395: 135 -> 133
+Sep  3 21:29:10 :: room_htree sync fix: 1396: 136 -> 134
+Sep  3 21:29:10 :: room_htree sync fix: 1397: 137 -> 135
+Sep  3 21:29:10 :: room_htree sync fix: 1398: 138 -> 136
+Sep  3 21:29:10 :: room_htree sync fix: 1399: 139 -> 137
+Sep  3 21:29:10 :: GenOLC: save_rooms: Saving rooms 'world/wld/13.wld'
+Sep  3 21:29:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:29:13 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:31:09 :: OLC: Mishakal edits obj 1302
+Sep  3 21:31:09 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:31:09 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:31:24 :: room_htree sync fix: 3000: 245 -> 244
+Sep  3 21:31:24 :: room_htree sync fix: 3001: 246 -> 245
+Sep  3 21:31:24 :: room_htree sync fix: 3002: 247 -> 246
+Sep  3 21:31:24 :: room_htree sync fix: 3003: 248 -> 247
+Sep  3 21:31:24 :: room_htree sync fix: 3004: 249 -> 248
+Sep  3 21:31:24 :: room_htree sync fix: 3005: 250 -> 249
+Sep  3 21:31:24 :: room_htree sync fix: 3006: 251 -> 250
+Sep  3 21:31:24 :: room_htree sync fix: 3007: 252 -> 251
+Sep  3 21:31:24 :: room_htree sync fix: 3008: 253 -> 252
+Sep  3 21:31:24 :: room_htree sync fix: 3009: 254 -> 253
+Sep  3 21:31:24 :: room_htree sync fix: 3010: 255 -> 254
+Sep  3 21:31:24 :: room_htree sync fix: 3011: 256 -> 255
+Sep  3 21:31:24 :: room_htree sync fix: 3012: 257 -> 256
+Sep  3 21:31:24 :: room_htree sync fix: 3013: 258 -> 257
+Sep  3 21:31:24 :: room_htree sync fix: 3014: 259 -> 258
+Sep  3 21:31:24 :: room_htree sync fix: 3015: 260 -> 259
+Sep  3 21:31:24 :: room_htree sync fix: 3016: 261 -> 260
+Sep  3 21:31:24 :: room_htree sync fix: 3017: 262 -> 261
+Sep  3 21:31:24 :: room_htree sync fix: 3018: 263 -> 262
+Sep  3 21:31:24 :: room_htree sync fix: 3019: 264 -> 263
+Sep  3 21:31:24 :: room_htree sync fix: 3020: 265 -> 264
+Sep  3 21:31:24 :: room_htree sync fix: 3021: 266 -> 265
+Sep  3 21:31:24 :: room_htree sync fix: 3022: 267 -> 266
+Sep  3 21:31:24 :: room_htree sync fix: 3023: 268 -> 267
+Sep  3 21:31:24 :: room_htree sync fix: 3024: 269 -> 268
+Sep  3 21:31:24 :: room_htree sync fix: 3025: 270 -> 269
+Sep  3 21:31:24 :: room_htree sync fix: 3026: 271 -> 270
+Sep  3 21:31:24 :: room_htree sync fix: 3027: 272 -> 271
+Sep  3 21:31:24 :: room_htree sync fix: 3028: 273 -> 272
+Sep  3 21:31:24 :: room_htree sync fix: 3029: 274 -> 273
+Sep  3 21:31:24 :: room_htree sync fix: 3030: 275 -> 274
+Sep  3 21:31:24 :: room_htree sync fix: 3031: 276 -> 275
+Sep  3 21:31:24 :: room_htree sync fix: 3032: 277 -> 276
+Sep  3 21:31:24 :: room_htree sync fix: 3033: 278 -> 277
+Sep  3 21:31:24 :: room_htree sync fix: 3040: 279 -> 278
+Sep  3 21:31:24 :: room_htree sync fix: 3041: 280 -> 279
+Sep  3 21:31:24 :: room_htree sync fix: 3042: 281 -> 280
+Sep  3 21:31:24 :: room_htree sync fix: 3043: 282 -> 281
+Sep  3 21:31:24 :: room_htree sync fix: 3044: 283 -> 282
+Sep  3 21:31:24 :: room_htree sync fix: 3045: 284 -> 283
+Sep  3 21:31:24 :: room_htree sync fix: 3046: 285 -> 284
+Sep  3 21:31:24 :: room_htree sync fix: 3047: 286 -> 285
+Sep  3 21:31:24 :: room_htree sync fix: 3048: 287 -> 286
+Sep  3 21:31:24 :: room_htree sync fix: 3049: 288 -> 287
+Sep  3 21:31:24 :: room_htree sync fix: 3050: 289 -> 288
+Sep  3 21:31:24 :: room_htree sync fix: 3051: 290 -> 289
+Sep  3 21:31:24 :: room_htree sync fix: 3052: 291 -> 290
+Sep  3 21:31:24 :: room_htree sync fix: 3053: 292 -> 291
+Sep  3 21:31:24 :: room_htree sync fix: 3054: 293 -> 292
+Sep  3 21:31:24 :: room_htree sync fix: 3055: 294 -> 293
+Sep  3 21:31:24 :: room_htree sync fix: 3058: 295 -> 294
+Sep  3 21:31:24 :: room_htree sync fix: 3059: 296 -> 295
+Sep  3 21:31:24 :: room_htree sync fix: 3060: 297 -> 296
+Sep  3 21:31:24 :: room_htree sync fix: 3061: 298 -> 297
+Sep  3 21:31:24 :: room_htree sync fix: 3062: 299 -> 298
+Sep  3 21:31:24 :: room_htree sync fix: 3063: 300 -> 299
+Sep  3 21:31:24 :: room_htree sync fix: 3064: 301 -> 300
+Sep  3 21:31:24 :: room_htree sync fix: 3065: 302 -> 301
+Sep  3 21:31:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:31:33 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:33:58 :: OLC: Mishakal edits obj 1303
+Sep  3 21:33:58 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:33:58 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:34:35 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:36:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:37:31 :: OLC: Mishakal edits obj 1304
+Sep  3 21:37:31 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:37:31 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:37:53 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:38:36 :: OLC: Mishakal edits obj 1304
+Sep  3 21:38:36 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:38:36 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:40:22 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 21:41:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:44:34 :: OLC: Mishakal edits obj 1305
+Sep  3 21:44:34 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 21:44:34 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 21:46:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:46:44 :: room_htree sync fix: 1400: 140 -> 138
+Sep  3 21:46:44 :: room_htree sync fix: 1401: 141 -> 139
+Sep  3 21:46:44 :: room_htree sync fix: 1402: 142 -> 140
+Sep  3 21:46:44 :: room_htree sync fix: 1403: 143 -> 141
+Sep  3 21:46:44 :: room_htree sync fix: 1404: 144 -> 142
+Sep  3 21:46:44 :: room_htree sync fix: 1405: 145 -> 143
+Sep  3 21:46:44 :: room_htree sync fix: 1406: 146 -> 144
+Sep  3 21:46:44 :: room_htree sync fix: 1407: 147 -> 145
+Sep  3 21:46:44 :: room_htree sync fix: 1408: 148 -> 146
+Sep  3 21:46:44 :: room_htree sync fix: 1409: 149 -> 147
+Sep  3 21:46:44 :: room_htree sync fix: 1410: 150 -> 148
+Sep  3 21:46:44 :: room_htree sync fix: 1411: 151 -> 149
+Sep  3 21:46:44 :: room_htree sync fix: 1412: 152 -> 150
+Sep  3 21:46:44 :: room_htree sync fix: 1413: 153 -> 151
+Sep  3 21:46:44 :: room_htree sync fix: 1414: 154 -> 152
+Sep  3 21:46:44 :: room_htree sync fix: 1415: 155 -> 153
+Sep  3 21:46:44 :: room_htree sync fix: 1416: 156 -> 154
+Sep  3 21:46:44 :: room_htree sync fix: 1417: 157 -> 155
+Sep  3 21:46:44 :: room_htree sync fix: 1418: 158 -> 156
+Sep  3 21:46:44 :: room_htree sync fix: 1419: 159 -> 157
+Sep  3 21:46:44 :: room_htree sync fix: 1420: 160 -> 158
+Sep  3 21:46:44 :: room_htree sync fix: 1421: 161 -> 159
+Sep  3 21:46:44 :: room_htree sync fix: 1422: 162 -> 160
+Sep  3 21:46:44 :: room_htree sync fix: 1423: 163 -> 161
+Sep  3 21:46:44 :: room_htree sync fix: 1424: 164 -> 162
+Sep  3 21:46:44 :: room_htree sync fix: 1425: 165 -> 163
+Sep  3 21:46:44 :: room_htree sync fix: 1426: 166 -> 164
+Sep  3 21:46:44 :: room_htree sync fix: 1427: 167 -> 165
+Sep  3 21:46:44 :: room_htree sync fix: 1428: 168 -> 166
+Sep  3 21:46:44 :: room_htree sync fix: 1429: 169 -> 167
+Sep  3 21:46:44 :: room_htree sync fix: 1430: 170 -> 168
+Sep  3 21:46:44 :: room_htree sync fix: 1431: 171 -> 169
+Sep  3 21:46:44 :: room_htree sync fix: 1432: 172 -> 170
+Sep  3 21:46:44 :: room_htree sync fix: 1433: 173 -> 171
+Sep  3 21:46:44 :: room_htree sync fix: 1434: 174 -> 172
+Sep  3 21:46:44 :: room_htree sync fix: 1435: 175 -> 173
+Sep  3 21:46:44 :: room_htree sync fix: 1436: 176 -> 174
+Sep  3 21:46:44 :: room_htree sync fix: 1437: 177 -> 175
+Sep  3 21:46:44 :: room_htree sync fix: 1438: 178 -> 176
+Sep  3 21:46:44 :: room_htree sync fix: 1439: 179 -> 177
+Sep  3 21:46:44 :: room_htree sync fix: 1440: 180 -> 178
+Sep  3 21:46:44 :: room_htree sync fix: 1441: 181 -> 179
+Sep  3 21:46:44 :: room_htree sync fix: 1442: 182 -> 180
+Sep  3 21:46:44 :: room_htree sync fix: 1443: 183 -> 181
+Sep  3 21:46:44 :: room_htree sync fix: 1444: 184 -> 182
+Sep  3 21:46:44 :: room_htree sync fix: 1445: 185 -> 183
+Sep  3 21:46:44 :: room_htree sync fix: 1446: 186 -> 184
+Sep  3 21:46:44 :: room_htree sync fix: 1447: 187 -> 185
+Sep  3 21:46:44 :: room_htree sync fix: 1448: 188 -> 186
+Sep  3 21:46:44 :: room_htree sync fix: 1449: 189 -> 187
+Sep  3 21:46:44 :: room_htree sync fix: 1450: 190 -> 188
+Sep  3 21:46:44 :: room_htree sync fix: 1451: 191 -> 189
+Sep  3 21:46:44 :: room_htree sync fix: 1452: 192 -> 190
+Sep  3 21:46:44 :: room_htree sync fix: 1453: 193 -> 191
+Sep  3 21:46:44 :: room_htree sync fix: 1454: 194 -> 192
+Sep  3 21:46:44 :: room_htree sync fix: 1455: 195 -> 193
+Sep  3 21:46:44 :: room_htree sync fix: 1456: 196 -> 194
+Sep  3 21:46:44 :: room_htree sync fix: 1457: 197 -> 195
+Sep  3 21:46:44 :: room_htree sync fix: 1458: 198 -> 196
+Sep  3 21:46:44 :: room_htree sync fix: 1459: 199 -> 197
+Sep  3 21:46:44 :: room_htree sync fix: 1460: 200 -> 198
+Sep  3 21:46:44 :: room_htree sync fix: 1461: 201 -> 199
+Sep  3 21:46:44 :: room_htree sync fix: 1462: 202 -> 200
+Sep  3 21:46:44 :: room_htree sync fix: 1463: 203 -> 201
+Sep  3 21:46:44 :: room_htree sync fix: 1464: 204 -> 202
+Sep  3 21:46:44 :: room_htree sync fix: 1465: 205 -> 203
+Sep  3 21:46:44 :: room_htree sync fix: 1466: 206 -> 204
+Sep  3 21:46:44 :: room_htree sync fix: 1467: 207 -> 205
+Sep  3 21:46:44 :: room_htree sync fix: 1468: 208 -> 206
+Sep  3 21:46:44 :: room_htree sync fix: 1469: 209 -> 207
+Sep  3 21:46:44 :: room_htree sync fix: 1470: 210 -> 208
+Sep  3 21:46:44 :: room_htree sync fix: 1471: 211 -> 209
+Sep  3 21:46:44 :: room_htree sync fix: 1472: 212 -> 210
+Sep  3 21:46:44 :: room_htree sync fix: 1473: 213 -> 211
+Sep  3 21:46:44 :: room_htree sync fix: 1474: 214 -> 212
+Sep  3 21:46:44 :: room_htree sync fix: 1475: 215 -> 213
+Sep  3 21:46:44 :: room_htree sync fix: 1476: 216 -> 214
+Sep  3 21:46:44 :: room_htree sync fix: 1477: 217 -> 215
+Sep  3 21:46:44 :: room_htree sync fix: 1478: 218 -> 216
+Sep  3 21:46:44 :: room_htree sync fix: 1479: 219 -> 217
+Sep  3 21:46:44 :: room_htree sync fix: 1480: 220 -> 218
+Sep  3 21:46:44 :: room_htree sync fix: 1481: 221 -> 219
+Sep  3 21:46:44 :: room_htree sync fix: 1482: 222 -> 220
+Sep  3 21:46:44 :: room_htree sync fix: 1483: 223 -> 221
+Sep  3 21:46:44 :: room_htree sync fix: 1484: 224 -> 222
+Sep  3 21:46:44 :: room_htree sync fix: 1485: 225 -> 223
+Sep  3 21:46:44 :: room_htree sync fix: 1486: 226 -> 224
+Sep  3 21:46:44 :: room_htree sync fix: 1487: 227 -> 225
+Sep  3 21:46:44 :: room_htree sync fix: 1488: 228 -> 226
+Sep  3 21:46:44 :: room_htree sync fix: 1489: 229 -> 227
+Sep  3 21:46:44 :: room_htree sync fix: 1490: 230 -> 228
+Sep  3 21:46:44 :: room_htree sync fix: 1491: 231 -> 229
+Sep  3 21:46:44 :: room_htree sync fix: 1492: 232 -> 230
+Sep  3 21:46:44 :: room_htree sync fix: 1493: 233 -> 231
+Sep  3 21:46:44 :: room_htree sync fix: 1494: 234 -> 232
+Sep  3 21:46:44 :: room_htree sync fix: 1495: 235 -> 233
+Sep  3 21:46:44 :: room_htree sync fix: 1496: 236 -> 234
+Sep  3 21:46:44 :: room_htree sync fix: 1497: 237 -> 235
+Sep  3 21:46:44 :: room_htree sync fix: 1498: 238 -> 236
+Sep  3 21:46:44 :: room_htree sync fix: 1499: 239 -> 237
+Sep  3 21:51:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 21:56:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 22:01:06 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 22:01:24 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  3 22:02:56 :: Reorx [s0106f0b47902c9ec.va.shawcable.net] has connected.
+Sep  3 22:03:10 :: OLC: Mishakal edits obj 1306
+Sep  3 22:03:10 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 22:03:10 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 22:03:45 :: opened crash file
+Sep  3 22:03:45 :: Reorx un-renting and entering game.
+Sep  3 22:03:45 :: Reorx (level 36) has 1 objects (max 60).
+Sep  3 22:03:45 :: Reorx had no variable file
+Sep  3 22:06:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:11:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:13:08 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  3 22:16:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:18:01 :: OLC: Mishakal edits obj 1307
+Sep  3 22:18:01 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  3 22:18:01 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  3 22:21:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:26:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:31:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:36:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:41:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:46:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:51:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:56:24 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  3 22:58:00 :: (GC) Shutdown by Admin.
+Sep  3 22:58:00 :: Closing all sockets.
+Sep  3 22:58:00 :: Closing link to: Reorx.
+Sep  3 22:58:00 :: Closing link to: Mishakal.
+Sep  3 22:58:00 :: Closing link to: Admin.
+Sep  3 22:58:00 :: Saving current MUD time.
+Sep  3 22:58:00 :: Normal termination of game.
+Sep  3 22:58:00 :: Clearing game world.
+Sep  3 22:58:00 :: Freeing Assemblies.
+Sep  3 22:58:00 :: Clearing other memory.
+Sep  3 22:58:00 :: Done.
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

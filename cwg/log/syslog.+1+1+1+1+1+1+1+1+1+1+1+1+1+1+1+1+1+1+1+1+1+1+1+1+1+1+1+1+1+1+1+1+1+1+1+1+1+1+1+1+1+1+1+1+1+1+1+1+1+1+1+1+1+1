@@ -1,0 +1,211 @@
+autorun starting game Sat Sep  3 15:19:04 PDT 2011
+running bin/circle -q 4000
+Sep  3 15:19:04 :: Using etc/config for configuration.
+Sep  3 15:19:04 :: CircleMUD, version 3.1
+Sep  3 15:19:04 :: OasisOLC 2.0.6
+Sep  3 15:19:04 :: DG Scripts 1.0.14
+Sep  3 15:19:04 :: ASCII Player Files 3.0.1
+Sep  3 15:19:04 :: CWG Buddha - 4.4.30
+Sep  3 15:19:04 :: Using lib as data directory.
+Sep  3 15:19:04 :: Running game on port 4000.
+Sep  3 15:19:04 :: Finding player limit.
+Sep  3 15:19:04 ::    Setting player limit to 300 using rlimit.
+Sep  3 15:19:04 :: Opening mother connection.
+Sep  3 15:19:04 :: Binding to all IP interfaces on this host.
+Sep  3 15:19:04 :: Boot db -- BEGIN.
+Sep  3 15:19:04 :: Resetting the game time:
+Sep  3 15:19:04 ::    Current Gametime: 23H 16D 13M 605Y.
+Sep  3 15:19:04 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  3 15:19:04 :: Loading spell definitions.
+Sep  3 15:19:04 :: Loading zone table.
+Sep  3 15:19:04 ::    5 zones, 280 bytes.
+Sep  3 15:19:04 :: Loading triggers and generating index.
+Sep  3 15:19:04 :: Loading rooms.
+Sep  3 15:19:04 ::    115 rooms, 12880 bytes.
+Sep  3 15:19:04 :: Renumbering rooms.
+Sep  3 15:19:04 :: Checking start rooms.
+Sep  3 15:19:04 :: Loading mobs and generating index.
+Sep  3 15:19:04 ::    76 mobs, 1520 bytes in index, 28272 bytes in prototypes.
+Sep  3 15:19:04 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  3 15:19:04 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 15:19:04 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 15:19:04 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  3 15:19:04 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  3 15:19:04 :: Loading objs and generating index.
+Sep  3 15:19:04 ::    119 objs, 2380 bytes in index, 21420 bytes in prototypes.
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  3 15:19:04 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  3 15:19:04 :: Renumbering zone table.
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1209, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 6
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 8
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 9
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1328, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 10
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1328, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 11
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 12
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1327, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 13
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1326, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'R' cmd in zone #12, line 14
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 1326, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'O' cmd in zone #12, line 15
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  3 15:19:04 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  3 15:19:04 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  3 15:19:04 :: Loading disabled commands list...
+Sep  3 15:19:04 :: Loading shops.
+Sep  3 15:19:04 :: Loading guild masters.
+Sep  3 15:19:04 :: htree stats (global): 490 nodes, 35280 bytes (depth 3/5 used/possible)
+Sep  3 15:19:04 :: htree_test: htree speedup factor: 152%
+Sep  3 15:19:04 :: Loading help entries.
+Sep  3 15:19:04 ::    733 entries, 14660 bytes.
+Sep  3 15:19:04 :: Setting up context sensitive help system for OLC
+Sep  3 15:19:04 :: Generating player index.
+Sep  3 15:19:04 :: Loading fight messages.
+Sep  3 15:19:04 :: Loading social messages.
+Sep  3 15:19:04 :: Social table contains 368 socials.
+Sep  3 15:19:04 :: Building command list.
+Sep  3 15:19:04 :: Command info rebuilt, 685 total commands.
+Sep  3 15:19:04 :: Assigning function pointers:
+Sep  3 15:19:04 ::    Mobiles.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  3 15:19:04 ::    Shopkeepers.
+Sep  3 15:19:04 ::    Objects.
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  3 15:19:04 ::    Rooms.
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  3 15:19:04 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  3 15:19:04 ::    Guildmasters.
+Sep  3 15:19:04 :: Init Object Unique Hash
+Sep  3 15:19:04 :: Booting assembled objects.
+Sep  3 15:19:04 :: Assigning spell and skill levels.
+Sep  3 15:19:04 :: Assigning race spell and skill levels.
+Sep  3 15:19:04 :: Sorting command list and spells.
+Sep  3 15:19:04 :: Booting mail system.
+Sep  3 15:19:04 ::    100 bytes read.
+Sep  3 15:19:04 ::    Mail file read -- 0 messages.
+Sep  3 15:19:04 :: Booting boards system.
+Sep  3 15:19:04 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  3 15:19:04 :: Board vnum 1326, Version 2
+Sep  3 15:19:04 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  3 15:19:04 :: Board vnum 1327, Version 2
+Sep  3 15:19:04 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  3 15:19:04 :: Board vnum 1328, Version 2
+Sep  3 15:19:04 :: There are 7 boards located; 0 messages
+Sep  3 15:19:04 :: Reading banned site and invalid-name list.
+Sep  3 15:19:04 :: Booting houses.
+Sep  3 15:19:04 :: Resetting #0: Limbo (rooms 0-99).
+Sep  3 15:19:04 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  3 15:19:04 :: Resetting #13: Palanthas I (rooms 1300-1399).
+Sep  3 15:19:04 :: Resetting #14: Palanthas II (rooms 1400-1499).
+Sep  3 15:19:04 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  3 15:19:04 :: Boot db -- DONE.
+Sep  3 15:19:04 :: Signal trapping.
+Sep  3 15:19:04 :: Entering game loop.
+Sep  3 15:19:04 :: No connections.  Going to sleep.
+Sep  3 15:19:07 :: New connection.  Waking up.
+Sep  3 15:19:09 :: Admin [localhost] has connected. (invis 40)
+Sep  3 15:19:09 :: opened crash file
+Sep  3 15:19:09 :: Admin retrieving crash-saved items and entering game.
+Sep  3 15:19:09 :: Admin (level 40) has 0 objects (max 60).
+Sep  3 15:19:09 :: Admin had no variable file
+Sep  3 15:20:22 :: OLC: Admin starts editing zone 12 allowed zone 0
+Sep  3 15:21:24 :: OLC: Admin edits obj 1299
+Sep  3 15:21:24 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  3 15:21:24 :: OLC: Admin stops editing zone 12 allowed zone 0
+Sep  3 15:24:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:29:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:34:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:39:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:44:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:49:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:54:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 15:59:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:04:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:09:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:14:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:19:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:24:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:29:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:34:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:39:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:44:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:49:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:54:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 16:59:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 17:04:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 17:09:07 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  3 17:11:28 :: Admin has quit the game.
+Sep  3 17:11:28 :: Losing player: Admin.
+Sep  3 17:11:28 :: No connections.  Going to sleep.
+Sep  3 17:15:01 :: New connection.  Waking up.
+Sep  3 17:15:05 :: Losing player: Test.
+Sep  3 17:15:05 :: No connections.  Going to sleep.
+Sep  3 17:15:06 :: New connection.  Waking up.
+Sep  3 17:17:40 :: nusage: 1   sockets connected, 0   sockets playing
+Sep  3 17:18:41 :: New player: Derp [Human Magic User]
+Sep  3 17:18:41 :: Str: 14 Dex: 14 Con: 12 Int: 14 Wis:  14 Cha: 12
+Sep  3 17:18:50 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  3 17:18:50 :: Losing player: Derp.
+Sep  3 17:18:50 :: No connections.  Going to sleep.
+Sep  3 17:24:08 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+SYSERR: Using log() before stream was initialized!
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

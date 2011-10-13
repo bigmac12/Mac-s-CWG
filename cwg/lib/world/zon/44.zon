@@ -1,0 +1,33 @@
+#44
+Welcor~
+Orc Camp~
+4400 4499 30 2
+M 0 4401 11 4402 0 0 	(the terrible orc)
+M 0 4401 11 4402 0 0 	(the terrible orc)
+E 1 4403 100 16 -1 0 	(a rusty spiked mace)
+M 0 4401 11 4403 0 0 	(the terrible orc)
+M 0 4401 11 4404 0 0 	(the terrible orc)
+E 1 4403 100 16 -1 0 	(a rusty spiked mace)
+M 0 4401 11 4405 0 0 	(the terrible orc)
+M 0 4401 11 4408 0 0 	(the terrible orc)
+E 1 4403 100 16 -1 0 	(a rusty spiked mace)
+M 0 4402 2 4407 0 0 	(the terrible orc)
+M 0 4403 1 4407 0 0 	(the terrible orc)
+M 0 4404 1 4406 0 0 	(H'Ogh)
+E 1 4402 20 16 -1 0 	(an orcish longsword)
+E 1 4408 20 5 -1 0 	(a studded leather scalemail)
+M 0 4405 1 4406 0 0 	(Dra'L)
+E 1 4402 20 16 -1 0 	(an orcish longsword)
+E 1 4408 20 5 -1 0 	(a studded leather scalemail)
+M 0 4406 1 4411 0 0 	(the Boss)
+E 1 4401 5 16 -1 0 	(an orcish bastardsword)
+E 1 4407 100 5 -1 0 	(a bronze ringmail)
+E 1 4409 10 3 -1 0 	(an iron spiked collar)
+E 1 4410 10 17 -1 0 	(a large leather pouch)
+P 1 4411 10 4410 -1 0 	(some coins)
+M 0 4407 1 4413 0 0 	(the orc Shaman)
+E 1 4404 5 16 -1 0 	(a sacrificial bonedagger)
+E 1 4405 5 12 -1 0 	(a long purple robe)
+E 1 4406 5 17 -1 0 	(a cauldron of magic brew)
+S
+$

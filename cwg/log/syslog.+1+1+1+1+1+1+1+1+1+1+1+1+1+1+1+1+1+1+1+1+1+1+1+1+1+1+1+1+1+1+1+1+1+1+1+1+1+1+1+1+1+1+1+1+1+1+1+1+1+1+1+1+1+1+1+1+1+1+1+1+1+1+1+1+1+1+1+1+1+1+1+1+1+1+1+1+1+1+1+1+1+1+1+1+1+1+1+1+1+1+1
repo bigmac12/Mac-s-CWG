@@ -1,0 +1,665 @@
+autorun starting game Mon Sep  5 19:59:42 PDT 2011
+running bin/circle -q 4000
+Sep  5 19:59:42 :: Using etc/config for configuration.
+Sep  5 19:59:42 :: CircleMUD, version 3.1
+Sep  5 19:59:42 :: OasisOLC 2.0.6
+Sep  5 19:59:42 :: DG Scripts 1.0.14
+Sep  5 19:59:42 :: ASCII Player Files 3.0.1
+Sep  5 19:59:42 :: CWG Buddha - 4.4.30
+Sep  5 19:59:42 :: Using lib as data directory.
+Sep  5 19:59:42 :: Running game on port 4000.
+Sep  5 19:59:42 :: Finding player limit.
+Sep  5 19:59:42 ::    Setting player limit to 300 using rlimit.
+Sep  5 19:59:42 :: Opening mother connection.
+Sep  5 19:59:42 :: Binding to all IP interfaces on this host.
+Sep  5 19:59:42 :: Boot db -- BEGIN.
+Sep  5 19:59:42 :: Resetting the game time:
+Sep  5 19:59:42 ::    Current Gametime: 7H 9D 16M 605Y.
+Sep  5 19:59:42 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  5 19:59:42 :: Loading spell definitions.
+Sep  5 19:59:42 :: Loading zone table.
+Sep  5 19:59:42 ::    7 zones, 392 bytes.
+Sep  5 19:59:42 :: Loading triggers and generating index.
+Sep  5 19:59:43 :: Loading rooms.
+Sep  5 19:59:43 ::    395 rooms, 44240 bytes.
+Sep  5 19:59:43 :: Renumbering rooms.
+Sep  5 19:59:43 :: Checking start rooms.
+Sep  5 19:59:43 :: Loading mobs and generating index.
+Sep  5 19:59:43 ::    76 mobs, 1520 bytes in index, 30400 bytes in prototypes.
+Sep  5 19:59:43 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  5 19:59:43 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  5 19:59:43 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  5 19:59:43 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  5 19:59:43 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  5 19:59:43 :: Loading objs and generating index.
+Sep  5 19:59:43 ::    145 objs, 2900 bytes in index, 26100 bytes in prototypes.
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  5 19:59:43 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  5 19:59:43 :: Renumbering zone table.
+Sep  5 19:59:43 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  5 19:59:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  5 19:59:43 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  5 19:59:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  5 19:59:43 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  5 19:59:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  5 19:59:43 :: Loading disabled commands list...
+Sep  5 19:59:43 :: Loading shops.
+Sep  5 19:59:43 :: Loading guild masters.
+Sep  5 19:59:43 :: htree stats (global): 977 nodes, 70344 bytes (depth 3/5 used/possible)
+Sep  5 19:59:43 :: htree_test: htree speedup factor: 167%
+Sep  5 19:59:43 :: Loading help entries.
+Sep  5 19:59:43 ::    733 entries, 14660 bytes.
+Sep  5 19:59:43 :: Setting up context sensitive help system for OLC
+Sep  5 19:59:44 :: Generating player index.
+Sep  5 19:59:44 :: Loading fight messages.
+Sep  5 19:59:44 :: Loading social messages.
+Sep  5 19:59:44 :: Social table contains 368 socials.
+Sep  5 19:59:44 :: Building command list.
+Sep  5 19:59:44 :: Command info rebuilt, 689 total commands.
+Sep  5 19:59:44 :: Assigning function pointers:
+Sep  5 19:59:44 ::    Mobiles.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  5 19:59:44 ::    Shopkeepers.
+Sep  5 19:59:44 ::    Objects.
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  5 19:59:44 ::    Rooms.
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  5 19:59:44 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  5 19:59:44 ::    Guildmasters.
+Sep  5 19:59:44 :: Init Object Unique Hash
+Sep  5 19:59:44 :: Booting assembled objects.
+Sep  5 19:59:44 :: Assigning spell and skill levels.
+Sep  5 19:59:44 :: Assigning race spell and skill levels.
+Sep  5 19:59:44 :: Sorting command list and spells.
+Sep  5 19:59:44 :: Booting mail system.
+Sep  5 19:59:44 ::    100 bytes read.
+Sep  5 19:59:44 ::    Mail file read -- 0 messages.
+Sep  5 19:59:44 :: Booting boards system.
+Sep  5 19:59:44 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  5 19:59:44 :: Board vnum 1326, Version 2
+Sep  5 19:59:44 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  5 19:59:44 :: Board vnum 1327, Version 2
+Sep  5 19:59:44 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  5 19:59:44 :: Board vnum 1328, Version 2
+Sep  5 19:59:44 :: There are 8 boards located; 16 messages
+Sep  5 19:59:44 :: Reading banned site and invalid-name list.
+Sep  5 19:59:44 :: Booting houses.
+Sep  5 19:59:44 :: Resetting #0: Limbo (rooms 0-99).
+Sep  5 19:59:44 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  5 19:59:44 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep  5 19:59:44 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep  5 19:59:44 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep  5 19:59:44 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep  5 19:59:44 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  5 19:59:44 :: Boot db -- DONE.
+Sep  5 19:59:44 :: Signal trapping.
+Sep  5 19:59:44 :: Entering game loop.
+Sep  5 19:59:44 :: No connections.  Going to sleep.
+Sep  5 19:59:45 :: New connection.  Waking up.
+Sep  5 19:59:56 :: Mishakal [c-76-27-254-53.hsd1.wa.comcast.net] has connected.
+Sep  5 19:59:58 :: opened crash file
+Sep  5 19:59:58 :: Mishakal retrieving crash-saved items and entering game.
+Sep  5 19:59:58 :: Mishakal (level 38) has 2 objects (max 60).
+Sep  5 19:59:58 :: Mishakal had no variable file
+SYSERR: gethostbyaddr: Success
+Sep  5 20:00:11 :: Mag [192.168.0.3] has connected.
+Sep  5 20:00:12 :: opened crash file
+Sep  5 20:00:12 :: Mag retrieving crash-saved items and entering game.
+Sep  5 20:00:12 :: Mag (level 38) has 2 objects (max 60).
+Sep  5 20:00:12 :: Mag had no variable file
+Sep  5 20:00:15 :: Losing player: <null>.
+Sep  5 20:00:15 :: Losing player: <null>.
+Sep  5 20:00:45 :: Losing player: <null>.
+Sep  5 20:00:45 :: Losing player: <null>.
+Sep  5 20:01:15 :: Losing player: <null>.
+Sep  5 20:01:15 :: Losing player: <null>.
+Sep  5 20:01:45 :: Losing player: <null>.
+Sep  5 20:01:45 :: Losing player: <null>.
+Sep  5 20:02:15 :: Losing player: <null>.
+Sep  5 20:02:15 :: Losing player: <null>.
+Sep  5 20:02:45 :: Losing player: <null>.
+Sep  5 20:02:45 :: Losing player: <null>.
+Sep  5 20:03:15 :: Losing player: <null>.
+Sep  5 20:03:15 :: Losing player: <null>.
+Sep  5 20:03:45 :: Losing player: <null>.
+Sep  5 20:03:45 :: Losing player: <null>.
+Sep  5 20:04:15 :: Losing player: <null>.
+Sep  5 20:04:15 :: Losing player: <null>.
+Sep  5 20:04:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:04:45 :: Losing player: <null>.
+Sep  5 20:04:45 :: Losing player: <null>.
+Sep  5 20:05:15 :: Losing player: <null>.
+Sep  5 20:05:15 :: Losing player: <null>.
+Sep  5 20:05:45 :: Losing player: <null>.
+Sep  5 20:05:45 :: Losing player: <null>.
+Sep  5 20:06:15 :: Losing player: <null>.
+Sep  5 20:06:15 :: Losing player: <null>.
+Sep  5 20:06:45 :: Losing player: <null>.
+Sep  5 20:06:45 :: Losing player: <null>.
+Sep  5 20:07:15 :: Losing player: <null>.
+Sep  5 20:07:15 :: Losing player: <null>.
+Sep  5 20:07:45 :: Losing player: <null>.
+Sep  5 20:07:45 :: Losing player: <null>.
+Sep  5 20:08:15 :: Losing player: <null>.
+Sep  5 20:08:15 :: Losing player: <null>.
+Sep  5 20:08:45 :: Losing player: <null>.
+Sep  5 20:08:45 :: Losing player: <null>.
+Sep  5 20:09:15 :: Losing player: <null>.
+Sep  5 20:09:15 :: Losing player: <null>.
+Sep  5 20:09:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:09:45 :: Losing player: <null>.
+Sep  5 20:09:45 :: Losing player: <null>.
+Sep  5 20:10:15 :: Losing player: <null>.
+Sep  5 20:10:15 :: Losing player: <null>.
+Sep  5 20:10:45 :: Losing player: <null>.
+Sep  5 20:10:45 :: Losing player: <null>.
+Sep  5 20:11:15 :: Losing player: <null>.
+Sep  5 20:11:15 :: Losing player: <null>.
+Sep  5 20:11:45 :: Losing player: <null>.
+Sep  5 20:11:45 :: Losing player: <null>.
+Sep  5 20:12:15 :: Losing player: <null>.
+Sep  5 20:12:15 :: Losing player: <null>.
+Sep  5 20:12:45 :: Losing player: <null>.
+Sep  5 20:12:45 :: Losing player: <null>.
+Sep  5 20:13:15 :: Losing player: <null>.
+Sep  5 20:13:15 :: Losing player: <null>.
+Sep  5 20:13:45 :: Losing player: <null>.
+Sep  5 20:13:45 :: Losing player: <null>.
+Sep  5 20:14:15 :: Losing player: <null>.
+Sep  5 20:14:15 :: Losing player: <null>.
+Sep  5 20:14:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:14:45 :: Losing player: <null>.
+Sep  5 20:14:45 :: Losing player: <null>.
+Sep  5 20:15:15 :: Losing player: <null>.
+Sep  5 20:15:15 :: Losing player: <null>.
+Sep  5 20:15:45 :: Losing player: <null>.
+Sep  5 20:15:45 :: Losing player: <null>.
+Sep  5 20:16:15 :: Losing player: <null>.
+Sep  5 20:16:15 :: Losing player: <null>.
+Sep  5 20:16:45 :: Losing player: <null>.
+Sep  5 20:16:45 :: Losing player: <null>.
+Sep  5 20:17:15 :: Losing player: <null>.
+Sep  5 20:17:15 :: Losing player: <null>.
+Sep  5 20:17:45 :: Losing player: <null>.
+Sep  5 20:17:45 :: Losing player: <null>.
+Sep  5 20:18:15 :: Losing player: <null>.
+Sep  5 20:18:15 :: Losing player: <null>.
+Sep  5 20:18:45 :: Losing player: <null>.
+Sep  5 20:18:45 :: Losing player: <null>.
+Sep  5 20:19:15 :: Losing player: <null>.
+Sep  5 20:19:15 :: Losing player: <null>.
+Sep  5 20:19:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:19:45 :: Losing player: <null>.
+Sep  5 20:19:45 :: Losing player: <null>.
+Sep  5 20:20:15 :: Losing player: <null>.
+Sep  5 20:20:15 :: Losing player: <null>.
+Sep  5 20:20:45 :: Losing player: <null>.
+Sep  5 20:20:45 :: Losing player: <null>.
+Sep  5 20:21:15 :: Losing player: <null>.
+Sep  5 20:21:15 :: Losing player: <null>.
+Sep  5 20:21:45 :: Losing player: <null>.
+Sep  5 20:21:45 :: Losing player: <null>.
+Sep  5 20:22:15 :: Losing player: <null>.
+Sep  5 20:22:15 :: Losing player: <null>.
+Sep  5 20:22:45 :: Losing player: <null>.
+Sep  5 20:22:45 :: Losing player: <null>.
+Sep  5 20:23:15 :: Losing player: <null>.
+Sep  5 20:23:15 :: Losing player: <null>.
+Sep  5 20:23:45 :: Losing player: <null>.
+Sep  5 20:23:45 :: Losing player: <null>.
+Sep  5 20:24:15 :: Losing player: <null>.
+Sep  5 20:24:15 :: Losing player: <null>.
+Sep  5 20:24:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:24:45 :: Losing player: <null>.
+Sep  5 20:24:45 :: Losing player: <null>.
+Sep  5 20:25:15 :: Losing player: <null>.
+Sep  5 20:25:15 :: Losing player: <null>.
+Sep  5 20:25:45 :: Losing player: <null>.
+Sep  5 20:25:45 :: Losing player: <null>.
+Sep  5 20:26:15 :: Losing player: <null>.
+Sep  5 20:26:15 :: Losing player: <null>.
+Sep  5 20:26:45 :: Losing player: <null>.
+Sep  5 20:26:45 :: Losing player: <null>.
+Sep  5 20:27:15 :: Losing player: <null>.
+Sep  5 20:27:15 :: Losing player: <null>.
+Sep  5 20:27:45 :: Losing player: <null>.
+Sep  5 20:27:45 :: Losing player: <null>.
+Sep  5 20:28:15 :: Losing player: <null>.
+Sep  5 20:28:15 :: Losing player: <null>.
+Sep  5 20:28:45 :: Losing player: <null>.
+Sep  5 20:28:45 :: Losing player: <null>.
+Sep  5 20:29:15 :: Losing player: <null>.
+Sep  5 20:29:15 :: Losing player: <null>.
+Sep  5 20:29:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:29:45 :: Losing player: <null>.
+Sep  5 20:29:45 :: Losing player: <null>.
+Sep  5 20:30:15 :: Losing player: <null>.
+Sep  5 20:30:15 :: Losing player: <null>.
+Sep  5 20:30:45 :: Losing player: <null>.
+Sep  5 20:30:45 :: Losing player: <null>.
+Sep  5 20:31:15 :: Losing player: <null>.
+Sep  5 20:31:15 :: Losing player: <null>.
+Sep  5 20:31:45 :: Losing player: <null>.
+Sep  5 20:31:45 :: Losing player: <null>.
+Sep  5 20:32:15 :: Losing player: <null>.
+Sep  5 20:32:15 :: Losing player: <null>.
+Sep  5 20:32:45 :: Losing player: <null>.
+Sep  5 20:32:45 :: Losing player: <null>.
+Sep  5 20:33:15 :: Losing player: <null>.
+Sep  5 20:33:15 :: Losing player: <null>.
+Sep  5 20:33:45 :: Losing player: <null>.
+Sep  5 20:33:45 :: Losing player: <null>.
+Sep  5 20:34:15 :: Losing player: <null>.
+Sep  5 20:34:15 :: Losing player: <null>.
+Sep  5 20:34:45 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  5 20:34:45 :: Losing player: <null>.
+Sep  5 20:34:45 :: Losing player: <null>.
+Sep  5 20:35:15 :: Losing player: <null>.
+Sep  5 20:35:15 :: Losing player: <null>.
+Sep  5 20:35:45 :: Losing player: <null>.
+Sep  5 20:35:45 :: Losing player: <null>.
+Sep  5 20:36:15 :: Losing player: <null>.
+Sep  5 20:36:15 :: Losing player: <null>.
+Sep  5 20:36:45 :: Losing player: <null>.
+Sep  5 20:36:45 :: Losing player: <null>.
+Sep  5 20:37:15 :: Losing player: <null>.
+Sep  5 20:37:15 :: Losing player: <null>.
+Sep  5 20:37:45 :: Losing player: <null>.
+Sep  5 20:37:45 :: Losing player: <null>.
+Sep  5 20:38:15 :: Losing player: <null>.
+Sep  5 20:38:15 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  5 20:38:45 :: Losing player: <null>.
+Sep  5 20:38:45 :: Losing player: <null>.
+Sep  5 20:39:00 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  5 20:39:00 :: Losing player: <null>.
+Sep  5 20:39:00 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  5 20:39:00 :: Losing player: <null>.
+Sep  5 20:39:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 20:41:15 :: Losing player: <null>.
+Sep  5 20:41:15 :: Losing player: <null>.
+Sep  5 20:41:45 :: Losing player: <null>.
+Sep  5 20:41:45 :: Losing player: <null>.
+Sep  5 20:41:56 :: Barfnuggets [ip72-196-12-228.om.om.cox.net] has connected.
+Sep  5 20:41:57 :: opened crash file
+Sep  5 20:41:57 :: Barfnuggets un-renting and entering game.
+Sep  5 20:41:57 :: Barfnuggets (level 36) has 2 objects (max 60).
+Sep  5 20:41:57 :: Barfnuggets had no variable file
+Sep  5 20:42:15 :: Losing player: <null>.
+Sep  5 20:42:15 :: Losing player: <null>.
+Sep  5 20:42:45 :: Losing player: <null>.
+Sep  5 20:42:45 :: Losing player: <null>.
+Sep  5 20:43:15 :: Losing player: <null>.
+Sep  5 20:43:15 :: Losing player: <null>.
+Sep  5 20:43:45 :: Losing player: <null>.
+Sep  5 20:43:45 :: Losing player: <null>.
+Sep  5 20:44:15 :: Losing player: <null>.
+Sep  5 20:44:15 :: Losing player: <null>.
+Sep  5 20:44:45 :: nusage: 5   sockets connected, 3   sockets playing
+Sep  5 20:44:45 :: Losing player: <null>.
+Sep  5 20:44:45 :: Losing player: <null>.
+Sep  5 20:45:15 :: Losing player: <null>.
+Sep  5 20:45:15 :: Losing player: <null>.
+Sep  5 20:45:45 :: Losing player: <null>.
+Sep  5 20:45:45 :: Losing player: <null>.
+Sep  5 20:46:15 :: Losing player: <null>.
+Sep  5 20:46:15 :: Losing player: <null>.
+Sep  5 20:46:45 :: Losing player: <null>.
+Sep  5 20:46:45 :: Losing player: <null>.
+Sep  5 20:47:15 :: Losing player: <null>.
+Sep  5 20:47:15 :: Losing player: <null>.
+Sep  5 20:47:45 :: Losing player: <null>.
+Sep  5 20:47:45 :: Losing player: <null>.
+Sep  5 20:48:15 :: Losing player: <null>.
+Sep  5 20:48:15 :: Losing player: <null>.
+Sep  5 20:48:45 :: Losing player: <null>.
+Sep  5 20:48:45 :: Losing player: <null>.
+Sep  5 20:49:15 :: Losing player: <null>.
+Sep  5 20:49:15 :: Losing player: <null>.
+Sep  5 20:49:45 :: nusage: 5   sockets connected, 3   sockets playing
+Sep  5 20:49:45 :: Losing player: <null>.
+Sep  5 20:49:45 :: Losing player: <null>.
+Sep  5 20:50:15 :: Losing player: <null>.
+Sep  5 20:50:15 :: Losing player: <null>.
+Sep  5 20:50:45 :: Losing player: <null>.
+Sep  5 20:50:45 :: Losing player: <null>.
+Sep  5 20:51:15 :: Losing player: <null>.
+Sep  5 20:51:15 :: Losing player: <null>.
+Sep  5 20:51:45 :: Losing player: <null>.
+Sep  5 20:51:45 :: Losing player: <null>.
+Sep  5 20:51:48 :: Closing link to: Barfnuggets.
+Sep  5 20:52:45 :: Losing player: <null>.
+Sep  5 20:53:12 :: Barfnuggets [ip72-196-12-228.om.om.cox.net] has reconnected.
+Sep  5 20:54:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 20:59:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:04:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:09:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:14:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:19:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:24:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:29:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:34:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:35:00 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:35:35 :: OLC: Mag edits obj 1213
+Sep  5 21:35:35 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  5 21:35:35 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:35:51 :: (GC) Mag forced Barfnuggets to wear puke
+Sep  5 21:39:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:40:09 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  5 21:40:35 :: OLC: Mag edits obj 1310
+Sep  5 21:40:35 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  5 21:40:35 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  5 21:42:30 :: OLC: Mag iedit a unique #1310
+Sep  5 21:42:36 :: Mag tried to get help on iedit
+Sep  5 21:43:32 :: OLC: Mag iedit a unique #1310
+Sep  5 21:44:35 :: OLC: Mag iedit a unique #1310
+Sep  5 21:44:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 21:49:45 :: nusage: 3   sockets connected, 3   sockets playing
+SYSERR: gethostbyaddr: Success
+Sep  5 21:54:29 :: Test [192.168.0.3] has connected.
+Sep  5 21:54:29 :: opened crash file
+Sep  5 21:54:29 :: Test un-renting and entering game.
+Sep  5 21:54:29 :: Test (level 1) has 1 objects (max 60).
+Sep  5 21:54:29 :: Test had no variable file
+Sep  5 21:54:39 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:54:45 :: nusage: 4   sockets connected, 4   sockets playing
+Sep  5 21:54:50 :: OLC: Mag edits obj 1200
+Sep  5 21:54:50 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  5 21:54:50 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:55:41 :: Losing player: Test.
+Sep  5 21:56:59 :: (GC) Mag forced Barfnuggets to enter pc
+Sep  5 21:57:07 :: (GC) Mag forced Barfnuggets to enter pc
+Sep  5 21:57:22 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:57:29 :: GenOLC: add_room: Updated existing room #1211.
+Sep  5 21:57:29 :: OLC: Mag edits room 1211.
+Sep  5 21:57:29 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  5 21:57:29 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  5 21:57:29 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:57:31 :: (GC) Mag forced Barfnuggets to enter pc
+Sep  5 21:57:48 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:57:53 :: GenOLC: add_room: Updated existing room #1211.
+Sep  5 21:57:53 :: OLC: Mag edits room 1211.
+Sep  5 21:57:53 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  5 21:57:53 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  5 21:57:53 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:58:09 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:58:21 :: GenOLC: add_room: Updated existing room #1211.
+Sep  5 21:58:21 :: OLC: Mag edits room 1211.
+Sep  5 21:58:21 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  5 21:58:21 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  5 21:58:21 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:59:09 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 21:59:15 :: GenOLC: add_room: Updated existing room #1211.
+Sep  5 21:59:15 :: OLC: Mag edits room 1211.
+Sep  5 21:59:15 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  5 21:59:15 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  5 21:59:15 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 21:59:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:04:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:09:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:10:24 :: Mishakal has quit the game.
+Sep  5 22:10:24 :: Losing player: Mishakal.
+Sep  5 22:14:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 22:19:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 22:22:51 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 22:23:33 :: OLC: Mag edits obj 1201
+Sep  5 22:23:33 :: GenOLC: save_objects: Saving objects 'world/obj/12.obj'
+Sep  5 22:23:33 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 22:24:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 22:29:45 :: nusage: 2   sockets connected, 2   sockets playing
+SYSERR: gethostbyaddr: Success
+Sep  5 22:30:18 :: Test [192.168.0.3] has connected.
+Sep  5 22:30:18 :: opened crash file
+Sep  5 22:30:18 :: Test un-renting and entering game.
+Sep  5 22:30:18 :: Test (level 1) has 0 objects (max 60).
+Sep  5 22:30:18 :: Test had no variable file
+Sep  5 22:31:41 :: Test has quit the game.
+Sep  5 22:31:43 :: Losing player: Test.
+Sep  5 22:34:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 22:39:36 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  5 22:39:42 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  5 22:39:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 22:40:16 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 22:40:18 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 22:40:22 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  5 22:40:29 :: GenOLC: add_mobile: Updated existing mobile #1299.
+Sep  5 22:40:29 :: OLC: Mag edits mob 1299
+Sep  5 22:40:29 :: GenOLC: save_mobiles: Saving mobiles 'world/mob/12.mob'
+Sep  5 22:40:29 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 22:41:30 :: OLC: Mag starts editing zone 30 allowed zone 65535
+Sep  5 22:41:47 :: OLC: Mag edits obj 3027
+Sep  5 22:41:47 :: GenOLC: save_objects: Saving objects 'world/obj/30.obj'
+Sep  5 22:41:47 :: OLC: Mag stops editing zone 30 allowed zone 65535
+SYSERR: gethostbyaddr: Success
+Sep  5 22:42:06 :: Test [192.168.0.3] has connected.
+Sep  5 22:42:07 :: opened crash file
+Sep  5 22:42:07 :: Test un-renting and entering game.
+Sep  5 22:42:07 :: Test (level 1) has 0 objects (max 60).
+Sep  5 22:42:07 :: Test had no variable file
+Sep  5 22:42:47 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. unknown char field: 'zone_12_reward_number'
+Sep  5 22:42:47 :: Object (V) 3016 does not exist in database.
+Sep  5 22:42:47 :: SCRIPT ERR: Mob (the test mob, VNum 1299):: mload: bad object vnum
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. remote: invalid arguments 'remote zone_12_reward_number '
+Sep  5 22:43:42 :: Object (V) 3016 does not exist in database.
+Sep  5 22:43:42 :: SCRIPT ERR: Mob (the test mob, VNum 1299):: mload: bad object vnum
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. context w/o an arg: 'context '
+Sep  5 22:43:42 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. remote: invalid arguments 'remote zone_12_reward_number '
+Sep  5 22:43:42 :: Object (V) 3016 does not exist in database.
+Sep  5 22:43:42 :: SCRIPT ERR: Mob (the test mob, VNum 1299):: mload: bad object vnum
+Sep  5 22:44:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:44:59 :: Object (V) 3017 does not exist in database.
+Sep  5 22:44:59 :: SCRIPT ERR: Mob (the test mob, VNum 1299):: mload: bad object vnum
+Sep  5 22:48:53 :: OLC: Mag starts editing zone 12 [trigger](allowed zone 65535)
+Sep  5 22:49:34 :: OLC: Mag edits trigger 1298
+Sep  5 22:49:34 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  5 22:49:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:51:56 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. unknown char field: 'zone_12_reward_number'
+Sep  5 22:54:14 :: PCLEAN: test Lev: 1 Last: Mon Sep  5 22:54:14 2011
+Sep  5 22:54:14 :: Test (lev 1) has self-deleted.
+Sep  5 22:54:14 :: Losing player: Test.
+SYSERR: gethostbyaddr: Success
+Sep  5 22:54:38 :: New player: Herp [Human Death Knight]
+Sep  5 22:54:38 :: Str: 10 Dex: 10 Con: 10 Int: 10 Wis:  10 Cha: 10
+Sep  5 22:54:39 :: Herp entering game with no equipment.
+Sep  5 22:54:39 :: Herp had no variable file
+Sep  5 22:54:39 :: Herp advanced to level 1
+Sep  5 22:54:45 :: nusage: 3   sockets connected, 3   sockets playing
+Sep  5 22:55:39 :: SCRIPT ERR: Trigger: Quest object loader, VNum 1298. unknown char field: 'zone_12_reward_number'
+Sep  5 22:58:06 :: Losing player: Herp.
+Sep  5 22:59:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:04:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:09:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:14:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:19:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:24:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:29:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:34:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:39:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:44:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:49:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  5 23:54:42 :: Mag has quit the game.
+Sep  5 23:54:42 :: Losing player: Mag.
+Sep  5 23:54:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  5 23:59:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:04:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:09:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:14:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:19:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:24:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:29:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:34:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:39:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:44:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:49:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:54:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 00:59:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:04:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:09:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:14:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:19:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:24:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:29:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:34:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:39:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:44:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:49:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:54:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 01:59:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:04:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:09:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:14:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:19:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:24:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:29:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:34:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:39:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:44:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:49:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:54:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 02:59:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:04:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:09:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:14:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:19:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:24:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:29:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:34:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:39:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:44:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 03:49:45 :: nusage: 1   sockets connected, 1   sockets playing
+SYSERR: gethostbyaddr: Success
+Sep  6 03:52:54 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  6 03:52:54 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  6 03:53:36 :: Mag [192.168.0.3] has connected.
+Sep  6 03:53:37 :: opened crash file
+Sep  6 03:53:37 :: Mag un-renting and entering game.
+Sep  6 03:53:37 :: Mag (level 38) has 0 objects (max 60).
+Sep  6 03:53:37 :: Mag had no variable file
+Sep  6 03:54:45 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  6 03:55:47 :: Mag has quit the game.
+Sep  6 03:55:47 :: Losing player: Mag.
+Sep  6 03:59:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 04:04:45 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 04:09:45 :: nusage: 1   sockets connected, 1   sockets playing
+SYSERR: perform_socket_read: about to lose connection: Connection timed out
+Sep  6 04:10:20 :: Closing link to: Barfnuggets.
+Sep  6 04:10:20 :: No connections.  Going to sleep.
+Sep  6 12:24:48 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  6 12:24:56 :: Mag [192.168.0.3] has connected.
+Sep  6 12:24:56 :: opened crash file
+Sep  6 12:24:56 :: Mag un-renting and entering game.
+Sep  6 12:24:56 :: Mag (level 38) has 0 objects (max 60).
+Sep  6 12:24:56 :: Mag had no variable file
+Sep  6 12:27:38 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  6 12:27:38 :: Closing link to: Mag.
+Sep  6 12:27:38 :: No connections.  Going to sleep.
+Sep  6 12:27:48 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  6 12:27:55 :: Mag [192.168.0.3] has reconnected.
+Sep  6 12:29:23 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 12:31:06 :: (GC) Mag has purged Barfnuggets.
+Sep  6 12:31:37 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:31:49 :: GenOLC: add_room: Updated existing room #1202.
+Sep  6 12:31:49 :: OLC: Mag edits room 1202.
+Sep  6 12:31:49 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  6 12:31:49 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  6 12:31:49 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:31:59 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:33:39 :: GenOLC: add_room: Updated existing room #1202.
+Sep  6 12:33:39 :: OLC: Mag edits room 1202.
+Sep  6 12:33:39 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  6 12:33:39 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  6 12:33:39 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:34:23 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 12:34:43 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:37:46 :: GenOLC: add_room: Updated existing room #1291.
+Sep  6 12:37:46 :: OLC: Mag edits room 1291.
+Sep  6 12:37:46 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  6 12:37:46 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  6 12:37:46 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:37:57 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:39:23 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 12:41:52 :: GenOLC: add_room: Updated existing room #1204.
+Sep  6 12:41:52 :: OLC: Mag edits room 1204.
+Sep  6 12:41:52 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  6 12:41:52 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  6 12:41:52 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:43:23 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:44:23 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  6 12:44:27 :: GenOLC: add_room: Updated existing room #1204.
+Sep  6 12:44:27 :: OLC: Mag edits room 1204.
+Sep  6 12:44:27 :: GenOLC: save_rooms: Saving rooms in zone #12 (1200-1299).
+Sep  6 12:44:27 :: GenOLC: save_rooms: Saving rooms 'world/wld/12.wld'
+Sep  6 12:44:27 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:46:51 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:47:05 :: GenOLC: save_zone: Saving zone 'world/zon/12.zon'
+Sep  6 12:47:05 :: OLC: Mag edits zone info for room 1206.
+Sep  6 12:47:05 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:47:09 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:47:23 :: GenOLC: save_zone: Saving zone 'world/zon/12.zon'
+Sep  6 12:47:23 :: OLC: Mag edits zone info for room 1290.
+Sep  6 12:47:23 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:47:25 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  6 12:48:05 :: GenOLC: save_zone: Saving zone 'world/zon/12.zon'
+Sep  6 12:48:05 :: OLC: Mag edits zone info for room 1206.
+Sep  6 12:48:05 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  6 12:48:08 :: (GC) Mag reset zone 12 (God Simplex)
+Segmentation fault
+Improper shutdown of autorun detected, rotating syslogs before startup.

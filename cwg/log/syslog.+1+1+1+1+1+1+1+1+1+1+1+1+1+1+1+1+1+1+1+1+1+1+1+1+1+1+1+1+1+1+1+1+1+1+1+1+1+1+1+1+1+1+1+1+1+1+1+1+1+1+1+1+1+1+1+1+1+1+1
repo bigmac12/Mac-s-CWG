@@ -1,0 +1,18 @@
+autorun starting game Sat Sep  3 20:13:44 PDT 2011
+running bin/circle -q 4000
+Sep  3 20:13:44 :: Using etc/config for configuration.
+Sep  3 20:13:44 :: CircleMUD, version 3.1
+Sep  3 20:13:44 :: OasisOLC 2.0.6
+Sep  3 20:13:44 :: DG Scripts 1.0.14
+Sep  3 20:13:44 :: ASCII Player Files 3.0.1
+Sep  3 20:13:44 :: CWG Buddha - 4.4.30
+Sep  3 20:13:44 :: Using lib as data directory.
+Sep  3 20:13:44 :: Running game on port 4000.
+Sep  3 20:13:44 :: Finding player limit.
+Sep  3 20:13:44 ::    Setting player limit to 300 using rlimit.
+Sep  3 20:13:44 :: Opening mother connection.
+Sep  3 20:13:44 :: Binding to all IP interfaces on this host.
+SYSERR: bind: Address already in use
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+autoscript killed Sat Sep  3 20:13:44 PDT 2011

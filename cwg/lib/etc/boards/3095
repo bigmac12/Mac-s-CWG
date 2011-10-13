@@ -1,0 +1,59 @@
+Board File
+0 0 0 3 2
+#1
+Mag
+1315339188
+z12: Reorganization
+   I'd like a builder to reorganize z12 (the Imm zone).  We need to include a
+room for each of the three types of imms (social, building, coder) and link them
+together coherently.
+
+   Currently, I am using r1204 as the "coder board", but this won't be perm-
+anent. Be sure to include a coder room that has a new vnum.
+
+   Additionally, I don't feel the need to put in an 'implementer' board room;
+I'd rather not encourage secrecy based on imm level with a board.
+~
+#2
+Mag
+1315260106
+Build Flags
+   When creating objects, you may notice that some wear flags
+are missing (ANKLE, FEET, ONBACK, and BACK). I am aware of the
+problem and am working to fix it.
+
+   In the meantime you may proceed with building normally.
+~
+#3
+Mishakal
+1315163546
+@WCity Building List.@n
+1: Palanthas. -Good Align starting city.-
+2: Sanction. -Evil Align starting city.-
+3: Tarsis. -Port City, link a road to Sanction.-
+4: Hylo. -Close to Palanthas, later Kender choice of starting.-
+5: Mithas. -Will be a starting city for Minotaurs later.-
+6: Silvanesti. -Elven starting city choice-
+7: Qualinesti. -Elven starting city choice.-
+8: Gnome town outside of Mt. Nevermind.  -Nevermind to come later.-
+9: Underwater town. -Sea Elf starting city.-
+10: Vingaard, and Solanthus
+11: kalaman, and Yeraka landing to Karthay
+12: Istar
+13: Work on outskirts of each city, in the same order.
+
+This will be our list, trying to get most of the major 
+cities done. Hitting the port cities first, since they can 
+be linked up via the boats. Roads will come later, though
+if it is a short distances between something that is fine.
+Any more ideas, or think something in the list should change. Post Back :)
+
+Also post which cities you would like to do, or have ideas for.
+
+Mish
+~
+S36 Mag 1315163546
+S36 Mishakal 1315163546
+S194 Mag 1315339188
+S275 Mag 1315260106
+S275 Mishakal 1315260106

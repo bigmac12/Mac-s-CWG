@@ -1,0 +1,24 @@
+#41
+Redferne~
+Mines of Moria~
+4100 4199 30 2
+M 0 4100 1 4114 0 0 	(the mage)
+G 1 4102 2 -1 -1 0 	(a scroll which reads 'ysafg')
+M 0 4101 1 4122 0 0 	(the troll)
+G 1 4100 2 -1 -1 0 	(a black demon blade)
+M 0 4102 3 4111 0 0 	(the snake)
+G 1 4103 10 -1 -1 0 	(a green slime mould)
+M 0 4102 3 4111 0 0 	(the snake)
+G 1 4104 3 -1 -1 0 	(a green slime mould)
+M 0 4103 6 4103 0 0 	(the thief)
+M 0 4103 2 4124 0 0 	(the thief)
+E 1 4053 3 16 -1 0 	(a thieves' dirk)
+M 0 4105 3 4108 0 0 	(the centipede)
+M 0 4106 2 4113 0 0 	(the warrior)
+G 1 4101 1 -1 -1 0 	(a pair of swordsmans' gloves)
+M 0 4107 1 4119 0 0 	(the kobold)
+G 1 4104 10 -1 -1 0 	(a green slime mould)
+D 0 4119 3 1 -1 0 	(The Cave)
+D 0 4121 1 1 -1 0 	(The Secret Tunnel)
+S
+$

@@ -1,0 +1,253 @@
+#1200
+The Meeting Room Of The Gods~
+   The meeting room is plain and very simple.  A circular table sits in the
+middle of the room, lit by some unseen light source.  There are many chairs
+around the table, all empty.  The Immortal Board Room is to the north.  
+~
+12 d 0 0 0 0
+D0
+The Immortal Board Room can be seen to the north.
+~
+~
+0 -1 1204
+S
+#1201
+The Inn Of The Gods~
+   The Inn of the Gods is a small room, holding only a shelf with many
+small precious stones on it.  When a God comes to rent his belongings,
+his essence is stored in the stones.  The Immortal Board Room is to
+the south.
+~
+12 d 0 0 0 0
+D2
+The Immortal Board Room can be seen to the south.
+~
+~
+0 -1 1204
+S
+#1202
+@BThe Ice Box@n~
+   If you are frozen and now reading this, it means you screwed up.  Chances are
+that an immortal has already gone over your offense(s) and decided you should
+stay here for a while.  When your time is up, you will be thawed and set free
+again.  Until then, enjoy your stay.
+~
+12 defhk 0 0 0 0
+S
+#1203
+The Gods' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board
+room.  Any God can easily post and read messages from the mortal board room
+without being seen by any mortals.  The Immortal Board Room is to the west.
+~
+12 d 0 0 0 0
+D3
+The Immortal Board Room can be seen to the west.
+~
+~
+0 -1 1204
+S
+#1204
+The Immortal Board Room~
+   This board will serve as a place to put coding-related ideas, fixes, updates,
+and additions.  @RPlease be as specific as possible@n when posting about
+code-related issues (whether it is an idea or fix).  Also notice that each post
+is prefixed by one of the following: @RADD@n, @RUPDATE@n, @RFIX@n, or @RBUG@n.  This identifies
+the issue related to the post.  If you have an idea for a new feature, put 'ADD'
+in the post title.  If you find something broken, put 'FIX'.  Likewise, if you
+find that a command or feature behaves in an unexpected way, put 'UPDATE' in the
+subject.  When a command or action crashes the MUD, use 'BUG' in the post title.
+~
+12 d 0 0 0 0
+D0
+The Gods' Inn can be seen just to the north.
+~
+~
+0 -1 1201
+D1
+The Immortal Board Hall can be seen just to the east.
+~
+~
+0 -1 1290
+D2
+The Gods' Meeting Room is located to the south.
+~
+~
+0 -1 1200
+D3
+The Gods' Post Office is just to the west.
+~
+~
+0 -1 1205
+D4
+There is a small stair in the corner leading up to the social room of
+the Gods.
+~
+~
+0 -1 1206
+S
+#1205
+The Post Office Of The Gods~
+   The Post Office Of The Gods is the same as most Post Offices except that
+it is not as slow.  Even the Postal service knows not to anger the Gods.
+Piles of junk mail line the walls.  I guess even Gods get on mailing lists.
+The Immortal Board Room is to the east.
+~
+12 d 0 0 0 0
+D1
+The Immortal Board Room is just to the east.
+~
+~
+0 -1 1204
+S
+#1206
+The Social Gathering Room~
+   This elegantly decorated room has one simple purpose.  To socialize with
+everyone else around in one central location.
+~
+12 d 0 0 0 0
+D5
+The Immortal Board Room is just down through the floor.  Funny how you
+didn't notice that exit before isn't it?
+~
+~
+0 -1 1204
+S
+#1210
+Mishakal's Sanctuary~
+   Gentle mists form along a sparkling brook, occasionally shrouding its lush
+banks in glittering silver veils.  The crystal clear water purls and gurgles as
+it playfully tumbles over the smooth rocks at the bottom of the brook, its merry
+babble mingling with the warbles of a distant songbird.  Gnarled oaks and
+blooming apple trees dip their roots in the brook, their verdant leaves
+shimmering serenely as thin beams of golden sunlight filter through the canopy
+fresh, spring air.
+~
+12 d 0 0 0 0
+S
+#1211
+The Cave of the Code Troll~
+   This cave is a quiet, lonely place where the resident code troll makes his
+home and does his work.  If the troll is coding, leave him alone.  Offerings of
+food and beverage are accepted, but should be left at the door.
+~
+12 dk 0 0 0 0
+S
+#1212
+Within A Smithy~
+   This large chunk of earth, floating within the heavens, houses a shallow pit
+surrounded by large rune-etched stones.  Heat seems to radiate from all
+directions, but the source is clearly near the center where a roaring fire
+blazes in the forge.  Massive bellows force air through the tuyere causing the
+coals in the hearth to glow bright white with each gust.  Waves of heat flow
+forth, acompanied by dancing sparks which float up into the sky, flickering and
+fading next to the brighter stars above.  Beside the forge rests a godly anvil,
+slightly dented and marred from countless years of use, but impressive none the
+less.
+~
+12 cdgh 0 0 0 0
+E
+anvil~
+This ancient forging device is the largest ever imagined.  It is masterfully crafted from the finest of materials, and seems to emit a slight humming sound.
+~
+E
+clouds~
+   The clouds are shrouded in darkness except for a small round patch, where
+the pillar of light penetrates.  The clouds there seem to swirl and turn around
+the light, and small lightnings come out of the clouds and hit the top of the
+pillar.    
+~
+S
+T 1212
+#1213
+A Puke-filled Room~
+
+   Welcome to the realm of Barfnuggets.
+
+   He who is Lord of Vomit and the Son of Puke.
+
+~
+12 d 0 0 0 0
+S
+#1226
+A Calming Sea Shore~
+   The grassy plains merge into a rather serene sea shore here.  The crystal
+blue waters gently roll ashore filling the area with a peaceful sound.  In the
+distance, some seagulls are heard.  Such a beautiful place must be where the
+Gods come to relax.  There is a strange mechanical contraption sitting a few
+yards away from the waters.    
+~
+12 0 0 0 0 7
+E
+spacepod~
+   It is metal, spherical, and looks really, really cool!.
+~
+S
+#1290
+The Immortal Board Hall~
+   You are standing in a large hall, exits lead off to the board rooms of the
+immortals.  You can enter the hall of builders to the north, to the south are
+the halls of justice, while to the west you can find the immortal board room.
+  
+~
+12 d 0 0 0 0
+D0
+~
+~
+0 0 1291
+D2
+~
+~
+0 0 1293
+D3
+~
+~
+0 0 1204
+S
+#1291
+The Builders' Board Room~
+   This is the builders' board room.  Post building-related content here,
+including: spelling and grammatical errors, broken rooms/mobs/triggers, broken
+scripts, ideas for new zones or additions to existing zones, and general fixes.
+When posting about errors in MUD content, include the @RVNUM@n of the item in
+question and any other relevant information that will expedite the building
+process.
+~
+12 d 0 0 0 0
+D2
+~
+~
+0 0 1290
+S
+#1292
+The Immortals' Mortal Board Room~
+   Here the Gods have magically created an exact copy of the mortal board room.
+Any God can easily post and read messages from the mortal board room without
+being seen by any mortals.  The Immortal Board Hall is to the west.
+~
+12 0 0 0 0 0
+D3
+~
+~
+0 0 1290
+S
+#1293
+The Halls Of Justice~
+   You are standing in a magnificent marble hall, the only exit is back to the
+north.  Statues of Karileena the goddess of Honour and Justice, are lining the
+walls.  You realize this is where the exalted gods meet to discuss what course of
+action to take against offenders in the realms.    
+~
+12 dj 0 0 0 9
+D0
+~
+~
+0 0 1290
+S
+#1299
+@DThe Beginning and The End@n~
+   There is only emptiness.
+~
+12 dk 0 0 0 0
+S
+$~

@@ -1,0 +1,156 @@
+autorun starting game Wed May 18 23:57:11 PDT 2011
+running bin/circle -q 4000
+May 18 23:57:11 :: Using etc/config for configuration.
+May 18 23:57:11 :: CircleMUD, version 3.1
+May 18 23:57:11 :: OasisOLC 2.0.6
+May 18 23:57:11 :: DG Scripts 1.0.14
+May 18 23:57:11 :: ASCII Player Files 3.0.1
+May 18 23:57:11 :: CWG Buddha - 4.4.30
+May 18 23:57:11 :: Using lib as data directory.
+May 18 23:57:11 :: Running game on port 4000.
+May 18 23:57:11 :: Finding player limit.
+May 18 23:57:11 ::    Setting player limit to 300 using rlimit.
+May 18 23:57:11 :: Opening mother connection.
+May 18 23:57:11 :: Binding to all IP interfaces on this host.
+May 18 23:57:11 :: Boot db -- BEGIN.
+May 18 23:57:11 :: Resetting the game time:
+May 18 23:57:11 ::    Current Gametime: 12H 31D 1M 597Y.
+May 18 23:57:11 :: Reading news, credits, help, ihelp, bground, info & motds.
+May 18 23:57:11 :: Loading spell definitions.
+May 18 23:57:11 :: Loading zone table.
+May 18 23:57:11 ::    175 zones, 9800 bytes.
+May 18 23:57:11 :: Loading triggers and generating index.
+May 18 23:57:11 :: Loading rooms.
+May 18 23:57:12 ::    11511 rooms, 1289232 bytes.
+May 18 23:57:12 :: Renumbering rooms.
+May 18 23:57:12 :: Checking start rooms.
+May 18 23:57:12 :: Loading mobs and generating index.
+May 18 23:57:13 ::    3448 mobs, 68960 bytes in index, 1282656 bytes in prototypes.
+May 18 23:57:13 :: Loading objs and generating index.
+May 18 23:57:13 ::    4234 objs, 84680 bytes in index, 762120 bytes in prototypes.
+May 18 23:57:13 :: Renumbering zone table.
+May 18 23:57:13 :: Loading disabled commands list...
+May 18 23:57:13 :: Loading shops.
+May 18 23:57:13 :: Loading guild masters.
+May 18 23:57:13 :: htree stats (global): 24843 nodes, 1788696 bytes (depth 4/5 used/possible)
+May 18 23:57:13 :: htree_test: htree speedup factor: 99%
+May 18 23:57:13 :: Loading help entries.
+May 18 23:57:13 ::    733 entries, 14660 bytes.
+May 18 23:57:13 :: Setting up context sensitive help system for OLC
+May 18 23:57:13 :: Generating player index.
+May 18 23:57:13 :: Loading fight messages.
+May 18 23:57:13 :: Loading social messages.
+May 18 23:57:13 :: Social table contains 368 socials.
+May 18 23:57:13 :: Building command list.
+May 18 23:57:13 :: Command info rebuilt, 684 total commands.
+May 18 23:57:13 :: Assigning function pointers:
+May 18 23:57:13 ::    Mobiles.
+May 18 23:57:13 ::    Shopkeepers.
+May 18 23:57:13 ::    Objects.
+May 18 23:57:13 ::    Rooms.
+May 18 23:57:13 ::    Guildmasters.
+May 18 23:57:13 :: Init Object Unique Hash
+May 18 23:57:13 :: Booting assembled objects.
+May 18 23:57:13 :: Assigning spell and skill levels.
+May 18 23:57:13 :: Assigning race spell and skill levels.
+May 18 23:57:13 :: Sorting command list and spells.
+May 18 23:57:13 :: Booting mail system.
+May 18 23:57:14 ::    100 bytes read.
+May 18 23:57:14 ::    Mail file read -- 0 messages.
+May 18 23:57:14 :: Booting boards system.
+May 18 23:57:14 :: There are 7 boards located; 0 messages
+May 18 23:57:14 :: Reading banned site and invalid-name list.
+May 18 23:57:14 :: Booting houses.
+May 18 23:57:14 :: Resetting #0: Limbo (rooms 0-99).
+May 18 23:57:14 :: Resetting #1: Sanctus (rooms 100-199).
+May 18 23:57:14 :: Resetting #2: Sanctus II (rooms 200-299).
+May 18 23:57:14 :: Resetting #3: Sanctus III (rooms 300-399).
+May 18 23:57:14 :: Resetting #4: Jade Forest (rooms 400-499).
+May 18 23:57:14 :: Resetting #5: Newbie Farm (rooms 500-599).
+May 18 23:57:14 :: Resetting #6: Sea of Souls (rooms 600-699).
+May 18 23:57:14 :: Resetting #7: Camelot (rooms 700-799).
+May 18 23:57:14 :: Resetting #9: River Island of Minos (rooms 900-999).
+May 18 23:57:14 :: Resetting #12: God Simplex (rooms 1200-1299).
+May 18 23:57:14 :: Resetting #13: The Builder Academy (rooms 1300-1399).
+May 18 23:57:14 :: Resetting #14: The Builder Academy II (rooms 1400-1499).
+May 18 23:57:14 :: Resetting #15: Straight Path (rooms 1500-1599).
+May 18 23:57:14 :: Resetting #16: Camelot II (rooms 1600-1699).
+May 18 23:57:14 :: Resetting #17: Camelot III (rooms 1700-1799).
+May 18 23:57:14 :: Resetting #18: Nuclear Wasteland (rooms 1800-1899).
+May 18 23:57:14 :: Resetting #19: Spider Swamp (rooms 1900-1999).
+May 18 23:57:14 :: Resetting #20: Arena (rooms 2000-2099).
+May 18 23:57:14 :: Resetting #22: Tower of the Undead (rooms 2200-2299).
+May 18 23:57:14 :: Resetting #25: High Tower of Magic (rooms 2500-2599).
+May 18 23:57:14 :: Resetting #26: High Tower of Magic II (rooms 2600-2699).
+May 18 23:57:14 :: Resetting #27: Memlin Caverns (rooms 2700-2799).
+May 18 23:57:14 :: Resetting #28: Mudschool (rooms 2800-2899).
+May 18 23:57:14 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+May 18 23:57:14 :: Resetting #31: Southern Midgaard (rooms 3100-3199).
+May 18 23:57:14 :: Resetting #32: Midgaard (rooms 3200-3299).
+May 18 23:57:14 :: Resetting #33: Three of Swords (rooms 3300-3399).
+May 18 23:57:14 :: Resetting #35: Miden'Nir (rooms 3500-3599).
+May 18 23:57:14 :: Resetting #36: Chessboard of Midgaard (rooms 3600-3699).
+May 18 23:57:14 :: Resetting #37: Capital Sewer System (rooms 3700-3799).
+May 18 23:57:14 :: Resetting #38: Capital Sewer System II (rooms 3800-3899).
+May 18 23:57:14 :: Resetting #39: Haven (rooms 3900-3999).
+May 18 23:57:14 :: Resetting #40: Mines of Moria (rooms 4000-4099).
+May 18 23:57:14 :: Resetting #41: Mines of Moria (rooms 4100-4199).
+May 18 23:57:14 :: Resetting #42: Dragon Chasm (rooms 4200-4299).
+May 18 23:57:14 :: Resetting #43: Arctic Zone (rooms 4300-4399).
+May 18 23:57:14 :: Resetting #44: Orc Camp (rooms 4400-4499).
+May 18 23:57:14 :: Resetting #45: Woodland Monastery (rooms 4500-4599).
+May 18 23:57:14 :: Resetting #46: Ant Hill (rooms 4600-4699).
+May 18 23:57:14 :: Resetting #50: Great Eastern Desert (rooms 5000-5099).
+May 18 23:57:14 :: Resetting #51: Drow City (rooms 5100-5199).
+May 18 23:57:14 :: Resetting #52: City of Thalos (rooms 5200-5299).
+May 18 23:57:14 :: Resetting #53: Great Pyramid (rooms 5300-5399).
+May 18 23:57:14 :: Resetting #54: New Thalos (rooms 5400-5499).
+May 18 23:57:14 :: Resetting #55: New Thalos II (rooms 5500-5599).
+May 18 23:57:14 :: Resetting #56: New Thalos Wilderness (rooms 5600-5699).
+May 18 23:57:14 :: Resetting #57: Zodiac (rooms 5700-5799).
+May 18 23:57:14 :: Resetting #60: Haon-Dor, Light Forest (rooms 6000-6099).
+May 18 23:57:14 :: Resetting #61: Haon-Dor, Light Forest II (rooms 6100-6199).
+May 18 23:57:14 :: Resetting #62: Orc Enclave (rooms 6200-6299).
+May 18 23:57:14 :: Resetting #63: Arachnos (rooms 6300-6399).
+May 18 23:57:14 :: Resetting #64: Rand's Tower (rooms 6400-6499).
+May 18 23:57:14 :: Resetting #65: Dwarven Kingdom (rooms 6500-6599).
+May 18 23:57:14 :: Resetting #70: Sewer, First Level (rooms 7000-7099).
+May 18 23:57:14 :: Resetting #71: Second Sewer (rooms 7100-7199).
+May 18 23:57:14 :: Resetting #72: Sewer Maze (rooms 7200-7299).
+May 18 23:57:14 :: Resetting #73: Tunnels in the Sewer (rooms 7300-7399).
+May 18 23:57:14 :: Resetting #74: Newbie Graveyard (rooms 7400-7499).
+May 18 23:57:14 :: Resetting #75: Zamba (rooms 7500-7599).
+May 18 23:57:14 :: Resetting #78: Gideon (rooms 7800-7899).
+May 18 23:57:14 :: Resetting #79: Redferne's Residence (rooms 7900-7999).
+May 18 23:57:14 :: Resetting #83: Glumgold's Sea (rooms 8300-8399).
+May 18 23:57:14 :: Resetting #86: Duke Kalithorn's Keep (rooms 8600-8699).
+May 18 23:57:14 :: Resetting #90: Oasis (rooms 9000-9099).
+May 18 23:57:14 :: Resetting #96: Domiae (rooms 9600-9699).
+May 18 23:57:14 :: Resetting #100: Northern Highway (rooms 10000-10099).
+May 18 23:57:14 :: Resetting #101: South Road (rooms 10100-10199).
+May 18 23:57:14 :: Resetting #103: DBZ World (rooms 10300-10399).
+May 18 23:57:14 :: Resetting #104: Land of Orchan (rooms 10400-10499).
+May 18 23:57:14 :: Resetting #106: Elcardo (rooms 10600-10699).
+May 18 23:57:14 :: Resetting #107: Realms of Iuel (rooms 10700-10799).
+May 18 23:57:14 :: Resetting #115: Monestary Omega (rooms 11500-11599).
+May 18 23:57:14 :: Resetting #120: Rome (rooms 12000-12099).
+May 18 23:57:14 :: Resetting #125: Hannah (rooms 12500-12599).
+May 18 23:57:14 :: Resetting #140: Wyvern City (rooms 14000-14099).
+May 18 23:57:14 :: Resetting #150: King Welmar's Castle (rooms 15000-15099).
+May 18 23:57:14 :: Resetting #169: Gibberling Caves (rooms 16900-16999).
+May 18 23:57:14 :: Resetting #175: Cardinal Wizards (rooms 17500-17599).
+May 18 23:57:14 :: Resetting #186: Newbie Zone (rooms 18600-18699).
+May 18 23:57:14 :: Resetting #187: Circus (rooms 18700-18799).
+May 18 23:57:14 :: Resetting #200: Western Highway (rooms 20000-20099).
+May 18 23:57:14 :: Resetting #232: Terringham (rooms 23200-23299).
+May 18 23:57:14 :: Resetting #233: Dragon Plains (rooms 23300-23399).
+May 18 23:57:14 :: Resetting #234: Newbie School (rooms 23400-23499).
+May 18 23:57:14 :: Resetting #235: Dwarven Mines (rooms 23500-23599).
+May 18 23:57:14 :: Resetting #236: Aldin (rooms 23600-23699).
+May 18 23:57:14 :: Resetting #237: Dwarven Trade Route (rooms 23700-23799).
+May 18 23:57:14 :: Resetting #238: Crystal Castle (rooms 23800-23899).
+May 18 23:57:14 :: Resetting #239: South Pass (rooms 23900-23999).
+May 18 23:57:14 :: Resetting #240: Dun Maura (rooms 24000-24099).
+May 18 23:57:14 :: Resetting #241: Starship Enterprise (rooms 24100-24199).
+May 18 23:57:14 :: Resetting #242: New Southern Midgaard (rooms 24200-24299).
+Improper shutdown of autorun detected, rotating syslogs before startup.

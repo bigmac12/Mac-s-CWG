@@ -1,0 +1,37 @@
+#78
+Arina~
+Gideon~
+7800 7899 30 2
+M 0 7810 1 7811 0 0 	(the elven healer)
+R 0 7818 7801 -1 0 0 	(a fountain of water)
+O 0 7801 1 7818 0 0 	(a fountain of water)
+M 0 7808 1 7818 0 0 	(a human servant)
+M 0 7809 1 7823 0 0 	(a husky hunter)
+E 1 7822 100 16 -1 0 	(a spiked club)
+M 0 7807 1 7812 0 0 	(an elven gardner)
+E 1 7821 100 16 -1 0 	(a pitchfork)
+M 0 7806 1 7809 0 0 	(the village fool)
+E 1 7820 100 16 -1 0 	(a red stripped juggling pin)
+E 1 7817 100 7 -1 0 	(a pair of rainbow stripped pants)
+E 1 7818 100 5 -1 0 	(a pink polkadot frock)
+E 1 7819 100 6 -1 0 	(a tri-cornered hat)
+M 0 7801 1 7813 0 0 	(the elven lass)
+M 0 7804 2 7819 0 0 	(a small human boy)
+M 0 7805 4 7804 0 0 	(the village guard)
+E 1 7816 100 16 -1 0 	(a slender dagger)
+E 1 7814 100 12 -1 0 	(some grey leather armor)
+E 1 7815 100 8 -1 0 	(a pair of grey leather boots)
+M 0 7803 1 7822 0 0 	(Vhispera the shopkeeper)
+G 1 7809 100 -1 -1 0 	(a small fuzzy pouch)
+G 1 7810 100 -1 -1 0 	(a large travelers pack)
+G 1 7811 100 -1 -1 0 	(some soft tanned leather boots)
+G 1 7812 100 -1 -1 0 	(a leather haversack)
+M 0 7802 1 7820 0 0 	(Stamnell, the baker)
+G 1 7803 100 -1 -1 0 	(a yummy blueberry tart)
+G 1 7804 100 -1 -1 0 	(a freshly baked apple pie)
+G 1 7805 100 -1 -1 0 	(a slice of cake)
+G 1 7806 100 -1 -1 0 	(a hot muffin)
+G 1 7807 100 -1 -1 0 	(a huge chocolate chip cookie)
+G 1 7808 100 -1 -1 0 	(a glass)
+S
+$

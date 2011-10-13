@@ -1,0 +1,166 @@
+autorun starting game Sun Sep  4 12:50:43 PDT 2011
+running bin/circle -q 4000
+Sep  4 12:50:43 :: Using etc/config for configuration.
+Sep  4 12:50:43 :: CircleMUD, version 3.1
+Sep  4 12:50:43 :: OasisOLC 2.0.6
+Sep  4 12:50:43 :: DG Scripts 1.0.14
+Sep  4 12:50:43 :: ASCII Player Files 3.0.1
+Sep  4 12:50:43 :: CWG Buddha - 4.4.30
+Sep  4 12:50:43 :: Using lib as data directory.
+Sep  4 12:50:43 :: Running game on port 4000.
+Sep  4 12:50:43 :: Finding player limit.
+Sep  4 12:50:43 ::    Setting player limit to 300 using rlimit.
+Sep  4 12:50:43 :: Opening mother connection.
+Sep  4 12:50:43 :: Binding to all IP interfaces on this host.
+Sep  4 12:50:43 :: Boot db -- BEGIN.
+Sep  4 12:50:43 :: Resetting the game time:
+Sep  4 12:50:43 ::    Current Gametime: 4H 24D 14M 605Y.
+Sep  4 12:50:43 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  4 12:50:43 :: Loading spell definitions.
+Sep  4 12:50:43 :: Loading zone table.
+Sep  4 12:50:43 ::    7 zones, 392 bytes.
+Sep  4 12:50:43 :: Loading triggers and generating index.
+Sep  4 12:50:43 :: Loading rooms.
+Sep  4 12:50:43 ::    303 rooms, 33936 bytes.
+Sep  4 12:50:43 :: Renumbering rooms.
+Sep  4 12:50:43 :: Checking start rooms.
+Sep  4 12:50:43 :: Loading mobs and generating index.
+Sep  4 12:50:43 ::    76 mobs, 1520 bytes in index, 28576 bytes in prototypes.
+Sep  4 12:50:43 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  4 12:50:43 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 12:50:43 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 12:50:43 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 12:50:43 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  4 12:50:43 :: Loading objs and generating index.
+Sep  4 12:50:43 ::    133 objs, 2660 bytes in index, 23940 bytes in prototypes.
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  4 12:50:43 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  4 12:50:43 :: Renumbering zone table.
+Sep  4 12:50:43 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  4 12:50:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  4 12:50:43 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  4 12:50:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  4 12:50:43 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  4 12:50:43 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  4 12:50:43 :: Loading disabled commands list...
+Sep  4 12:50:43 :: Loading shops.
+Sep  4 12:50:43 :: Loading guild masters.
+Sep  4 12:50:43 :: htree stats (global): 853 nodes, 61416 bytes (depth 3/5 used/possible)
+Sep  4 12:50:43 :: htree_test: htree speedup factor: 152%
+Sep  4 12:50:43 :: Loading help entries.
+Sep  4 12:50:43 ::    733 entries, 14660 bytes.
+Sep  4 12:50:43 :: Setting up context sensitive help system for OLC
+Sep  4 12:50:43 :: Generating player index.
+Sep  4 12:50:43 :: Loading fight messages.
+Sep  4 12:50:43 :: Loading social messages.
+Sep  4 12:50:43 :: Social table contains 368 socials.
+Sep  4 12:50:43 :: Building command list.
+Sep  4 12:50:43 :: Command info rebuilt, 689 total commands.
+Sep  4 12:50:43 :: Assigning function pointers:
+Sep  4 12:50:43 ::    Mobiles.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  4 12:50:43 ::    Shopkeepers.
+Sep  4 12:50:43 ::    Objects.
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  4 12:50:43 ::    Rooms.
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  4 12:50:43 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  4 12:50:43 ::    Guildmasters.
+Sep  4 12:50:43 :: Init Object Unique Hash
+Sep  4 12:50:43 :: Booting assembled objects.
+Sep  4 12:50:43 :: Assigning spell and skill levels.
+Sep  4 12:50:43 :: Assigning race spell and skill levels.
+Sep  4 12:50:43 :: Sorting command list and spells.
+Sep  4 12:50:43 :: Booting mail system.
+Sep  4 12:50:43 ::    100 bytes read.
+Sep  4 12:50:43 ::    Mail file read -- 0 messages.
+Sep  4 12:50:43 :: Booting boards system.
+Sep  4 12:50:43 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  4 12:50:43 :: Board vnum 1326, Version 2
+Sep  4 12:50:43 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  4 12:50:43 :: Board vnum 1327, Version 2
+Sep  4 12:50:43 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  4 12:50:43 :: Board vnum 1328, Version 2
+Sep  4 12:50:43 :: There are 8 boards located; 11 messages
+Sep  4 12:50:43 :: Reading banned site and invalid-name list.
+Sep  4 12:50:43 :: Booting houses.
+Sep  4 12:50:43 :: Resetting #0: Limbo (rooms 0-99).
+Sep  4 12:50:43 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  4 12:50:43 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep  4 12:50:43 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep  4 12:50:43 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep  4 12:50:43 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep  4 12:50:43 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  4 12:50:43 :: Boot db -- DONE.
+Sep  4 12:50:43 :: Signal trapping.
+Sep  4 12:50:43 :: Entering game loop.
+Sep  4 12:50:43 :: No connections.  Going to sleep.
+Sep  4 12:50:45 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 12:50:53 :: Mag [192.168.0.3] has connected.
+SYSERR: gethostbyaddr: Success
+Sep  4 12:50:58 :: opened crash file
+Sep  4 12:50:58 :: Mag retrieving crash-saved items and entering game.
+Sep  4 12:50:58 :: Mag (level 38) has 1 objects (max 60).
+Sep  4 12:50:58 :: Mag had no variable file
+Sep  4 12:51:11 :: Mishakal [192.168.0.8] has connected.
+Sep  4 12:51:12 :: opened crash file
+Sep  4 12:51:12 :: Mishakal retrieving crash-saved items and entering game.
+Sep  4 12:51:12 :: Mishakal (level 38) has 2 objects (max 60).
+Sep  4 12:51:12 :: Mishakal had no variable file
+Sep  4 12:51:15 :: Losing player: <null>.
+Sep  4 12:51:15 :: Losing player: <null>.
+Sep  4 12:51:45 :: Losing player: <null>.
+Sep  4 12:51:45 :: Losing player: <null>.
+Sep  4 12:51:49 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

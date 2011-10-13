@@ -1,0 +1,765 @@
+autorun starting game Sun Sep  4 13:00:10 PDT 2011
+running bin/circle -q 4000
+Sep  4 13:00:10 :: Using etc/config for configuration.
+Sep  4 13:00:10 :: CircleMUD, version 3.1
+Sep  4 13:00:10 :: OasisOLC 2.0.6
+Sep  4 13:00:10 :: DG Scripts 1.0.14
+Sep  4 13:00:10 :: ASCII Player Files 3.0.1
+Sep  4 13:00:10 :: CWG Buddha - 4.4.30
+Sep  4 13:00:10 :: Using lib as data directory.
+Sep  4 13:00:10 :: Running game on port 4000.
+Sep  4 13:00:10 :: Finding player limit.
+Sep  4 13:00:10 ::    Setting player limit to 300 using rlimit.
+Sep  4 13:00:10 :: Opening mother connection.
+Sep  4 13:00:10 :: Binding to all IP interfaces on this host.
+Sep  4 13:00:10 :: Boot db -- BEGIN.
+Sep  4 13:00:10 :: Resetting the game time:
+Sep  4 13:00:10 ::    Current Gametime: 10H 24D 14M 605Y.
+Sep  4 13:00:10 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  4 13:00:10 :: Loading spell definitions.
+Sep  4 13:00:10 :: Loading zone table.
+Sep  4 13:00:10 ::    7 zones, 392 bytes.
+Sep  4 13:00:10 :: Loading triggers and generating index.
+Sep  4 13:00:10 :: Loading rooms.
+Sep  4 13:00:10 ::    303 rooms, 33936 bytes.
+Sep  4 13:00:10 :: Renumbering rooms.
+Sep  4 13:00:10 :: Checking start rooms.
+Sep  4 13:00:10 :: Loading mobs and generating index.
+Sep  4 13:00:10 ::    76 mobs, 1520 bytes in index, 28576 bytes in prototypes.
+Sep  4 13:00:10 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  4 13:00:10 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 13:00:10 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 13:00:10 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 13:00:10 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  4 13:00:10 :: Loading objs and generating index.
+Sep  4 13:00:10 ::    133 objs, 2660 bytes in index, 23940 bytes in prototypes.
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  4 13:00:10 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  4 13:00:10 :: Renumbering zone table.
+Sep  4 13:00:10 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  4 13:00:10 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  4 13:00:10 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  4 13:00:10 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  4 13:00:10 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  4 13:00:10 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  4 13:00:10 :: Loading disabled commands list...
+Sep  4 13:00:10 :: Loading shops.
+Sep  4 13:00:10 :: Loading guild masters.
+Sep  4 13:00:10 :: htree stats (global): 853 nodes, 61416 bytes (depth 3/5 used/possible)
+Sep  4 13:00:10 :: htree_test: htree speedup factor: 172%
+Sep  4 13:00:10 :: Loading help entries.
+Sep  4 13:00:10 ::    733 entries, 14660 bytes.
+Sep  4 13:00:10 :: Setting up context sensitive help system for OLC
+Sep  4 13:00:10 :: Generating player index.
+Sep  4 13:00:10 :: Loading fight messages.
+Sep  4 13:00:10 :: Loading social messages.
+Sep  4 13:00:10 :: Social table contains 368 socials.
+Sep  4 13:00:10 :: Building command list.
+Sep  4 13:00:10 :: Command info rebuilt, 689 total commands.
+Sep  4 13:00:10 :: Assigning function pointers:
+Sep  4 13:00:10 ::    Mobiles.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  4 13:00:10 ::    Shopkeepers.
+Sep  4 13:00:10 ::    Objects.
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  4 13:00:10 ::    Rooms.
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  4 13:00:10 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  4 13:00:10 ::    Guildmasters.
+Sep  4 13:00:10 :: Init Object Unique Hash
+Sep  4 13:00:10 :: Booting assembled objects.
+Sep  4 13:00:10 :: Assigning spell and skill levels.
+Sep  4 13:00:10 :: Assigning race spell and skill levels.
+Sep  4 13:00:10 :: Sorting command list and spells.
+Sep  4 13:00:10 :: Booting mail system.
+Sep  4 13:00:10 ::    100 bytes read.
+Sep  4 13:00:10 ::    Mail file read -- 0 messages.
+Sep  4 13:00:10 :: Booting boards system.
+Sep  4 13:00:10 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  4 13:00:10 :: Board vnum 1326, Version 2
+Sep  4 13:00:10 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  4 13:00:10 :: Board vnum 1327, Version 2
+Sep  4 13:00:10 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  4 13:00:10 :: Board vnum 1328, Version 2
+Sep  4 13:00:10 :: There are 8 boards located; 10 messages
+Sep  4 13:00:10 :: Reading banned site and invalid-name list.
+Sep  4 13:00:10 :: Booting houses.
+Sep  4 13:00:10 :: Resetting #0: Limbo (rooms 0-99).
+Sep  4 13:00:10 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  4 13:00:10 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep  4 13:00:10 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep  4 13:00:10 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep  4 13:00:10 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep  4 13:00:10 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  4 13:00:10 :: Boot db -- DONE.
+Sep  4 13:00:10 :: Signal trapping.
+Sep  4 13:00:10 :: Entering game loop.
+Sep  4 13:00:10 :: No connections.  Going to sleep.
+Sep  4 13:00:12 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+SYSERR: gethostbyaddr: Success
+Sep  4 13:00:24 :: Admin [192.168.0.3] has connected. (invis 40)
+Sep  4 13:00:24 :: opened crash file
+Sep  4 13:00:24 :: Admin un-renting and entering game.
+Sep  4 13:00:24 :: Admin (level 40) has 2 objects (max 60).
+Sep  4 13:00:24 :: Admin had no variable file
+Sep  4 13:00:42 :: Losing player: <null>.
+Sep  4 13:00:42 :: Losing player: <null>.
+Sep  4 13:00:42 :: Losing player: <null>.
+Sep  4 13:01:12 :: Losing player: <null>.
+Sep  4 13:01:12 :: Losing player: <null>.
+Sep  4 13:01:21 :: Admin has quit the game.
+Sep  4 13:01:21 :: Losing player: Admin.
+Sep  4 13:01:21 :: No connections.  Going to sleep.
+Sep  4 13:01:22 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 13:01:29 :: Bad PW: Mag [192.168.0.3]
+Sep  4 13:01:31 :: Mag [192.168.0.3] has connected.
+Sep  4 13:01:31 :: opened crash file
+Sep  4 13:01:31 :: Mag retrieving crash-saved items and entering game.
+Sep  4 13:01:31 :: Mag (level 38) has 1 objects (max 60).
+Sep  4 13:01:31 :: Mag had no variable file
+Sep  4 13:01:42 :: Losing player: <null>.
+Sep  4 13:01:42 :: Losing player: <null>.
+Sep  4 13:02:12 :: Losing player: <null>.
+Sep  4 13:02:12 :: Losing player: <null>.
+Sep  4 13:02:42 :: Losing player: <null>.
+Sep  4 13:02:42 :: Losing player: <null>.
+Sep  4 13:03:12 :: Losing player: <null>.
+Sep  4 13:03:12 :: Losing player: <null>.
+Sep  4 13:03:21 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 13:03:42 :: Losing player: <null>.
+Sep  4 13:03:42 :: Losing player: <null>.
+Sep  4 13:03:55 :: GenOLC: add_mobile: Updated existing mobile #1299.
+Sep  4 13:03:55 :: OLC: Mag edits mob 1299
+Sep  4 13:03:55 :: GenOLC: save_mobiles: Saving mobiles 'world/mob/12.mob'
+Sep  4 13:03:55 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 13:03:59 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 13:04:12 :: Losing player: <null>.
+Sep  4 13:04:12 :: Losing player: <null>.
+Sep  4 13:04:25 :: GenOLC: add_mobile: Updated existing mobile #1299.
+Sep  4 13:04:25 :: OLC: Mag edits mob 1299
+Sep  4 13:04:25 :: GenOLC: save_mobiles: Saving mobiles 'world/mob/12.mob'
+Sep  4 13:04:25 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 13:04:42 :: Losing player: <null>.
+Sep  4 13:04:42 :: Losing player: <null>.
+Sep  4 13:04:57 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 13:04:57 :: Losing player: <null>.
+Sep  4 13:04:57 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 13:04:57 :: Losing player: <null>.
+Sep  4 13:05:12 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 13:05:42 :: Losing player: <null>.
+Sep  4 13:05:42 :: Losing player: <null>.
+Sep  4 13:06:12 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 13:06:45 :: Losing player: <null>.
+Sep  4 13:06:45 :: Losing player: <null>.
+Sep  4 13:06:48 :: Mishakal [192.168.0.8] has connected.
+Sep  4 13:06:49 :: opened crash file
+Sep  4 13:06:49 :: Mishakal retrieving crash-saved items and entering game.
+Sep  4 13:06:49 :: Mishakal (level 38) has 2 objects (max 60).
+Sep  4 13:06:49 :: Mishakal had no variable file
+Sep  4 13:07:12 :: Losing player: <null>.
+Sep  4 13:07:12 :: Losing player: <null>.
+Sep  4 13:07:42 :: Losing player: <null>.
+Sep  4 13:07:42 :: Losing player: <null>.
+Sep  4 13:08:12 :: Losing player: <null>.
+Sep  4 13:08:12 :: Losing player: <null>.
+Sep  4 13:08:28 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  4 13:08:33 :: GenOLC: add_room: Added room 1505 at index #243.
+Sep  4 13:08:33 :: room_htree sync fix: 1505: 65535 -> 243
+Sep  4 13:08:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:33 :: GenOLC: add_room: Added room 1506 at index #244.
+Sep  4 13:08:33 :: room_htree sync fix: 1506: 65535 -> 244
+Sep  4 13:08:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:34 :: GenOLC: add_room: Added room 1507 at index #245.
+Sep  4 13:08:34 :: room_htree sync fix: 1507: 65535 -> 245
+Sep  4 13:08:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:34 :: GenOLC: add_room: Added room 1508 at index #246.
+Sep  4 13:08:34 :: room_htree sync fix: 1508: 65535 -> 246
+Sep  4 13:08:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:35 :: GenOLC: add_room: Added room 1509 at index #247.
+Sep  4 13:08:35 :: room_htree sync fix: 1509: 65535 -> 247
+Sep  4 13:08:35 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:37 :: GenOLC: add_room: Added room 1510 at index #248.
+Sep  4 13:08:37 :: room_htree sync fix: 1510: 65535 -> 248
+Sep  4 13:08:37 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:38 :: GenOLC: add_room: Added room 1511 at index #249.
+Sep  4 13:08:38 :: room_htree sync fix: 1511: 65535 -> 249
+Sep  4 13:08:38 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:41 :: GenOLC: add_room: Added room 1512 at index #250.
+Sep  4 13:08:41 :: room_htree sync fix: 1512: 65535 -> 250
+Sep  4 13:08:41 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:42 :: Losing player: <null>.
+Sep  4 13:08:42 :: Losing player: <null>.
+Sep  4 13:08:46 :: GenOLC: add_room: Added room 1513 at index #251.
+Sep  4 13:08:46 :: room_htree sync fix: 1513: 65535 -> 251
+Sep  4 13:08:46 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:49 :: GenOLC: add_room: Added room 1514 at index #252.
+Sep  4 13:08:49 :: room_htree sync fix: 1514: 65535 -> 252
+Sep  4 13:08:49 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:52 :: GenOLC: add_room: Added room 1515 at index #253.
+Sep  4 13:08:52 :: room_htree sync fix: 1515: 65535 -> 253
+Sep  4 13:08:52 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:52 :: GenOLC: add_room: Added room 1516 at index #254.
+Sep  4 13:08:52 :: room_htree sync fix: 1516: 65535 -> 254
+Sep  4 13:08:52 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:53 :: GenOLC: add_room: Added room 1517 at index #255.
+Sep  4 13:08:53 :: room_htree sync fix: 1517: 65535 -> 255
+Sep  4 13:08:53 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:53 :: GenOLC: add_room: Added room 1518 at index #256.
+Sep  4 13:08:53 :: room_htree sync fix: 1518: 65535 -> 256
+Sep  4 13:08:53 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:53 :: GenOLC: add_room: Added room 1519 at index #257.
+Sep  4 13:08:53 :: room_htree sync fix: 1519: 65535 -> 257
+Sep  4 13:08:53 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:54 :: GenOLC: add_room: Added room 1520 at index #258.
+Sep  4 13:08:54 :: room_htree sync fix: 1520: 65535 -> 258
+Sep  4 13:08:54 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:54 :: GenOLC: add_room: Added room 1521 at index #259.
+Sep  4 13:08:54 :: room_htree sync fix: 1521: 65535 -> 259
+Sep  4 13:08:54 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:54 :: GenOLC: add_room: Added room 1522 at index #260.
+Sep  4 13:08:54 :: room_htree sync fix: 1522: 65535 -> 260
+Sep  4 13:08:54 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:55 :: GenOLC: add_room: Added room 1523 at index #261.
+Sep  4 13:08:55 :: room_htree sync fix: 1523: 65535 -> 261
+Sep  4 13:08:55 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:08:58 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  4 13:09:12 :: Losing player: <null>.
+Sep  4 13:09:12 :: Losing player: <null>.
+Sep  4 13:09:21 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  4 13:09:22 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 13:09:23 :: GenOLC: add_room: Added room 1524 at index #262.
+Sep  4 13:09:23 :: room_htree sync fix: 1524: 65535 -> 262
+Sep  4 13:09:23 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:25 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 13:09:26 :: GenOLC: add_room: Added room 1525 at index #263.
+Sep  4 13:09:26 :: room_htree sync fix: 1525: 65535 -> 263
+Sep  4 13:09:26 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:26 :: GenOLC: add_room: Added room 1526 at index #264.
+Sep  4 13:09:26 :: room_htree sync fix: 1526: 65535 -> 264
+Sep  4 13:09:26 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:29 :: GenOLC: add_room: Added room 1527 at index #265.
+Sep  4 13:09:29 :: room_htree sync fix: 1527: 65535 -> 265
+Sep  4 13:09:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:29 :: GenOLC: add_room: Added room 1528 at index #266.
+Sep  4 13:09:29 :: room_htree sync fix: 1528: 65535 -> 266
+Sep  4 13:09:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:32 :: GenOLC: add_room: Added room 1529 at index #267.
+Sep  4 13:09:32 :: room_htree sync fix: 1529: 65535 -> 267
+Sep  4 13:09:32 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:32 :: GenOLC: add_room: Added room 1530 at index #268.
+Sep  4 13:09:32 :: room_htree sync fix: 1530: 65535 -> 268
+Sep  4 13:09:32 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:33 :: GenOLC: add_room: Added room 1531 at index #269.
+Sep  4 13:09:33 :: room_htree sync fix: 1531: 65535 -> 269
+Sep  4 13:09:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:33 :: GenOLC: add_room: Added room 1532 at index #270.
+Sep  4 13:09:33 :: room_htree sync fix: 1532: 65535 -> 270
+Sep  4 13:09:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:34 :: GenOLC: add_room: Added room 1533 at index #271.
+Sep  4 13:09:34 :: room_htree sync fix: 1533: 65535 -> 271
+Sep  4 13:09:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:34 :: GenOLC: add_room: Added room 1534 at index #272.
+Sep  4 13:09:34 :: room_htree sync fix: 1534: 65535 -> 272
+Sep  4 13:09:34 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:42 :: GenOLC: add_room: Added room 1535 at index #273.
+Sep  4 13:09:42 :: room_htree sync fix: 1535: 65535 -> 273
+Sep  4 13:09:42 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:42 :: GenOLC: add_room: Added room 1536 at index #274.
+Sep  4 13:09:42 :: room_htree sync fix: 1536: 65535 -> 274
+Sep  4 13:09:42 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:42 :: Losing player: <null>.
+Sep  4 13:09:42 :: Losing player: <null>.
+Sep  4 13:09:42 :: GenOLC: add_room: Added room 1537 at index #275.
+Sep  4 13:09:42 :: room_htree sync fix: 1537: 65535 -> 275
+Sep  4 13:09:42 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:46 :: GenOLC: add_room: Added room 1538 at index #276.
+Sep  4 13:09:46 :: room_htree sync fix: 1538: 65535 -> 276
+Sep  4 13:09:46 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:46 :: GenOLC: add_room: Added room 1539 at index #277.
+Sep  4 13:09:46 :: room_htree sync fix: 1539: 65535 -> 277
+Sep  4 13:09:46 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:49 :: GenOLC: add_room: Added room 1540 at index #278.
+Sep  4 13:09:49 :: room_htree sync fix: 1540: 65535 -> 278
+Sep  4 13:09:49 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:09:51 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  4 13:10:09 :: GenOLC: add_room: Added room 1542 at index #279.
+Sep  4 13:10:09 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:10:09 :: room_htree sync fix: 1542: 65535 -> 279
+Sep  4 13:10:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:10:12 :: Losing player: <null>.
+Sep  4 13:10:12 :: Losing player: <null>.
+Sep  4 13:10:16 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 13:10:23 :: GenOLC: save_zone: Saving zone 'world/zon/12.zon'
+Sep  4 13:10:23 :: OLC: Mag edits zone info for room 1200.
+Sep  4 13:10:23 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 13:10:25 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  4 13:10:25 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  4 13:10:28 :: GenOLC: add_room: Added room 1543 at index #280.
+Sep  4 13:10:28 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:10:28 :: room_htree sync fix: 1543: 65535 -> 280
+Sep  4 13:10:31 :: OLC: Mag saves room info for zone 15.
+Sep  4 13:10:31 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  4 13:10:31 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  4 13:10:33 :: GenOLC: add_room: Added room 1544 at index #281.
+Sep  4 13:10:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:10:33 :: room_htree sync fix: 1544: 65535 -> 281
+Sep  4 13:10:41 :: GenOLC: add_room: Added room 1541 at index #279.
+Sep  4 13:10:41 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:10:41 :: room_htree sync fix: 1541: 65535 -> 279
+Sep  4 13:10:42 :: Losing player: <null>.
+Sep  4 13:10:42 :: Losing player: <null>.
+Sep  4 13:11:02 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  4 13:11:12 :: Losing player: <null>.
+Sep  4 13:11:12 :: Losing player: <null>.
+Sep  4 13:11:42 :: Losing player: <null>.
+Sep  4 13:11:42 :: Losing player: <null>.
+Sep  4 13:11:48 :: GenOLC: add_room: Added room 1545 at index #283.
+Sep  4 13:11:48 :: room_htree sync fix: 1545: 65535 -> 283
+Sep  4 13:11:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:51 :: GenOLC: add_room: Added room 1546 at index #284.
+Sep  4 13:11:51 :: room_htree sync fix: 1546: 65535 -> 284
+Sep  4 13:11:51 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:52 :: GenOLC: add_room: Added room 1547 at index #285.
+Sep  4 13:11:52 :: room_htree sync fix: 1547: 65535 -> 285
+Sep  4 13:11:52 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:52 :: GenOLC: add_room: Added room 1548 at index #286.
+Sep  4 13:11:52 :: room_htree sync fix: 1548: 65535 -> 286
+Sep  4 13:11:52 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:55 :: GenOLC: add_room: Added room 1549 at index #287.
+Sep  4 13:11:55 :: room_htree sync fix: 1549: 65535 -> 287
+Sep  4 13:11:55 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:56 :: GenOLC: add_room: Added room 1550 at index #288.
+Sep  4 13:11:56 :: room_htree sync fix: 1550: 65535 -> 288
+Sep  4 13:11:56 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:57 :: GenOLC: add_room: Added room 1551 at index #289.
+Sep  4 13:11:57 :: room_htree sync fix: 1551: 65535 -> 289
+Sep  4 13:11:57 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:58 :: GenOLC: add_room: Added room 1552 at index #290.
+Sep  4 13:11:58 :: room_htree sync fix: 1552: 65535 -> 290
+Sep  4 13:11:58 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:59 :: GenOLC: add_room: Added room 1553 at index #291.
+Sep  4 13:11:59 :: room_htree sync fix: 1553: 65535 -> 291
+Sep  4 13:11:59 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:11:59 :: GenOLC: add_room: Added room 1554 at index #292.
+Sep  4 13:11:59 :: room_htree sync fix: 1554: 65535 -> 292
+Sep  4 13:11:59 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:00 :: GenOLC: add_room: Added room 1555 at index #293.
+Sep  4 13:12:00 :: room_htree sync fix: 1555: 65535 -> 293
+Sep  4 13:12:00 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:01 :: GenOLC: add_room: Added room 1556 at index #294.
+Sep  4 13:12:01 :: room_htree sync fix: 1556: 65535 -> 294
+Sep  4 13:12:01 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:08 :: GenOLC: add_room: Added room 1557 at index #295.
+Sep  4 13:12:08 :: room_htree sync fix: 1557: 65535 -> 295
+Sep  4 13:12:08 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:09 :: GenOLC: add_room: Added room 1558 at index #296.
+Sep  4 13:12:09 :: room_htree sync fix: 1558: 65535 -> 296
+Sep  4 13:12:09 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:11 :: GenOLC: add_room: Added room 1559 at index #297.
+Sep  4 13:12:11 :: room_htree sync fix: 1559: 65535 -> 297
+Sep  4 13:12:11 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:11 :: GenOLC: add_room: Added room 1560 at index #298.
+Sep  4 13:12:11 :: room_htree sync fix: 1560: 65535 -> 298
+Sep  4 13:12:11 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:12 :: GenOLC: add_room: Added room 1561 at index #299.
+Sep  4 13:12:12 :: room_htree sync fix: 1561: 65535 -> 299
+Sep  4 13:12:12 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:12 :: GenOLC: add_room: Added room 1562 at index #300.
+Sep  4 13:12:12 :: room_htree sync fix: 1562: 65535 -> 300
+Sep  4 13:12:12 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:12 :: GenOLC: add_room: Added room 1563 at index #301.
+Sep  4 13:12:12 :: room_htree sync fix: 1563: 65535 -> 301
+Sep  4 13:12:12 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:12 :: Losing player: <null>.
+Sep  4 13:12:12 :: Losing player: <null>.
+Sep  4 13:12:13 :: GenOLC: add_room: Added room 1564 at index #302.
+Sep  4 13:12:13 :: room_htree sync fix: 1564: 65535 -> 302
+Sep  4 13:12:13 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:13 :: GenOLC: add_room: Added room 1565 at index #303.
+Sep  4 13:12:13 :: room_htree sync fix: 1565: 65535 -> 303
+Sep  4 13:12:13 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:14 :: GenOLC: add_room: Added room 1566 at index #304.
+Sep  4 13:12:14 :: room_htree sync fix: 1566: 65535 -> 304
+Sep  4 13:12:14 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:16 :: GenOLC: add_room: Added room 1567 at index #305.
+Sep  4 13:12:16 :: room_htree sync fix: 1567: 65535 -> 305
+Sep  4 13:12:16 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:17 :: GenOLC: add_room: Added room 1568 at index #306.
+Sep  4 13:12:17 :: room_htree sync fix: 1568: 65535 -> 306
+Sep  4 13:12:17 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:18 :: GenOLC: add_room: Added room 1569 at index #307.
+Sep  4 13:12:18 :: room_htree sync fix: 1569: 65535 -> 307
+Sep  4 13:12:18 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:26 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  4 13:12:32 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep  4 13:12:35 :: GenOLC: delete_room: Deleting room #1569 (New BuildWalk Room).
+Sep  4 13:12:35 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:42 :: Losing player: <null>.
+Sep  4 13:12:42 :: Losing player: <null>.
+Sep  4 13:12:56 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  4 13:12:58 :: GenOLC: add_room: Added room 1569 at index #307.
+Sep  4 13:12:58 :: room_htree sync fix: 1569: 65535 -> 307
+Sep  4 13:12:58 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:58 :: GenOLC: add_room: Added room 1570 at index #308.
+Sep  4 13:12:58 :: room_htree sync fix: 1570: 65535 -> 308
+Sep  4 13:12:58 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:59 :: GenOLC: add_room: Added room 1571 at index #309.
+Sep  4 13:12:59 :: room_htree sync fix: 1571: 65535 -> 309
+Sep  4 13:12:59 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:12:59 :: GenOLC: add_room: Added room 1572 at index #310.
+Sep  4 13:12:59 :: room_htree sync fix: 1572: 65535 -> 310
+Sep  4 13:12:59 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:00 :: GenOLC: add_room: Added room 1573 at index #311.
+Sep  4 13:13:00 :: room_htree sync fix: 1573: 65535 -> 311
+Sep  4 13:13:00 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:00 :: GenOLC: add_room: Added room 1574 at index #312.
+Sep  4 13:13:00 :: room_htree sync fix: 1574: 65535 -> 312
+Sep  4 13:13:00 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:02 :: GenOLC: add_room: Added room 1575 at index #313.
+Sep  4 13:13:02 :: room_htree sync fix: 1575: 65535 -> 313
+Sep  4 13:13:02 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:08 :: GenOLC: add_room: Added room 1576 at index #314.
+Sep  4 13:13:08 :: room_htree sync fix: 1576: 65535 -> 314
+Sep  4 13:13:08 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:08 :: GenOLC: add_room: Added room 1577 at index #315.
+Sep  4 13:13:08 :: room_htree sync fix: 1577: 65535 -> 315
+Sep  4 13:13:08 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:09 :: GenOLC: add_room: Added room 1578 at index #316.
+Sep  4 13:13:09 :: room_htree sync fix: 1578: 65535 -> 316
+Sep  4 13:13:09 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:10 :: GenOLC: add_room: Added room 1579 at index #317.
+Sep  4 13:13:10 :: room_htree sync fix: 1579: 65535 -> 317
+Sep  4 13:13:10 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:11 :: GenOLC: add_room: Added room 1580 at index #318.
+Sep  4 13:13:11 :: room_htree sync fix: 1580: 65535 -> 318
+Sep  4 13:13:11 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:11 :: GenOLC: add_room: Added room 1581 at index #319.
+Sep  4 13:13:11 :: room_htree sync fix: 1581: 65535 -> 319
+Sep  4 13:13:11 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:12 :: Losing player: <null>.
+Sep  4 13:13:12 :: Losing player: <null>.
+Sep  4 13:13:15 :: GenOLC: add_room: Added room 1582 at index #320.
+Sep  4 13:13:15 :: room_htree sync fix: 1582: 65535 -> 320
+Sep  4 13:13:15 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:17 :: GenOLC: add_room: Added room 1583 at index #321.
+Sep  4 13:13:17 :: room_htree sync fix: 1583: 65535 -> 321
+Sep  4 13:13:17 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:17 :: GenOLC: add_room: Added room 1584 at index #322.
+Sep  4 13:13:17 :: room_htree sync fix: 1584: 65535 -> 322
+Sep  4 13:13:17 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:22 :: GenOLC: add_room: Added room 1585 at index #323.
+Sep  4 13:13:22 :: room_htree sync fix: 1585: 65535 -> 323
+Sep  4 13:13:22 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:29 :: GenOLC: add_room: Added room 1586 at index #324.
+Sep  4 13:13:29 :: room_htree sync fix: 1586: 65535 -> 324
+Sep  4 13:13:29 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:33 :: GenOLC: add_room: Added room 1587 at index #325.
+Sep  4 13:13:33 :: room_htree sync fix: 1587: 65535 -> 325
+Sep  4 13:13:33 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:42 :: Losing player: <null>.
+Sep  4 13:13:42 :: Losing player: <null>.
+Sep  4 13:13:43 :: GenOLC: add_room: Added room 1588 at index #326.
+Sep  4 13:13:43 :: room_htree sync fix: 1588: 65535 -> 326
+Sep  4 13:13:43 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:44 :: GenOLC: add_room: Added room 1589 at index #327.
+Sep  4 13:13:44 :: room_htree sync fix: 1589: 65535 -> 327
+Sep  4 13:13:44 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:44 :: GenOLC: add_room: Added room 1590 at index #328.
+Sep  4 13:13:44 :: room_htree sync fix: 1590: 65535 -> 328
+Sep  4 13:13:44 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:45 :: GenOLC: add_room: Added room 1591 at index #329.
+Sep  4 13:13:45 :: room_htree sync fix: 1591: 65535 -> 329
+Sep  4 13:13:45 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:46 :: GenOLC: add_room: Added room 1592 at index #330.
+Sep  4 13:13:46 :: room_htree sync fix: 1592: 65535 -> 330
+Sep  4 13:13:46 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:47 :: GenOLC: add_room: Added room 1593 at index #331.
+Sep  4 13:13:47 :: room_htree sync fix: 1593: 65535 -> 331
+Sep  4 13:13:47 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:48 :: GenOLC: add_room: Added room 1594 at index #332.
+Sep  4 13:13:48 :: room_htree sync fix: 1594: 65535 -> 332
+Sep  4 13:13:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:48 :: GenOLC: add_room: Added room 1595 at index #333.
+Sep  4 13:13:48 :: room_htree sync fix: 1595: 65535 -> 333
+Sep  4 13:13:48 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:13:52 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  4 13:14:12 :: Losing player: <null>.
+Sep  4 13:14:12 :: Losing player: <null>.
+Sep  4 13:14:42 :: Losing player: <null>.
+Sep  4 13:14:42 :: Losing player: <null>.
+Sep  4 13:15:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:15:12 :: Losing player: <null>.
+Sep  4 13:15:12 :: Losing player: <null>.
+Sep  4 13:15:42 :: Losing player: <null>.
+Sep  4 13:15:42 :: Losing player: <null>.
+Sep  4 13:16:12 :: Losing player: <null>.
+Sep  4 13:16:12 :: Losing player: <null>.
+Sep  4 13:16:42 :: Losing player: <null>.
+Sep  4 13:16:42 :: Losing player: <null>.
+Sep  4 13:17:11 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep  4 13:17:12 :: Losing player: <null>.
+Sep  4 13:17:12 :: Losing player: <null>.
+Sep  4 13:17:24 :: GenOLC: add_room: Updated existing room #1560.
+Sep  4 13:17:24 :: OLC: Mishakal edits room 1560.
+Sep  4 13:17:24 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  4 13:17:24 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  4 13:17:24 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:17:42 :: Losing player: <null>.
+Sep  4 13:17:42 :: Losing player: <null>.
+Sep  4 13:17:59 :: OLC: Mishakal starts editing zone 15 allowed zone 65535
+Sep  4 13:18:12 :: Losing player: <null>.
+Sep  4 13:18:12 :: Losing player: <null>.
+Sep  4 13:18:14 :: GenOLC: add_room: Updated existing room #1554.
+Sep  4 13:18:14 :: OLC: Mishakal edits room 1554.
+Sep  4 13:18:14 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  4 13:18:14 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  4 13:18:14 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:18:42 :: Losing player: <null>.
+Sep  4 13:18:42 :: Losing player: <null>.
+Sep  4 13:19:12 :: Losing player: <null>.
+Sep  4 13:19:12 :: Losing player: <null>.
+Sep  4 13:19:42 :: Losing player: <null>.
+Sep  4 13:19:42 :: Losing player: <null>.
+Sep  4 13:20:09 :: OLC: Mishakal saves room info for zone 15.
+Sep  4 13:20:09 :: GenOLC: save_rooms: Saving rooms in zone #15 (1500-1599).
+Sep  4 13:20:09 :: GenOLC: save_rooms: Saving rooms 'world/wld/15.wld'
+Sep  4 13:20:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:20:12 :: Losing player: <null>.
+Sep  4 13:20:12 :: Losing player: <null>.
+Sep  4 13:20:42 :: Losing player: <null>.
+Sep  4 13:20:42 :: Losing player: <null>.
+Sep  4 13:21:12 :: Losing player: <null>.
+Sep  4 13:21:12 :: Losing player: <null>.
+Sep  4 13:21:42 :: Losing player: <null>.
+Sep  4 13:21:42 :: Losing player: <null>.
+Sep  4 13:22:12 :: Losing player: <null>.
+Sep  4 13:22:12 :: Losing player: <null>.
+Sep  4 13:22:42 :: Losing player: <null>.
+Sep  4 13:22:42 :: Losing player: <null>.
+Sep  4 13:23:00 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 13:23:00 :: Losing player: <null>.
+Sep  4 13:23:00 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 13:23:00 :: Losing player: <null>.
+Sep  4 13:25:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 13:30:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 13:30:46 :: OLC: Mishakal turned buildwalk on. Allowed zone 65535
+Sep  4 13:30:51 :: GenOLC: add_room: Added room 1596 at index #334.
+Sep  4 13:30:51 :: room_htree sync fix: 1596: 65535 -> 334
+Sep  4 13:30:51 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:30:53 :: GenOLC: add_room: Added room 1597 at index #335.
+Sep  4 13:30:53 :: room_htree sync fix: 1597: 65535 -> 335
+Sep  4 13:30:53 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:30:56 :: GenOLC: add_room: Added room 1598 at index #336.
+Sep  4 13:30:56 :: room_htree sync fix: 1598: 65535 -> 336
+Sep  4 13:30:56 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:30:57 :: GenOLC: add_room: Added room 1599 at index #337.
+Sep  4 13:30:57 :: room_htree sync fix: 1599: 65535 -> 337
+Sep  4 13:30:57 :: OLC: Mishakal stops editing zone 15 allowed zone 65535
+Sep  4 13:30:59 :: OLC: Mishakal turned buildwalk off. Allowed zone 65535
+Sep  4 13:31:42 :: Losing player: <null>.
+Sep  4 13:31:42 :: Losing player: <null>.
+Sep  4 13:32:12 :: Losing player: <null>.
+Sep  4 13:32:12 :: Losing player: <null>.
+Sep  4 13:32:42 :: Losing player: <null>.
+Sep  4 13:32:42 :: Losing player: <null>.
+Sep  4 13:33:12 :: Losing player: <null>.
+Sep  4 13:33:12 :: Losing player: <null>.
+Sep  4 13:33:42 :: Losing player: <null>.
+Sep  4 13:33:42 :: Losing player: <null>.
+Sep  4 13:34:12 :: Losing player: <null>.
+Sep  4 13:34:12 :: Losing player: <null>.
+Sep  4 13:34:42 :: Losing player: <null>.
+Sep  4 13:34:42 :: Losing player: <null>.
+Sep  4 13:35:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:35:27 :: Losing player: <null>.
+Sep  4 13:35:27 :: Losing player: <null>.
+Sep  4 13:35:57 :: Losing player: <null>.
+Sep  4 13:35:57 :: Losing player: <null>.
+Sep  4 13:36:27 :: Losing player: <null>.
+Sep  4 13:36:27 :: Losing player: <null>.
+Sep  4 13:36:57 :: Losing player: <null>.
+Sep  4 13:36:57 :: Losing player: <null>.
+Sep  4 13:37:27 :: Losing player: <null>.
+Sep  4 13:37:27 :: Losing player: <null>.
+Sep  4 13:37:57 :: Losing player: <null>.
+Sep  4 13:37:57 :: Losing player: <null>.
+Sep  4 13:38:27 :: Losing player: <null>.
+Sep  4 13:38:27 :: Losing player: <null>.
+Sep  4 13:38:57 :: Losing player: <null>.
+Sep  4 13:38:57 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 13:39:27 :: Losing player: <null>.
+Sep  4 13:39:27 :: Losing player: <null>.
+Sep  4 13:39:57 :: Losing player: <null>.
+Sep  4 13:39:57 :: Losing player: <null>.
+Sep  4 13:40:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:40:27 :: Losing player: <null>.
+Sep  4 13:40:27 :: Losing player: <null>.
+Sep  4 13:40:57 :: Losing player: <null>.
+Sep  4 13:40:57 :: Losing player: <null>.
+Sep  4 13:41:27 :: Losing player: <null>.
+Sep  4 13:41:27 :: Losing player: <null>.
+Sep  4 13:41:57 :: Losing player: <null>.
+Sep  4 13:41:57 :: Losing player: <null>.
+Sep  4 13:42:27 :: Losing player: <null>.
+Sep  4 13:42:27 :: Losing player: <null>.
+Sep  4 13:42:57 :: Losing player: <null>.
+Sep  4 13:42:57 :: Losing player: <null>.
+Sep  4 13:43:27 :: Losing player: <null>.
+Sep  4 13:43:27 :: Losing player: <null>.
+Sep  4 13:43:57 :: Losing player: <null>.
+Sep  4 13:43:57 :: Losing player: <null>.
+Sep  4 13:44:27 :: Losing player: <null>.
+Sep  4 13:44:27 :: Losing player: <null>.
+Sep  4 13:44:57 :: Losing player: <null>.
+Sep  4 13:44:57 :: Losing player: <null>.
+Sep  4 13:45:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:45:27 :: Losing player: <null>.
+Sep  4 13:45:27 :: Losing player: <null>.
+Sep  4 13:45:57 :: Losing player: <null>.
+Sep  4 13:45:57 :: Losing player: <null>.
+Sep  4 13:46:27 :: Losing player: <null>.
+Sep  4 13:46:27 :: Losing player: <null>.
+Sep  4 13:46:57 :: Losing player: <null>.
+Sep  4 13:47:27 :: Losing player: <null>.
+Sep  4 13:47:27 :: Losing player: <null>.
+Sep  4 13:47:57 :: Losing player: <null>.
+Sep  4 13:47:57 :: Losing player: <null>.
+Sep  4 13:48:27 :: Losing player: <null>.
+Sep  4 13:48:27 :: Losing player: <null>.
+Sep  4 13:48:57 :: Losing player: <null>.
+Sep  4 13:48:57 :: Losing player: <null>.
+Sep  4 13:49:27 :: Losing player: <null>.
+Sep  4 13:49:27 :: Losing player: <null>.
+Sep  4 13:49:57 :: Losing player: <null>.
+Sep  4 13:49:57 :: Losing player: <null>.
+Sep  4 13:50:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:50:27 :: Losing player: <null>.
+Sep  4 13:50:27 :: Losing player: <null>.
+Sep  4 13:50:57 :: Losing player: <null>.
+Sep  4 13:50:57 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 13:51:27 :: Losing player: <null>.
+Sep  4 13:51:27 :: Losing player: <null>.
+Sep  4 13:51:57 :: Losing player: <null>.
+Sep  4 13:51:57 :: Losing player: <null>.
+Sep  4 13:52:27 :: Losing player: <null>.
+Sep  4 13:52:27 :: Losing player: <null>.
+Sep  4 13:52:57 :: Losing player: <null>.
+Sep  4 13:52:57 :: Losing player: <null>.
+Sep  4 13:53:27 :: Losing player: <null>.
+Sep  4 13:53:27 :: Losing player: <null>.
+Sep  4 13:53:57 :: Losing player: <null>.
+Sep  4 13:53:57 :: Losing player: <null>.
+Sep  4 13:54:27 :: Losing player: <null>.
+Sep  4 13:54:27 :: Losing player: <null>.
+Sep  4 13:54:57 :: Losing player: <null>.
+Sep  4 13:54:57 :: Losing player: <null>.
+Sep  4 13:55:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 13:55:27 :: Losing player: <null>.
+Sep  4 13:55:27 :: Losing player: <null>.
+Sep  4 13:55:57 :: Losing player: <null>.
+Sep  4 13:55:57 :: Losing player: <null>.
+Sep  4 13:56:27 :: Losing player: <null>.
+Sep  4 13:56:27 :: Losing player: <null>.
+Sep  4 13:56:57 :: Losing player: <null>.
+Sep  4 13:56:57 :: Losing player: <null>.
+Sep  4 13:57:27 :: Losing player: <null>.
+Sep  4 13:57:27 :: Losing player: <null>.
+Sep  4 13:57:57 :: Losing player: <null>.
+Sep  4 13:57:57 :: Losing player: <null>.
+Sep  4 13:58:27 :: Losing player: <null>.
+Sep  4 13:58:27 :: Losing player: <null>.
+Sep  4 13:58:57 :: Losing player: <null>.
+Sep  4 13:58:57 :: Losing player: <null>.
+Sep  4 13:59:27 :: Losing player: <null>.
+Sep  4 13:59:27 :: Losing player: <null>.
+Sep  4 13:59:57 :: Losing player: <null>.
+Sep  4 13:59:57 :: Losing player: <null>.
+Sep  4 14:00:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 14:00:27 :: Losing player: <null>.
+Sep  4 14:00:27 :: Losing player: <null>.
+Sep  4 14:00:57 :: Losing player: <null>.
+Sep  4 14:00:57 :: Losing player: <null>.
+Sep  4 14:01:27 :: Losing player: <null>.
+Sep  4 14:01:27 :: Losing player: <null>.
+Sep  4 14:01:57 :: Losing player: <null>.
+Sep  4 14:01:57 :: Losing player: <null>.
+Sep  4 14:02:27 :: Losing player: <null>.
+Sep  4 14:02:27 :: Losing player: <null>.
+Sep  4 14:02:57 :: Losing player: <null>.
+Sep  4 14:02:57 :: Losing player: <null>.
+Sep  4 14:03:27 :: Losing player: <null>.
+Sep  4 14:03:27 :: Losing player: <null>.
+Sep  4 14:03:57 :: Losing player: <null>.
+Sep  4 14:03:57 :: Losing player: <null>.
+Sep  4 14:04:27 :: Losing player: <null>.
+Sep  4 14:04:27 :: Losing player: <null>.
+Sep  4 14:04:57 :: Losing player: <null>.
+Sep  4 14:04:57 :: Losing player: <null>.
+Sep  4 14:05:12 :: nusage: 4   sockets connected, 2   sockets playing
+Sep  4 14:05:27 :: Losing player: <null>.
+Sep  4 14:05:27 :: Losing player: <null>.
+Sep  4 14:05:50 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 14:05:50 :: Losing player: <null>.
+Sep  4 14:05:50 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 14:05:50 :: Losing player: <null>.
+Sep  4 14:10:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 14:15:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 14:20:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 14:25:12 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 14:27:41 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.

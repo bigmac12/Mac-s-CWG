@@ -1,0 +1,145 @@
+Board File
+0 0 0 17 2
+#1
+Barfnuggets
+1315373635
+Hah! I crashed it.
+I did a tlist 1 100, and then a tlist 100 200 - and then she crashed!
+~
+#2
+Mag
+1315338755
+BUG: @RPossible@n issue with 'where'
+  - Edited some zone loads in z12 to remove a board from one room and
+    put it in another. The board aliases to 'social'. Upon resetting the
+    zone and typing 'where social' the MUD crashed.
+
+
+  - I was unable to reproduce the bug after several attempts, so I
+    listing it as '@Runconfirmed@n'.
+~
+#3
+Mag
+1315285201
+UPDATE: Spell lag for immortals
+  - Remove spell lag for immortals.
+~
+#4
+Mag
+1315261151
+RE: Portal Bug
+  - Item flags: PORTAL, TAKE HOLD, CLOSABLE, CLOSED, LOCKED
+~
+#5
+Mag
+1315261052
+BUG: Holding Portal Objects
+  - Unconfirmed: Created a portal object with the 'hold' flag, then typed
+    'eq'. The MUD crashed moments later, so this might be a bug.
+~
+#6
+Mag
+1315260201
+FIX: Missing flags for equipment
+  - Four flags (ANKLE, FEET, ONBACK, and BACK) are missing from the
+    oedit list. These flags exist but are not being listed.
+~
+#7
+Mag
+1315260026
+FIX: Second belt slot
+  - Second belt slot returns error message instead of allowing equip.
+~
+#8
+Mag
+1315190099
+FIX: Logic for using a light
+  - When a character already has a shield on, they cannot use a light. They
+    must first remove the shield, then grab the light, then wear the shield.
+~
+#9
+Mag
+1315162673
+UPDATE: OLC Flags in Titles
+  - Finish adding color to OLC flags in titles.
+~
+#10
+Mag
+1315126529
+ADD: 'scan' command
+  - Add 'scan' command.
+~
+#11
+Mag
+1315124968
+FIX: Paginated Output
+  - Paginate lengthy output for lists: mlist, olist, rlist, etc.
+~
+#12
+Mag
+1315122007
+UPDATE: Food/drink
+   - Increase interval between full and not full for food/drink.
+~
+#13
+Mag
+1315121937
+UPDATE: Classes
+  - Finish implementing flags and skills/spells for new classes.
+~
+#14
+Mag
+1315120704
+UPDATE: 'users' command
+   - Update the 'users' command to show level, class, and race.
+~
+#15
+Mag
+1315120410
+ADD: Character Posing
+  - Add the ability for characters to pose via temporarily
+    altered short descriptions.
+~
+#16
+Mag
+1315120278
+UPDATE: Titles
+   - Fix title functionality by removing the hard-coded
+     name that prefixes player titles.
+~
+#17
+Mag
+1315118021
+Code TODO List
+   - Fix the 'who' list issue.
+   - Add color to various stuff.
+   - Update character creation and stat assignment.
+   - Finish implementing 'vwear'.
+   - Whatever else ya'll post.
+~
+S17 Mag 1315261052
+S31 Mag 1315373635
+S34 Reorx 1315122007
+S34 Mag 1315122007
+S34 Mishakal 1315122007
+S41 Mag 1315126529
+S62 Mag 1315338755
+S65 Mag 1315162673
+S69 Mag 1315260201
+S86 Mag 1315285201
+S100 Mag 1315190099
+S111 Mag 1315120278
+S111 Reorx 1315120278
+S116 Mag 1315261151
+S195 Mag 1315260026
+S236 Mag 1315120704
+S236 Reorx 1315120704
+S243 Mag 1315120410
+S243 Reorx 1315120410
+S262 Reorx 1315118021
+S262 Mag 1315118021
+S265 Mag 1315121937
+S265 Reorx 1315121937
+S265 Mishakal 1315121937
+S286 Mag 1315124968
+S286 Reorx 1315124968

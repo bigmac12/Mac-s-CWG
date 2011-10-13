@@ -1,0 +1,260 @@
+autorun starting game Fri Sep  2 20:09:30 PDT 2011
+running bin/circle -q 4000
+Sep  2 20:09:30 :: Using etc/config for configuration.
+Sep  2 20:09:30 :: CircleMUD, version 3.1
+Sep  2 20:09:30 :: OasisOLC 2.0.6
+Sep  2 20:09:30 :: DG Scripts 1.0.14
+Sep  2 20:09:30 :: ASCII Player Files 3.0.1
+Sep  2 20:09:30 :: CWG Buddha - 4.4.30
+Sep  2 20:09:30 :: Using lib as data directory.
+Sep  2 20:09:30 :: Running game on port 4000.
+Sep  2 20:09:30 :: Finding player limit.
+Sep  2 20:09:30 ::    Setting player limit to 300 using rlimit.
+Sep  2 20:09:30 :: Opening mother connection.
+Sep  2 20:09:30 :: Binding to all IP interfaces on this host.
+Sep  2 20:09:30 :: Boot db -- BEGIN.
+Sep  2 20:09:30 :: Resetting the game time:
+Sep  2 20:09:30 ::    Current Gametime: 12H 14D 12M 605Y.
+Sep  2 20:09:30 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  2 20:09:30 :: Loading spell definitions.
+Sep  2 20:09:30 :: Loading zone table.
+Sep  2 20:09:30 ::    175 zones, 9800 bytes.
+Sep  2 20:09:30 :: Loading triggers and generating index.
+Sep  2 20:09:30 :: Loading rooms.
+Sep  2 20:09:30 ::    11511 rooms, 1289232 bytes.
+Sep  2 20:09:30 :: Renumbering rooms.
+Sep  2 20:09:30 :: Checking start rooms.
+Sep  2 20:09:30 :: Loading mobs and generating index.
+Sep  2 20:09:30 ::    3448 mobs, 68960 bytes in index, 1282656 bytes in prototypes.
+Sep  2 20:09:31 :: Loading objs and generating index.
+Sep  2 20:09:31 ::    4234 objs, 84680 bytes in index, 762120 bytes in prototypes.
+Sep  2 20:09:31 :: Renumbering zone table.
+Sep  2 20:09:31 :: Loading disabled commands list...
+Sep  2 20:09:31 :: Loading shops.
+Sep  2 20:09:31 :: Loading guild masters.
+Sep  2 20:09:31 :: htree stats (global): 24843 nodes, 1788696 bytes (depth 4/5 used/possible)
+Sep  2 20:09:31 :: htree_test: htree speedup factor: 963%
+Sep  2 20:09:31 :: Loading help entries.
+Sep  2 20:09:31 ::    733 entries, 14660 bytes.
+Sep  2 20:09:31 :: Setting up context sensitive help system for OLC
+Sep  2 20:09:31 :: Generating player index.
+Sep  2 20:09:31 :: Loading fight messages.
+Sep  2 20:09:31 :: Loading social messages.
+Sep  2 20:09:31 :: Social table contains 368 socials.
+Sep  2 20:09:31 :: Building command list.
+Sep  2 20:09:31 :: Command info rebuilt, 684 total commands.
+Sep  2 20:09:31 :: Assigning function pointers:
+Sep  2 20:09:31 ::    Mobiles.
+Sep  2 20:09:31 ::    Shopkeepers.
+Sep  2 20:09:31 ::    Objects.
+Sep  2 20:09:31 ::    Rooms.
+Sep  2 20:09:31 ::    Guildmasters.
+Sep  2 20:09:31 :: Init Object Unique Hash
+Sep  2 20:09:31 :: Booting assembled objects.
+Sep  2 20:09:31 :: Assigning spell and skill levels.
+Sep  2 20:09:31 :: Assigning race spell and skill levels.
+Sep  2 20:09:31 :: Sorting command list and spells.
+Sep  2 20:09:31 :: Booting mail system.
+Sep  2 20:09:31 ::    100 bytes read.
+Sep  2 20:09:31 ::    Mail file read -- 0 messages.
+Sep  2 20:09:31 :: Booting boards system.
+Sep  2 20:09:31 :: There are 7 boards located; 0 messages
+Sep  2 20:09:31 :: Reading banned site and invalid-name list.
+Sep  2 20:09:31 :: Booting houses.
+Sep  2 20:09:31 :: Resetting #0: Limbo (rooms 0-99).
+Sep  2 20:09:31 :: Resetting #1: Sanctus (rooms 100-199).
+Sep  2 20:09:31 :: Resetting #2: Sanctus II (rooms 200-299).
+Sep  2 20:09:31 :: Resetting #3: Sanctus III (rooms 300-399).
+Sep  2 20:09:31 :: Resetting #4: Jade Forest (rooms 400-499).
+Sep  2 20:09:31 :: Resetting #5: Newbie Farm (rooms 500-599).
+Sep  2 20:09:31 :: Resetting #6: Sea of Souls (rooms 600-699).
+Sep  2 20:09:31 :: Resetting #7: Camelot (rooms 700-799).
+Sep  2 20:09:31 :: Resetting #9: River Island of Minos (rooms 900-999).
+Sep  2 20:09:31 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  2 20:09:31 :: Resetting #13: The Builder Academy (rooms 1300-1399).
+Sep  2 20:09:31 :: Resetting #14: The Builder Academy II (rooms 1400-1499).
+Sep  2 20:09:31 :: Resetting #15: Straight Path (rooms 1500-1599).
+Sep  2 20:09:31 :: Resetting #16: Camelot II (rooms 1600-1699).
+Sep  2 20:09:31 :: Resetting #17: Camelot III (rooms 1700-1799).
+Sep  2 20:09:31 :: Resetting #18: Nuclear Wasteland (rooms 1800-1899).
+Sep  2 20:09:31 :: Resetting #19: Spider Swamp (rooms 1900-1999).
+Sep  2 20:09:31 :: Resetting #20: Arena (rooms 2000-2099).
+Sep  2 20:09:31 :: Resetting #22: Tower of the Undead (rooms 2200-2299).
+Sep  2 20:09:31 :: Resetting #25: High Tower of Magic (rooms 2500-2599).
+Sep  2 20:09:31 :: Resetting #26: High Tower of Magic II (rooms 2600-2699).
+Sep  2 20:09:31 :: Resetting #27: Memlin Caverns (rooms 2700-2799).
+Sep  2 20:09:31 :: Resetting #28: Mudschool (rooms 2800-2899).
+Sep  2 20:09:31 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  2 20:09:31 :: Resetting #31: Southern Midgaard (rooms 3100-3199).
+Sep  2 20:09:31 :: Resetting #32: Midgaard (rooms 3200-3299).
+Sep  2 20:09:31 :: Resetting #33: Three of Swords (rooms 3300-3399).
+Sep  2 20:09:31 :: Resetting #35: Miden'Nir (rooms 3500-3599).
+Sep  2 20:09:31 :: Resetting #36: Chessboard of Midgaard (rooms 3600-3699).
+Sep  2 20:09:31 :: Resetting #37: Capital Sewer System (rooms 3700-3799).
+Sep  2 20:09:31 :: Resetting #38: Capital Sewer System II (rooms 3800-3899).
+Sep  2 20:09:31 :: Resetting #39: Haven (rooms 3900-3999).
+Sep  2 20:09:31 :: Resetting #40: Mines of Moria (rooms 4000-4099).
+Sep  2 20:09:31 :: Resetting #41: Mines of Moria (rooms 4100-4199).
+Sep  2 20:09:31 :: Resetting #42: Dragon Chasm (rooms 4200-4299).
+Sep  2 20:09:31 :: Resetting #43: Arctic Zone (rooms 4300-4399).
+Sep  2 20:09:31 :: Resetting #44: Orc Camp (rooms 4400-4499).
+Sep  2 20:09:31 :: Resetting #45: Woodland Monastery (rooms 4500-4599).
+Sep  2 20:09:31 :: Resetting #46: Ant Hill (rooms 4600-4699).
+Sep  2 20:09:31 :: Resetting #50: Great Eastern Desert (rooms 5000-5099).
+Sep  2 20:09:31 :: Resetting #51: Drow City (rooms 5100-5199).
+Sep  2 20:09:31 :: Resetting #52: City of Thalos (rooms 5200-5299).
+Sep  2 20:09:31 :: Resetting #53: Great Pyramid (rooms 5300-5399).
+Sep  2 20:09:31 :: Resetting #54: New Thalos (rooms 5400-5499).
+Sep  2 20:09:31 :: Resetting #55: New Thalos II (rooms 5500-5599).
+Sep  2 20:09:31 :: Resetting #56: New Thalos Wilderness (rooms 5600-5699).
+Sep  2 20:09:31 :: Resetting #57: Zodiac (rooms 5700-5799).
+Sep  2 20:09:31 :: Resetting #60: Haon-Dor, Light Forest (rooms 6000-6099).
+Sep  2 20:09:31 :: Resetting #61: Haon-Dor, Light Forest II (rooms 6100-6199).
+Sep  2 20:09:31 :: Resetting #62: Orc Enclave (rooms 6200-6299).
+Sep  2 20:09:31 :: Resetting #63: Arachnos (rooms 6300-6399).
+Sep  2 20:09:31 :: Resetting #64: Rand's Tower (rooms 6400-6499).
+Sep  2 20:09:31 :: Resetting #65: Dwarven Kingdom (rooms 6500-6599).
+Sep  2 20:09:31 :: Resetting #70: Sewer, First Level (rooms 7000-7099).
+Sep  2 20:09:31 :: Resetting #71: Second Sewer (rooms 7100-7199).
+Sep  2 20:09:31 :: Resetting #72: Sewer Maze (rooms 7200-7299).
+Sep  2 20:09:31 :: Resetting #73: Tunnels in the Sewer (rooms 7300-7399).
+Sep  2 20:09:31 :: Resetting #74: Newbie Graveyard (rooms 7400-7499).
+Sep  2 20:09:31 :: Resetting #75: Zamba (rooms 7500-7599).
+Sep  2 20:09:31 :: Resetting #78: Gideon (rooms 7800-7899).
+Sep  2 20:09:31 :: Resetting #79: Redferne's Residence (rooms 7900-7999).
+Sep  2 20:09:31 :: Resetting #83: Glumgold's Sea (rooms 8300-8399).
+Sep  2 20:09:31 :: Resetting #86: Duke Kalithorn's Keep (rooms 8600-8699).
+Sep  2 20:09:31 :: Resetting #90: Oasis (rooms 9000-9099).
+Sep  2 20:09:31 :: Resetting #96: Domiae (rooms 9600-9699).
+Sep  2 20:09:31 :: Resetting #100: Northern Highway (rooms 10000-10099).
+Sep  2 20:09:31 :: Resetting #101: South Road (rooms 10100-10199).
+Sep  2 20:09:31 :: Resetting #103: DBZ World (rooms 10300-10399).
+Sep  2 20:09:31 :: Resetting #104: Land of Orchan (rooms 10400-10499).
+Sep  2 20:09:31 :: Resetting #106: Elcardo (rooms 10600-10699).
+Sep  2 20:09:31 :: Resetting #107: Realms of Iuel (rooms 10700-10799).
+Sep  2 20:09:31 :: Resetting #115: Monestary Omega (rooms 11500-11599).
+Sep  2 20:09:31 :: Resetting #120: Rome (rooms 12000-12099).
+Sep  2 20:09:31 :: Resetting #125: Hannah (rooms 12500-12599).
+Sep  2 20:09:31 :: Resetting #140: Wyvern City (rooms 14000-14099).
+Sep  2 20:09:31 :: Resetting #150: King Welmar's Castle (rooms 15000-15099).
+Sep  2 20:09:31 :: Resetting #169: Gibberling Caves (rooms 16900-16999).
+Sep  2 20:09:31 :: Resetting #175: Cardinal Wizards (rooms 17500-17599).
+Sep  2 20:09:31 :: Resetting #186: Newbie Zone (rooms 18600-18699).
+Sep  2 20:09:31 :: Resetting #187: Circus (rooms 18700-18799).
+Sep  2 20:09:31 :: Resetting #200: Western Highway (rooms 20000-20099).
+Sep  2 20:09:31 :: Resetting #232: Terringham (rooms 23200-23299).
+Sep  2 20:09:31 :: Resetting #233: Dragon Plains (rooms 23300-23399).
+Sep  2 20:09:31 :: Resetting #234: Newbie School (rooms 23400-23499).
+Sep  2 20:09:31 :: Resetting #235: Dwarven Mines (rooms 23500-23599).
+Sep  2 20:09:31 :: Resetting #236: Aldin (rooms 23600-23699).
+Sep  2 20:09:31 :: Resetting #237: Dwarven Trade Route (rooms 23700-23799).
+Sep  2 20:09:31 :: Resetting #238: Crystal Castle (rooms 23800-23899).
+Sep  2 20:09:31 :: Resetting #239: South Pass (rooms 23900-23999).
+Sep  2 20:09:31 :: Resetting #240: Dun Maura (rooms 24000-24099).
+Sep  2 20:09:31 :: Resetting #241: Starship Enterprise (rooms 24100-24199).
+Sep  2 20:09:31 :: Resetting #242: New Southern Midgaard (rooms 24200-24299).
+Sep  2 20:09:31 :: Resetting #243: Snowy Valley (rooms 24300-24399).
+Sep  2 20:09:31 :: Resetting #244: Cooland Prison (rooms 24400-24499).
+Sep  2 20:09:31 :: Resetting #245: The Nether (rooms 24500-24599).
+Sep  2 20:09:31 :: Resetting #246: The Nether II (rooms 24600-24699).
+Sep  2 20:09:31 :: Resetting #247: Graveyard (rooms 24700-24799).
+Sep  2 20:09:31 :: Resetting #248: Elven Woods (rooms 24800-24899).
+Sep  2 20:09:31 :: Resetting #249: Jedi Clan House (rooms 24900-24999).
+Sep  2 20:09:31 :: Resetting #250: DragonSpyre (rooms 25000-25099).
+Sep  2 20:09:31 :: Resetting #251: Ape Village (rooms 25100-25199).
+Sep  2 20:09:31 :: Resetting #252: Castle of the Vampyre (rooms 25200-25299).
+Sep  2 20:09:31 :: Resetting #253: Windmill (rooms 25300-25399).
+Sep  2 20:09:31 :: Resetting #254: Mordecai's Village (rooms 25400-25499).
+Sep  2 20:09:31 :: Resetting #255: Shipwreck (rooms 25500-25599).
+Sep  2 20:09:31 :: Resetting #256: Lord's Keep (rooms 25600-25699).
+Sep  2 20:09:31 :: Resetting #257: Jareth Main City (rooms 25700-25799).
+Sep  2 20:09:31 :: Resetting #258: Light Forest (rooms 25800-25899).
+Sep  2 20:09:31 :: Resetting #259: Haunted Mansion (rooms 25900-25999).
+Sep  2 20:09:31 :: Resetting #260: Grasslands (rooms 26000-26099).
+Sep  2 20:09:31 :: Resetting #261: Inna & Igor's Castle (rooms 26100-26199).
+Sep  2 20:09:31 :: Resetting #262: Forest Trails (rooms 26200-26299).
+Sep  2 20:09:31 :: Resetting #263: Farmlands (rooms 26300-26399).
+Sep  2 20:09:31 :: Resetting #264: Banshide (rooms 26400-26499).
+Sep  2 20:09:31 :: Resetting #265: Beach & Lighthouse (rooms 26500-26599).
+Sep  2 20:09:31 :: Resetting #266: Realm of Lord Ankou (rooms 26600-26699).
+Sep  2 20:09:31 :: Resetting #267: Vice Island (rooms 26700-26799).
+Sep  2 20:09:31 :: Resetting #268: Vice Island II (rooms 26800-26899).
+Sep  2 20:09:31 :: Resetting #269: Southern Desert (rooms 26900-26999).
+Sep  2 20:09:31 :: Resetting #270: Wasteland (rooms 27000-27099).
+Sep  2 20:09:31 :: Resetting #271: Sundhaven (rooms 27100-27199).
+Sep  2 20:09:31 :: Resetting #272: Sundhaven II (rooms 27200-27299).
+Sep  2 20:09:31 :: Resetting #273: Space Station Alpha (rooms 27300-27399).
+Sep  2 20:09:31 :: Resetting #274: Smurfville (rooms 27400-27499).
+Sep  2 20:09:31 :: Resetting #275: New Sparta (rooms 27500-27599).
+Sep  2 20:09:31 :: Resetting #276: New Sparta II (rooms 27600-27699).
+Sep  2 20:09:31 :: Resetting #277: Shire (rooms 27700-27799).
+Sep  2 20:09:31 :: Resetting #278: Oceania (rooms 27800-27899).
+Sep  2 20:09:31 :: Resetting #279: Notre Dame (rooms 27900-27999).
+Sep  2 20:09:31 :: Resetting #280: Living Motherboard (rooms 28000-28099).
+Sep  2 20:09:31 :: Resetting #281: Forest of Khanjar (rooms 28100-28199).
+Sep  2 20:09:31 :: Resetting #282: Infernal Pit of Kerjim (rooms 28200-28299).
+Sep  2 20:09:31 :: Resetting #283: Haunted House (rooms 28300-28399).
+Sep  2 20:09:31 :: Resetting #284: Ghenna (rooms 28400-28499).
+Sep  2 20:09:31 :: Resetting #285: Descent to Hell II (rooms 28500-28599).
+Sep  2 20:09:31 :: Resetting #286: Descent to Hell (rooms 28600-28699).
+Sep  2 20:09:31 :: Resetting #287: Ofingia and the Goblin Town (rooms 28700-28799).
+Sep  2 20:09:31 :: Resetting #288: Galaxy (rooms 28800-28899).
+Sep  2 20:09:31 :: Resetting #289: Werith's Wayhouse (rooms 28900-28999).
+Sep  2 20:09:31 :: Resetting #290: Lizard Lair Safari (rooms 29000-29099).
+Sep  2 20:09:31 :: Resetting #291: Black Forest (rooms 29100-29199).
+Sep  2 20:09:31 :: Resetting #292: Kerofk (rooms 29200-29299).
+Sep  2 20:09:31 :: Resetting #293: Kerofk II (rooms 29300-29399).
+Sep  2 20:09:31 :: Resetting #294: Trade Road (rooms 29400-29499).
+Sep  2 20:09:31 :: Resetting #295: Jungle (rooms 29500-29599).
+Sep  2 20:09:31 :: Resetting #296: Froboz Fun Factory (rooms 29600-29699).
+Sep  2 20:09:31 :: Resetting #298: Castle of Desire (rooms 29800-29899).
+Sep  2 20:09:31 :: Resetting #299: Abandoned Cathedral (rooms 29900-29999).
+Sep  2 20:09:31 :: Resetting #300: Ancalador (rooms 30000-30099).
+Sep  2 20:09:31 :: Resetting #301: Campus (rooms 30100-30199).
+Sep  2 20:09:31 :: Resetting #302: Campus II (rooms 30200-30299).
+Sep  2 20:09:31 :: Resetting #303: Campus III (rooms 30300-30399).
+Sep  2 20:09:31 :: Resetting #304: Temple of the Bull (rooms 30400-30499).
+Sep  2 20:09:31 :: Resetting #305: Chessboard (rooms 30500-30599).
+Sep  2 20:09:31 :: Resetting #306: Newbie Tree (rooms 30600-30699).
+Sep  2 20:09:31 :: Resetting #307: Castle (rooms 30700-30799).
+Sep  2 20:09:31 :: Resetting #308: Baron Cailveh (rooms 30800-30899).
+Sep  2 20:09:31 :: Resetting #309: Keep of Baron Westlawn (rooms 30900-30999).
+Sep  2 20:09:31 :: Resetting #310: Graye Area (rooms 31000-31099).
+Sep  2 20:09:31 :: Resetting #311: The Dragon's Teeth (rooms 31100-31199).
+Sep  2 20:09:31 :: Resetting #312: Leper Island (rooms 31200-31299).
+Sep  2 20:09:31 :: Resetting #313: Farmlands of Ofingia (rooms 31300-31399).
+Sep  2 20:09:31 :: Resetting #314: X'Raantra's Altar of Sacrifice (rooms 31400-31499).
+Sep  2 20:09:31 :: Resetting #315: McGintey Business District (rooms 31500-31599).
+Sep  2 20:09:31 :: Resetting #316: McGintey Guild Area (rooms 31600-31699).
+Sep  2 20:09:31 :: Resetting #317: Wharf (rooms 31700-31799).
+Sep  2 20:09:31 :: Resetting #318: Dock Area (rooms 31800-31899).
+Sep  2 20:09:31 :: Resetting #319: Yllythad Sea (rooms 31900-31999).
+Sep  2 20:09:31 :: Resetting #320: Yllythad Sea II (rooms 32000-32099).
+Sep  2 20:09:31 :: Resetting #321: Yllythad Sea III (rooms 32100-32199).
+Sep  2 20:09:31 :: Resetting #322: McGintey Bay (rooms 32200-32299).
+Sep  2 20:09:31 :: Resetting #323: Caverns of the Pale Man (rooms 32300-32399).
+Sep  2 20:09:31 :: Resetting #324: Army Encampment (rooms 32400-32499).
+Sep  2 20:09:31 :: Resetting #325: Revelry (rooms 32500-32599).
+Sep  2 20:09:31 :: Resetting #326: Army Perimeter (rooms 32600-32699).
+Sep  2 20:09:31 :: Boot db -- DONE.
+Sep  2 20:09:31 :: Signal trapping.
+Sep  2 20:09:31 :: Entering game loop.
+Sep  2 20:09:31 :: No connections.  Going to sleep.
+Sep  2 20:09:33 :: New connection.  Waking up.
+Sep  2 20:09:35 :: Admin [localhost] has connected. (invis 40)
+Sep  2 20:09:36 :: opened crash file
+Sep  2 20:09:36 :: Admin retrieving crash-saved items and entering game.
+Sep  2 20:09:36 :: Admin (level 40) has 0 objects (max 60).
+Sep  2 20:09:36 :: Admin had no variable file
+Sep  2 20:12:58 :: (GC) Shutdown by Admin.
+Sep  2 20:12:58 :: Closing all sockets.
+Sep  2 20:12:58 :: Closing link to: Admin.
+Sep  2 20:12:58 :: Saving current MUD time.
+Sep  2 20:12:58 :: Normal termination of game.
+Sep  2 20:12:58 :: Clearing game world.
+Sep  2 20:12:59 :: Freeing Assemblies.
+Sep  2 20:12:59 :: Clearing other memory.
+Sep  2 20:12:59 :: Done.
+SYSERR: Using log() before stream was initialized!
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.

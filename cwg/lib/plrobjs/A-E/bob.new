@@ -1,0 +1,21 @@
+2 1315025068 0 0 0 0
+#82
+0 0 0 0 0 2097152 0 0 0
+XAP
+teleporter~
+the teleporter~
+A strange device labeled "teleporter" was left here.~
+~
+12 1 0 0 0 10 100 0
+G
+1315024649
+U
+5336366641928513612
+E
+teleporter~
+   This teleporter is used to transfer players between zones.  Accessible zones
+are listed under HELP AREAS by being CAPITALIZED.  For example to teleport to:
+  74 Newbie GRAVEyard                   -- Jojen                       3- 5
+type: teleport grave
+   The teleporter may also be used to recall back to Midgaard at any time.
+~

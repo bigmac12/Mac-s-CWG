@@ -1,0 +1,713 @@
+autorun starting game Sun Sep  4 14:28:59 PDT 2011
+running bin/circle -q 4000
+Sep  4 14:28:59 :: Using etc/config for configuration.
+Sep  4 14:28:59 :: CircleMUD, version 3.1
+Sep  4 14:28:59 :: OasisOLC 2.0.6
+Sep  4 14:28:59 :: DG Scripts 1.0.14
+Sep  4 14:28:59 :: ASCII Player Files 3.0.1
+Sep  4 14:28:59 :: CWG Buddha - 4.4.30
+Sep  4 14:28:59 :: Using lib as data directory.
+Sep  4 14:28:59 :: Running game on port 4000.
+Sep  4 14:28:59 :: Finding player limit.
+Sep  4 14:28:59 ::    Setting player limit to 300 using rlimit.
+Sep  4 14:28:59 :: Opening mother connection.
+Sep  4 14:28:59 :: Binding to all IP interfaces on this host.
+Sep  4 14:28:59 :: Boot db -- BEGIN.
+Sep  4 14:28:59 :: Resetting the game time:
+Sep  4 14:28:59 ::    Current Gametime: 9H 27D 14M 605Y.
+Sep  4 14:28:59 :: Reading news, credits, help, ihelp, bground, info & motds.
+Sep  4 14:28:59 :: Loading spell definitions.
+Sep  4 14:28:59 :: Loading zone table.
+Sep  4 14:28:59 ::    7 zones, 392 bytes.
+Sep  4 14:28:59 :: Loading triggers and generating index.
+Sep  4 14:28:59 :: Loading rooms.
+Sep  4 14:28:59 ::    394 rooms, 44128 bytes.
+Sep  4 14:28:59 :: Renumbering rooms.
+Sep  4 14:28:59 :: Checking start rooms.
+Sep  4 14:28:59 :: Loading mobs and generating index.
+Sep  4 14:28:59 ::    76 mobs, 1520 bytes in index, 28576 bytes in prototypes.
+Sep  4 14:28:59 :: SYSERR: dg_read_trigger: Trigger vnum #1333 asked for but non-existant! (mob: Puff - 1)
+Sep  4 14:28:59 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 14:28:59 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 14:28:59 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Sep  4 14:28:59 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Sep  4 14:28:59 :: Loading objs and generating index.
+Sep  4 14:28:59 ::    133 objs, 2660 bytes in index, 23940 bytes in prototypes.
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Sep  4 14:28:59 :: SYSERR: Trigger vnum #380 asked for but non-existant! (Object: the teleporter - 65535)
+Sep  4 14:28:59 :: Renumbering zone table.
+Sep  4 14:28:59 :: SYSERR: zone file: Invalid vnum 3102, cmd disabled
+Sep  4 14:28:59 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 33
+Sep  4 14:28:59 :: SYSERR: zone file: Invalid vnum 3103, cmd disabled
+Sep  4 14:28:59 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 34
+Sep  4 14:28:59 :: SYSERR: zone file: Invalid vnum 3104, cmd disabled
+Sep  4 14:28:59 :: SYSERR: ...offending cmd: 'G' cmd in zone #30, line 35
+Sep  4 14:28:59 :: Loading disabled commands list...
+Sep  4 14:28:59 :: Loading shops.
+Sep  4 14:28:59 :: Loading guild masters.
+Sep  4 14:28:59 :: htree stats (global): 963 nodes, 69336 bytes (depth 3/5 used/possible)
+Sep  4 14:28:59 :: htree_test: htree speedup factor: 159%
+Sep  4 14:28:59 :: Loading help entries.
+Sep  4 14:28:59 ::    733 entries, 14660 bytes.
+Sep  4 14:29:00 :: Setting up context sensitive help system for OLC
+Sep  4 14:29:00 :: Generating player index.
+Sep  4 14:29:00 :: Loading fight messages.
+Sep  4 14:29:00 :: Loading social messages.
+Sep  4 14:29:00 :: Social table contains 368 socials.
+Sep  4 14:29:00 :: Building command list.
+Sep  4 14:29:00 :: Command info rebuilt, 689 total commands.
+Sep  4 14:29:00 :: Assigning function pointers:
+Sep  4 14:29:00 ::    Mobiles.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Sep  4 14:29:00 ::    Shopkeepers.
+Sep  4 14:29:00 ::    Objects.
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Sep  4 14:29:00 ::    Rooms.
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #363
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Sep  4 14:29:00 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Sep  4 14:29:00 ::    Guildmasters.
+Sep  4 14:29:00 :: Init Object Unique Hash
+Sep  4 14:29:00 :: Booting assembled objects.
+Sep  4 14:29:00 :: Assigning spell and skill levels.
+Sep  4 14:29:00 :: Assigning race spell and skill levels.
+Sep  4 14:29:00 :: Sorting command list and spells.
+Sep  4 14:29:00 :: Booting mail system.
+Sep  4 14:29:00 ::    100 bytes read.
+Sep  4 14:29:00 ::    Mail file read -- 0 messages.
+Sep  4 14:29:00 :: Booting boards system.
+Sep  4 14:29:00 :: No associated object exists when attempting to create a board [vnum 1326].
+Sep  4 14:29:00 :: Board vnum 1326, Version 2
+Sep  4 14:29:00 :: No associated object exists when attempting to create a board [vnum 1327].
+Sep  4 14:29:00 :: Board vnum 1327, Version 2
+Sep  4 14:29:00 :: No associated object exists when attempting to create a board [vnum 1328].
+Sep  4 14:29:00 :: Board vnum 1328, Version 2
+Sep  4 14:29:00 :: There are 8 boards located; 10 messages
+Sep  4 14:29:00 :: Reading banned site and invalid-name list.
+Sep  4 14:29:00 :: Booting houses.
+Sep  4 14:29:00 :: Resetting #0: Limbo (rooms 0-99).
+Sep  4 14:29:00 :: Resetting #12: God Simplex (rooms 1200-1299).
+Sep  4 14:29:00 :: Resetting #13: Palanthas Streets I (rooms 1300-1399).
+Sep  4 14:29:00 :: Resetting #14: Palanthas Streets II (rooms 1400-1499).
+Sep  4 14:29:00 :: Resetting #15: Palanthas Streets III (rooms 1500-1599).
+Sep  4 14:29:00 :: Resetting #16: Palanthas IV (rooms 1600-1699).
+Sep  4 14:29:00 :: Resetting #30: Northern Midgaard (rooms 3000-3099).
+Sep  4 14:29:00 :: Boot db -- DONE.
+Sep  4 14:29:00 :: Signal trapping.
+Sep  4 14:29:00 :: Entering game loop.
+Sep  4 14:29:00 :: No connections.  Going to sleep.
+Sep  4 14:29:02 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+SYSERR: gethostbyaddr: Success
+Sep  4 14:29:18 :: Bad PW: Mag [192.168.0.3]
+Sep  4 14:29:19 :: Losing player: Mag.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:29:25 :: Mag [192.168.0.3] has connected.
+Sep  4 14:29:26 :: opened crash file
+Sep  4 14:29:26 :: Mag retrieving crash-saved items and entering game.
+Sep  4 14:29:26 :: Mag (level 38) has 1 objects (max 60).
+Sep  4 14:29:26 :: Mag had no variable file
+Sep  4 14:29:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:29:47 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 14:29:56 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 14:29:58 :: Mag tried to get help on turn
+Sep  4 14:30:01 :: Mag tried to get help on spell-turn
+Sep  4 14:30:02 :: Losing player: <null>.
+Sep  4 14:30:05 :: Mag tried to get help on spell-turn-undead
+Sep  4 14:30:10 :: Mag tried to get help on 'turn-undead'
+SYSERR: gethostbyaddr: Success
+Sep  4 14:30:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:30:47 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 14:30:51 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 14:31:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:31:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:32:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:32:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:33:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:33:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:34:02 :: nusage: 2   sockets connected, 1   sockets playing
+Sep  4 14:34:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:34:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:35:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:35:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:36:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:36:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:37:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:37:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:38:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:38:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:39:02 :: nusage: 2   sockets connected, 1   sockets playing
+Sep  4 14:39:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:39:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:40:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:40:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:41:02 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:41:32 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:41:48 :: Mag has quit the game.
+Sep  4 14:41:48 :: Losing player: Mag.
+Sep  4 14:42:02 :: Losing player: <null>.
+Sep  4 14:42:02 :: No connections.  Going to sleep.
+Sep  4 14:42:12 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:42:42 :: Losing player: <null>.
+Sep  4 14:42:42 :: No connections.  Going to sleep.
+Sep  4 14:42:53 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:43:23 :: Losing player: <null>.
+Sep  4 14:43:23 :: No connections.  Going to sleep.
+Sep  4 14:43:33 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:44:03 :: Losing player: <null>.
+Sep  4 14:44:03 :: No connections.  Going to sleep.
+Sep  4 14:44:14 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:44:43 :: nusage: 1   sockets connected, 0   sockets playing
+Sep  4 14:44:44 :: Losing player: <null>.
+Sep  4 14:44:44 :: No connections.  Going to sleep.
+Sep  4 14:44:54 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:45:24 :: Losing player: <null>.
+Sep  4 14:45:24 :: No connections.  Going to sleep.
+Sep  4 14:45:34 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:46:04 :: Losing player: <null>.
+Sep  4 14:46:04 :: No connections.  Going to sleep.
+Sep  4 14:46:15 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:46:45 :: Losing player: <null>.
+Sep  4 14:46:45 :: No connections.  Going to sleep.
+Sep  4 14:46:55 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:47:25 :: Losing player: <null>.
+Sep  4 14:47:25 :: No connections.  Going to sleep.
+Sep  4 14:47:36 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:48:06 :: Losing player: <null>.
+Sep  4 14:48:06 :: No connections.  Going to sleep.
+Sep  4 14:48:16 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:48:46 :: Losing player: <null>.
+Sep  4 14:48:46 :: No connections.  Going to sleep.
+Sep  4 14:48:57 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:49:27 :: Losing player: <null>.
+Sep  4 14:49:27 :: No connections.  Going to sleep.
+Sep  4 14:49:37 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:50:07 :: Losing player: <null>.
+Sep  4 14:50:07 :: No connections.  Going to sleep.
+Sep  4 14:50:17 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:50:47 :: Losing player: <null>.
+Sep  4 14:50:47 :: No connections.  Going to sleep.
+Sep  4 14:50:58 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:51:28 :: nusage: 1   sockets connected, 0   sockets playing
+Sep  4 14:51:28 :: Losing player: <null>.
+Sep  4 14:51:28 :: No connections.  Going to sleep.
+Sep  4 14:51:38 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:52:08 :: Losing player: <null>.
+Sep  4 14:52:08 :: No connections.  Going to sleep.
+Sep  4 14:52:19 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:52:49 :: Losing player: <null>.
+Sep  4 14:52:49 :: No connections.  Going to sleep.
+Sep  4 14:52:59 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:53:29 :: Losing player: <null>.
+Sep  4 14:53:29 :: No connections.  Going to sleep.
+Sep  4 14:53:40 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:54:10 :: Losing player: <null>.
+Sep  4 14:54:10 :: No connections.  Going to sleep.
+Sep  4 14:54:20 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:54:50 :: Losing player: <null>.
+Sep  4 14:54:50 :: No connections.  Going to sleep.
+Sep  4 14:55:01 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:55:31 :: Losing player: <null>.
+Sep  4 14:55:31 :: Losing player: <null>.
+Sep  4 14:55:31 :: Losing player: <null>.
+Sep  4 14:55:31 :: No connections.  Going to sleep.
+Sep  4 14:55:41 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:56:01 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 14:56:01 :: Losing player: <null>.
+Sep  4 14:56:01 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 14:56:01 :: Losing player: <null>.
+Sep  4 14:56:11 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:56:27 :: Losing player: <null>.
+Sep  4 14:56:27 :: Losing player: <null>.
+Sep  4 14:56:41 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:56:57 :: Losing player: <null>.
+Sep  4 14:56:57 :: Losing player: <null>.
+Sep  4 14:57:11 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:57:27 :: Losing player: <null>.
+Sep  4 14:57:27 :: Losing player: <null>.
+Sep  4 14:57:41 :: nusage: 3   sockets connected, 0   sockets playing
+Sep  4 14:57:41 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:57:57 :: Losing player: <null>.
+Sep  4 14:57:57 :: Losing player: <null>.
+Sep  4 14:58:11 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:58:27 :: Losing player: <null>.
+Sep  4 14:58:27 :: Losing player: <null>.
+Sep  4 14:58:41 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:58:57 :: Losing player: <null>.
+Sep  4 14:58:57 :: Losing player: <null>.
+Sep  4 14:59:11 :: Losing player: <null>.
+SYSERR: gethostbyaddr: Success
+Sep  4 14:59:27 :: Losing player: <null>.
+Sep  4 14:59:27 :: Losing player: <null>.
+Sep  4 14:59:41 :: Mishakal [192.168.0.8] has connected.
+Sep  4 14:59:44 :: opened crash file
+Sep  4 14:59:44 :: Mishakal retrieving crash-saved items and entering game.
+Sep  4 14:59:44 :: Mishakal (level 38) has 2 objects (max 60).
+Sep  4 14:59:44 :: Mishakal had no variable file
+Sep  4 14:59:56 :: Losing player: <null>.
+Sep  4 14:59:56 :: Losing player: <null>.
+Sep  4 15:00:26 :: Losing player: <null>.
+Sep  4 15:00:26 :: Losing player: <null>.
+Sep  4 15:00:56 :: Losing player: <null>.
+Sep  4 15:00:56 :: Losing player: <null>.
+Sep  4 15:01:26 :: Losing player: <null>.
+Sep  4 15:01:26 :: Losing player: <null>.
+Sep  4 15:01:32 :: Mishakal has quit the game.
+Sep  4 15:01:32 :: Losing player: Mishakal.
+Sep  4 15:01:32 :: No connections.  Going to sleep.
+Sep  4 15:01:37 :: New connection.  Waking up.
+Sep  4 15:02:01 :: Losing player: <null>.
+Sep  4 15:02:01 :: Losing player: <null>.
+Sep  4 15:02:01 :: No connections.  Going to sleep.
+Sep  4 15:02:11 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 15:02:41 :: Losing player: <null>.
+Sep  4 15:02:41 :: Losing player: <null>.
+Sep  4 15:02:41 :: No connections.  Going to sleep.
+Sep  4 15:02:52 :: New connection.  Waking up.
+Sep  4 15:03:07 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:03:22 :: Losing player: <null>.
+Sep  4 15:03:22 :: Losing player: <null>.
+Sep  4 15:03:22 :: No connections.  Going to sleep.
+Sep  4 15:03:32 :: New connection.  Waking up.
+Sep  4 15:04:02 :: Losing player: <null>.
+Sep  4 15:04:02 :: Losing player: <null>.
+Sep  4 15:04:02 :: No connections.  Going to sleep.
+Sep  4 15:04:26 :: New connection.  Waking up.
+Sep  4 15:04:56 :: Losing player: <null>.
+Sep  4 15:04:56 :: Losing player: <null>.
+Sep  4 15:04:56 :: No connections.  Going to sleep.
+Sep  4 15:05:06 :: New connection.  Waking up.
+Sep  4 15:05:36 :: Losing player: <null>.
+Sep  4 15:05:36 :: Losing player: <null>.
+Sep  4 15:05:36 :: No connections.  Going to sleep.
+Sep  4 15:05:47 :: New connection.  Waking up.
+Sep  4 15:06:17 :: Losing player: <null>.
+Sep  4 15:06:17 :: Losing player: <null>.
+Sep  4 15:06:17 :: No connections.  Going to sleep.
+Sep  4 15:06:27 :: New connection.  Waking up.
+Sep  4 15:06:57 :: Losing player: <null>.
+Sep  4 15:06:57 :: Losing player: <null>.
+Sep  4 15:06:57 :: No connections.  Going to sleep.
+Sep  4 15:07:08 :: New connection.  Waking up.
+Sep  4 15:07:11 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 15:07:11 :: Losing player: <null>.
+Sep  4 15:07:11 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 15:07:11 :: Losing player: <null>.
+Sep  4 15:07:11 :: No connections.  Going to sleep.
+Sep  4 15:07:24 :: New connection.  Waking up.
+Sep  4 15:07:51 :: Losing player: <null>.
+Sep  4 15:07:51 :: Losing player: <null>.
+Sep  4 15:07:51 :: No connections.  Going to sleep.
+Sep  4 15:08:02 :: New connection.  Waking up.
+Sep  4 15:08:32 :: Losing player: <null>.
+Sep  4 15:08:32 :: Losing player: <null>.
+Sep  4 15:08:32 :: No connections.  Going to sleep.
+Sep  4 15:08:42 :: New connection.  Waking up.
+Sep  4 15:09:12 :: Losing player: <null>.
+Sep  4 15:09:12 :: Losing player: <null>.
+Sep  4 15:09:12 :: No connections.  Going to sleep.
+Sep  4 15:09:23 :: New connection.  Waking up.
+Sep  4 15:09:53 :: Losing player: <null>.
+Sep  4 15:09:53 :: Losing player: <null>.
+Sep  4 15:09:53 :: No connections.  Going to sleep.
+Sep  4 15:10:03 :: New connection.  Waking up.
+Sep  4 15:10:18 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:10:33 :: Losing player: <null>.
+Sep  4 15:10:33 :: Losing player: <null>.
+Sep  4 15:10:33 :: No connections.  Going to sleep.
+Sep  4 15:10:44 :: New connection.  Waking up.
+Sep  4 15:11:14 :: Losing player: <null>.
+Sep  4 15:11:14 :: Losing player: <null>.
+Sep  4 15:11:14 :: No connections.  Going to sleep.
+Sep  4 15:11:24 :: New connection.  Waking up.
+Sep  4 15:11:54 :: Losing player: <null>.
+Sep  4 15:11:54 :: Losing player: <null>.
+Sep  4 15:11:54 :: No connections.  Going to sleep.
+Sep  4 15:12:05 :: New connection.  Waking up.
+Sep  4 15:12:35 :: Losing player: <null>.
+Sep  4 15:12:35 :: Losing player: <null>.
+Sep  4 15:12:35 :: No connections.  Going to sleep.
+Sep  4 15:12:46 :: New connection.  Waking up.
+Sep  4 15:13:16 :: Losing player: <null>.
+Sep  4 15:13:16 :: Losing player: <null>.
+Sep  4 15:13:16 :: No connections.  Going to sleep.
+Sep  4 15:13:26 :: New connection.  Waking up.
+Sep  4 15:13:56 :: Losing player: <null>.
+Sep  4 15:13:56 :: Losing player: <null>.
+Sep  4 15:13:56 :: No connections.  Going to sleep.
+Sep  4 15:14:07 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+SYSERR: gethostbyaddr: Success
+Sep  4 15:14:37 :: Losing player: <null>.
+Sep  4 15:14:37 :: Losing player: <null>.
+Sep  4 15:14:37 :: No connections.  Going to sleep.
+Sep  4 15:14:48 :: New connection.  Waking up.
+Sep  4 15:15:18 :: Losing player: <null>.
+Sep  4 15:15:18 :: Losing player: <null>.
+Sep  4 15:15:18 :: No connections.  Going to sleep.
+Sep  4 15:15:29 :: New connection.  Waking up.
+Sep  4 15:15:59 :: Losing player: <null>.
+Sep  4 15:15:59 :: Losing player: <null>.
+Sep  4 15:15:59 :: No connections.  Going to sleep.
+Sep  4 15:16:10 :: New connection.  Waking up.
+Sep  4 15:16:40 :: Losing player: <null>.
+Sep  4 15:16:40 :: Losing player: <null>.
+Sep  4 15:16:40 :: No connections.  Going to sleep.
+Sep  4 15:16:50 :: New connection.  Waking up.
+Sep  4 15:17:05 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:17:20 :: Losing player: <null>.
+Sep  4 15:17:20 :: Losing player: <null>.
+Sep  4 15:17:20 :: No connections.  Going to sleep.
+Sep  4 15:17:31 :: New connection.  Waking up.
+Sep  4 15:18:01 :: Losing player: <null>.
+Sep  4 15:18:01 :: Losing player: <null>.
+Sep  4 15:18:01 :: No connections.  Going to sleep.
+Sep  4 15:18:11 :: New connection.  Waking up.
+Sep  4 15:18:41 :: Losing player: <null>.
+Sep  4 15:18:41 :: Losing player: <null>.
+Sep  4 15:18:41 :: No connections.  Going to sleep.
+Sep  4 15:18:52 :: New connection.  Waking up.
+Sep  4 15:19:22 :: Losing player: <null>.
+Sep  4 15:19:22 :: Losing player: <null>.
+Sep  4 15:19:22 :: No connections.  Going to sleep.
+Sep  4 15:19:32 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 15:20:02 :: Losing player: <null>.
+Sep  4 15:20:02 :: Losing player: <null>.
+Sep  4 15:20:02 :: No connections.  Going to sleep.
+Sep  4 15:20:13 :: New connection.  Waking up.
+Sep  4 15:20:43 :: Losing player: <null>.
+Sep  4 15:20:43 :: Losing player: <null>.
+Sep  4 15:20:43 :: No connections.  Going to sleep.
+Sep  4 15:20:55 :: New connection.  Waking up.
+Sep  4 15:21:25 :: Losing player: <null>.
+Sep  4 15:21:25 :: Losing player: <null>.
+Sep  4 15:21:25 :: No connections.  Going to sleep.
+Sep  4 15:21:36 :: New connection.  Waking up.
+Sep  4 15:22:06 :: Losing player: <null>.
+Sep  4 15:22:06 :: Losing player: <null>.
+Sep  4 15:22:06 :: No connections.  Going to sleep.
+Sep  4 15:22:17 :: New connection.  Waking up.
+Sep  4 15:22:47 :: Losing player: <null>.
+Sep  4 15:22:47 :: Losing player: <null>.
+Sep  4 15:22:47 :: No connections.  Going to sleep.
+Sep  4 15:22:57 :: New connection.  Waking up.
+Sep  4 15:23:27 :: Losing player: <null>.
+Sep  4 15:23:27 :: Losing player: <null>.
+Sep  4 15:23:27 :: No connections.  Going to sleep.
+Sep  4 15:23:38 :: New connection.  Waking up.
+Sep  4 15:23:53 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:24:08 :: Losing player: <null>.
+Sep  4 15:24:08 :: Losing player: <null>.
+Sep  4 15:24:08 :: No connections.  Going to sleep.
+Sep  4 15:24:19 :: New connection.  Waking up.
+Sep  4 15:24:49 :: Losing player: <null>.
+Sep  4 15:24:49 :: Losing player: <null>.
+Sep  4 15:24:49 :: No connections.  Going to sleep.
+Sep  4 15:24:59 :: New connection.  Waking up.
+Sep  4 15:25:29 :: Losing player: <null>.
+Sep  4 15:25:29 :: Losing player: <null>.
+Sep  4 15:25:29 :: No connections.  Going to sleep.
+Sep  4 15:25:40 :: New connection.  Waking up.
+Sep  4 15:26:10 :: Losing player: <null>.
+Sep  4 15:26:10 :: Losing player: <null>.
+Sep  4 15:26:10 :: No connections.  Going to sleep.
+Sep  4 15:26:20 :: New connection.  Waking up.
+Sep  4 15:26:50 :: Losing player: <null>.
+Sep  4 15:26:50 :: Losing player: <null>.
+Sep  4 15:26:50 :: No connections.  Going to sleep.
+Sep  4 15:27:01 :: New connection.  Waking up.
+Sep  4 15:27:31 :: Losing player: <null>.
+Sep  4 15:27:31 :: Losing player: <null>.
+Sep  4 15:27:31 :: No connections.  Going to sleep.
+Sep  4 15:27:41 :: New connection.  Waking up.
+Sep  4 15:28:11 :: Losing player: <null>.
+Sep  4 15:28:11 :: Losing player: <null>.
+Sep  4 15:28:11 :: No connections.  Going to sleep.
+Sep  4 15:28:22 :: New connection.  Waking up.
+Sep  4 15:28:52 :: Losing player: <null>.
+Sep  4 15:28:52 :: Losing player: <null>.
+Sep  4 15:28:52 :: No connections.  Going to sleep.
+Sep  4 15:29:03 :: New connection.  Waking up.
+Sep  4 15:29:33 :: Losing player: <null>.
+Sep  4 15:29:33 :: Losing player: <null>.
+Sep  4 15:29:33 :: No connections.  Going to sleep.
+Sep  4 15:29:43 :: New connection.  Waking up.
+Sep  4 15:30:13 :: Losing player: <null>.
+Sep  4 15:30:13 :: Losing player: <null>.
+Sep  4 15:30:13 :: No connections.  Going to sleep.
+Sep  4 15:30:24 :: New connection.  Waking up.
+Sep  4 15:30:39 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:30:54 :: Losing player: <null>.
+Sep  4 15:30:54 :: Losing player: <null>.
+Sep  4 15:30:54 :: No connections.  Going to sleep.
+Sep  4 15:31:04 :: New connection.  Waking up.
+Sep  4 15:31:34 :: Losing player: <null>.
+Sep  4 15:31:34 :: Losing player: <null>.
+Sep  4 15:31:34 :: No connections.  Going to sleep.
+Sep  4 15:31:45 :: New connection.  Waking up.
+Sep  4 15:32:15 :: Losing player: <null>.
+Sep  4 15:32:15 :: Losing player: <null>.
+Sep  4 15:32:15 :: No connections.  Going to sleep.
+Sep  4 15:32:26 :: New connection.  Waking up.
+Sep  4 15:32:56 :: Losing player: <null>.
+Sep  4 15:32:56 :: Losing player: <null>.
+Sep  4 15:32:56 :: No connections.  Going to sleep.
+Sep  4 15:33:07 :: New connection.  Waking up.
+Sep  4 15:33:37 :: Losing player: <null>.
+Sep  4 15:33:37 :: Losing player: <null>.
+Sep  4 15:33:37 :: No connections.  Going to sleep.
+Sep  4 15:33:48 :: New connection.  Waking up.
+Sep  4 15:34:18 :: Losing player: <null>.
+Sep  4 15:34:18 :: Losing player: <null>.
+Sep  4 15:34:18 :: No connections.  Going to sleep.
+Sep  4 15:34:28 :: New connection.  Waking up.
+Sep  4 15:34:58 :: Losing player: <null>.
+Sep  4 15:34:58 :: Losing player: <null>.
+Sep  4 15:34:58 :: No connections.  Going to sleep.
+Sep  4 15:35:09 :: New connection.  Waking up.
+Sep  4 15:35:39 :: Losing player: <null>.
+Sep  4 15:35:39 :: Losing player: <null>.
+Sep  4 15:35:39 :: No connections.  Going to sleep.
+Sep  4 15:35:49 :: New connection.  Waking up.
+Sep  4 15:36:19 :: Losing player: <null>.
+Sep  4 15:36:19 :: Losing player: <null>.
+Sep  4 15:36:19 :: No connections.  Going to sleep.
+Sep  4 15:36:30 :: New connection.  Waking up.
+Sep  4 15:37:00 :: Losing player: <null>.
+Sep  4 15:37:00 :: Losing player: <null>.
+Sep  4 15:37:00 :: No connections.  Going to sleep.
+Sep  4 15:37:11 :: New connection.  Waking up.
+Sep  4 15:37:25 :: nusage: 2   sockets connected, 0   sockets playing
+Sep  4 15:37:41 :: Losing player: <null>.
+Sep  4 15:37:41 :: Losing player: <null>.
+Sep  4 15:37:41 :: No connections.  Going to sleep.
+Sep  4 15:37:51 :: New connection.  Waking up.
+Sep  4 15:38:21 :: Losing player: <null>.
+Sep  4 15:38:21 :: Losing player: <null>.
+Sep  4 15:38:21 :: No connections.  Going to sleep.
+Sep  4 15:38:32 :: New connection.  Waking up.
+Sep  4 15:39:02 :: Losing player: <null>.
+Sep  4 15:39:02 :: Losing player: <null>.
+Sep  4 15:39:02 :: No connections.  Going to sleep.
+Sep  4 15:39:12 :: New connection.  Waking up.
+Sep  4 15:39:42 :: Losing player: <null>.
+Sep  4 15:39:42 :: Losing player: <null>.
+Sep  4 15:39:42 :: No connections.  Going to sleep.
+Sep  4 15:39:53 :: New connection.  Waking up.
+Sep  4 15:40:23 :: Losing player: <null>.
+Sep  4 15:40:23 :: Losing player: <null>.
+Sep  4 15:40:23 :: No connections.  Going to sleep.
+Sep  4 15:40:34 :: New connection.  Waking up.
+Sep  4 15:40:44 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 15:40:44 :: Losing player: <null>.
+Sep  4 15:40:44 :: WARNING: EOF on socket read (connection broken by peer)
+Sep  4 15:40:44 :: Losing player: <null>.
+Sep  4 15:40:44 :: No connections.  Going to sleep.
+Sep  4 18:55:16 :: New connection.  Waking up.
+SYSERR: gethostbyaddr: Success
+Sep  4 18:55:23 :: Mag [192.168.0.3] has connected.
+Sep  4 18:55:25 :: opened crash file
+Sep  4 18:55:25 :: Mag un-renting and entering game.
+Sep  4 18:55:25 :: Mag (level 38) has 1 objects (max 60).
+Sep  4 18:55:25 :: Mag had no variable file
+Sep  4 18:57:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:02:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:07:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:12:50 :: nusage: 1   sockets connected, 1   sockets playing
+SYSERR: gethostbyaddr: Success
+Sep  4 19:13:26 :: Mishakal [192.168.0.8] has connected.
+Sep  4 19:13:27 :: opened crash file
+Sep  4 19:13:27 :: Mishakal un-renting and entering game.
+Sep  4 19:13:27 :: Mishakal (level 38) has 2 objects (max 60).
+Sep  4 19:13:27 :: Mishakal had no variable file
+Sep  4 19:13:52 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:16:11 :: OLC: Mishakal edits obj 1308
+Sep  4 19:16:11 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:16:11 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:16:17 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:17:39 :: OLC: Mishakal edits obj 1309
+Sep  4 19:17:39 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:17:39 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:17:42 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:17:50 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 19:19:00 :: OLC: Mishakal edits obj 1310
+Sep  4 19:19:00 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:19:00 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:19:36 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:19:48 :: OLC: Mag starts editing zone 12 allowed zone 65535
+Sep  4 19:19:58 :: OLC: Mag stops editing zone 12 allowed zone 65535
+Sep  4 19:21:40 :: OLC: Mishakal edits obj 1311
+Sep  4 19:21:40 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:21:40 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:21:47 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:22:50 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 19:24:48 :: OLC: Mishakal edits obj 1312
+Sep  4 19:24:48 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:24:48 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:24:52 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:24:54 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:24:56 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:25:05 :: Mag tried to get help on find
+Sep  4 19:26:12 :: OLC: Mishakal edits obj 1313
+Sep  4 19:26:12 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:26:12 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:26:38 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:27:50 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 19:28:04 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 19:28:19 :: OLC: Mag edits obj 1308
+Sep  4 19:28:19 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:28:19 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 19:28:33 :: OLC: Mishakal edits obj 1314
+Sep  4 19:28:33 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:28:33 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:28:40 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:28:44 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 19:28:50 :: OLC: Mag edits obj 1310
+Sep  4 19:28:50 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:28:50 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 19:29:03 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 19:30:06 :: OLC: Mag edits obj 1311
+Sep  4 19:30:06 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:30:06 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 19:30:09 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 19:30:13 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 19:30:16 :: OLC: Mishakal edits obj 1315
+Sep  4 19:30:16 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:30:16 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:30:27 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 19:30:52 :: OLC: Mag edits obj 1308
+Sep  4 19:30:52 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:30:52 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 19:31:25 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:32:45 :: OLC: Mishakal edits obj 1316
+Sep  4 19:32:45 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:32:45 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:32:48 :: OLC: Mishakal starts editing zone 13 allowed zone 65535
+Sep  4 19:32:50 :: nusage: 2   sockets connected, 2   sockets playing
+Sep  4 19:34:07 :: OLC: Mishakal edits obj 1317
+Sep  4 19:34:07 :: GenOLC: save_objects: Saving objects 'world/obj/13.obj'
+Sep  4 19:34:07 :: OLC: Mishakal stops editing zone 13 allowed zone 65535
+Sep  4 19:35:54 :: Mishakal has quit the game.
+Sep  4 19:35:55 :: Losing player: Mishakal.
+Sep  4 19:37:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:42:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:47:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:52:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 19:57:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:02:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:07:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:08:15 :: OLC: Mag starts editing zone 13 allowed zone 65535
+Sep  4 20:08:40 :: OLC: Mag stops editing zone 13 allowed zone 65535
+Sep  4 20:12:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:17:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:22:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:27:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:32:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:37:50 :: nusage: 1   sockets connected, 1   sockets playing
+Sep  4 20:42:05 :: Mag has quit the game.
+Sep  4 20:42:06 :: Losing player: Mag.
+Sep  4 20:42:06 :: No connections.  Going to sleep.
+Sep  4 20:42:11 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+Improper shutdown of autorun detected, rotating syslogs before startup.
